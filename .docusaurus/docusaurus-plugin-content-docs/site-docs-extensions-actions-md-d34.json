@@ -1,0 +1,18 @@
+{
+  "id": "extensions/actions",
+  "title": "Actions",
+  "description": "Actions are menu-based extensions that allow you to build simple APIs that do not require a user interface. Actions have the power to receive the working note and modify it. We use actions for our Note History extension, as well as Listed and File Attachments.\r",
+  "source": "@site/docs\\extensions\\actions.md",
+  "permalink": "/newdocs/docs/extensions/actions",
+  "editUrl": "https://github.com/standardnotes/newdocs/docs/extensions/actions.md",
+  "sidebar_label": "Actions",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Themes",
+    "permalink": "/newdocs/docs/extensions/themes"
+  },
+  "next": {
+    "title": "Publishing",
+    "permalink": "/newdocs/docs/extensions/publishing"
+  }
+}

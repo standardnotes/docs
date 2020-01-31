@@ -1,0 +1,18 @@
+{
+  "id": "doc1",
+  "title": "Style Guide",
+  "description": "You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).\r",
+  "source": "@site/docs\\doc1.md",
+  "permalink": "/newdocs/docs/doc1",
+  "editUrl": "https://github.com/standardnotes/newdocs/docs/doc1.md",
+  "sidebar_label": "Style Guide",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Sync",
+    "permalink": "/newdocs/docs/specification/sync"
+  },
+  "next": {
+    "title": "Document Number 2",
+    "permalink": "/newdocs/docs/doc2"
+  }
+}

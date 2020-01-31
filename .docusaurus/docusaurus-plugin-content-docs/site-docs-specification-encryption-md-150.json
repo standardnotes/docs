@@ -1,0 +1,18 @@
+{
+  "id": "specification/encryption",
+  "title": "Encryption",
+  "description": "**Version 0.0.3**\r",
+  "source": "@site/docs\\specification\\encryption.md",
+  "permalink": "/newdocs/docs/specification/encryption",
+  "editUrl": "https://github.com/standardnotes/newdocs/docs/specification/encryption.md",
+  "sidebar_label": "Encryption",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Publishing",
+    "permalink": "/newdocs/docs/extensions/publishing"
+  },
+  "next": {
+    "title": "Sync",
+    "permalink": "/newdocs/docs/specification/sync"
+  }
+}

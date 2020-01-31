@@ -1,0 +1,18 @@
+{
+  "id": "self-hosting/docker",
+  "title": "Self Hosting with Docker",
+  "description": "These instructions make the following assumptions:\r",
+  "source": "@site/docs\\self-hosting\\docker.md",
+  "permalink": "/newdocs/docs/self-hosting/docker",
+  "editUrl": "https://github.com/standardnotes/newdocs/docs/self-hosting/docker.md",
+  "sidebar_label": "Self Hosting with Docker",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Self Hosting with EC2 and Nginx",
+    "permalink": "/newdocs/docs/self-hosting/ec2-nginx"
+  },
+  "next": {
+    "title": "Self Hosting with Heroku",
+    "permalink": "/newdocs/docs/self-hosting/heroku"
+  }
+}

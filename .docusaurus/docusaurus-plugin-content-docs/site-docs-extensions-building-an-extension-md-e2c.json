@@ -1,0 +1,18 @@
+{
+  "id": "extensions/building-an-extension",
+  "title": "Building an Extension",
+  "description": "In this section, we'll talk about building **components**, which are a type of extension related to user interface elements that can replace or be appended to areas of the Standard Notes app. They allow us to do cool things like custom editors, nested folders, tag autocomplete, and custom extension bars in the editor pane.\r",
+  "source": "@site/docs\\extensions\\building-an-extension.md",
+  "permalink": "/newdocs/docs/extensions/building-an-extension",
+  "editUrl": "https://github.com/standardnotes/newdocs/docs/extensions/building-an-extension.md",
+  "sidebar_label": "Building an Extension",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Intro to Extensions",
+    "permalink": "/newdocs/docs/extensions/intro"
+  },
+  "next": {
+    "title": "Local Setup",
+    "permalink": "/newdocs/docs/extensions/local-setup"
+  }
+}

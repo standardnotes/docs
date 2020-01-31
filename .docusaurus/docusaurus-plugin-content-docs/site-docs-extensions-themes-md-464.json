@@ -1,0 +1,18 @@
+{
+  "id": "extensions/themes",
+  "title": "Themes",
+  "description": "Themes allow you to customize the look and feel of the Standard Notes app on all platforms.\r",
+  "source": "@site/docs\\extensions\\themes.md",
+  "permalink": "/newdocs/docs/extensions/themes",
+  "editUrl": "https://github.com/standardnotes/newdocs/docs/extensions/themes.md",
+  "sidebar_label": "Themes",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Local Setup",
+    "permalink": "/newdocs/docs/extensions/local-setup"
+  },
+  "next": {
+    "title": "Actions",
+    "permalink": "/newdocs/docs/extensions/actions"
+  }
+}

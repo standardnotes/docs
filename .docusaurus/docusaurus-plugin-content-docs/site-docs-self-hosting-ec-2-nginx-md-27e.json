@@ -1,0 +1,18 @@
+{
+  "id": "self-hosting/ec2-nginx",
+  "title": "Self Hosting with EC2 and Nginx",
+  "description": "These instructions make the following assumptions:\r",
+  "source": "@site/docs\\self-hosting\\ec2-nginx.md",
+  "permalink": "/newdocs/docs/self-hosting/ec2-nginx",
+  "editUrl": "https://github.com/standardnotes/newdocs/docs/self-hosting/ec2-nginx.md",
+  "sidebar_label": "Self Hosting with EC2 and Nginx",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Getting Started with Self Hosting",
+    "permalink": "/newdocs/docs/self-hosting/getting-started"
+  },
+  "next": {
+    "title": "Self Hosting with Docker",
+    "permalink": "/newdocs/docs/self-hosting/docker"
+  }
+}

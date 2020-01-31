@@ -1,0 +1,13 @@
+{
+  "id": "mdx",
+  "title": "Powered by MDX",
+  "description": "You can write JSX and use React components within your Markdown thanks to [MDX](https://mdxjs.com/).\r",
+  "source": "@site/docs\\mdx.md",
+  "permalink": "/newdocs/docs/mdx",
+  "editUrl": "https://github.com/standardnotes/newdocs/docs/mdx.md",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "This is Document Number 3",
+    "permalink": "/newdocs/docs/doc3"
+  }
+}
