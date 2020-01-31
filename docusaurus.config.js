@@ -1,11 +1,11 @@
 module.exports = {
   title: 'Standard Notes',
   tagline: 'A safe place for your notes, thoughts, and life\'s work',
-  url: 'https://docs.standardnotes.org',
-  baseUrl: '/',
+  url: 'https://standardnotes.github.io',
+  baseUrl: '/newdocs/',
   favicon: 'img/icon.png',//'img/favicon.ico',
   organizationName: 'standardnotes', // Usually your GitHub org/user name. Originally 'facebook'
-  projectName: 'Standard Notes', // Usually your repo name. Originally 'docusaurus'
+  projectName: 'newdocs', // Usually your repo name. Originally 'docusaurus'
   themeConfig: {
     navbar: {
       title: 'Standard Notes Documentation',
