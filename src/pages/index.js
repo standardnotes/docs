@@ -5,11 +5,11 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
-
 const features = [
+  
   {
     title: <>Host a Sync Server</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    //*imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
         Standard Notes was designed from the ground up to be easily installed and
@@ -19,7 +19,7 @@ const features = [
   },
   {
     title: <>Build an Extension</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    //imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
         Extend or customize your Notes app with your own extensions.
@@ -29,7 +29,7 @@ const features = [
   },
   {
     title: <>Powered by Encryption</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    //*imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
         Standard Notes lets you focus on your notes, and we&apos;ll do the chores.
@@ -60,7 +60,7 @@ function Home() {
   return (
     <Layout
       title={`${siteConfig.title} Documentation`}
-      description="A safe place for your notes, thoughts, and life\'s work">
+      description="Extend Your Notes App">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>

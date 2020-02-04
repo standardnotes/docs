@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Standard Notes Documentation',
-  tagline: 'A safe place for your notes, thoughts, and life\'s work',
+  tagline: 'Extend Your Notes App',
   url: 'https://standardnotes.github.io',
   baseUrl: '/newdocs/',
   favicon: 'img/icon.png',//'img/favicon.ico',
@@ -8,7 +8,7 @@ module.exports = {
   projectName: 'newdocs', // Usually your repo name. Originally 'docusaurus'
   themeConfig: {
     navbar: {
-      title: 'SN Docs',
+      title: 'Documentation',
       logo: {
         alt: 'Standard Notes Logo',
         src: 'img/icon.png',
@@ -19,14 +19,14 @@ module.exports = {
         {to: 'docs/specification/encryption', label: 'Specification', position: 'left'},
         //{to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://blog.standardnotes.org', 
-          label: 'Blog', 
-          position: 'left'},
-        {
           href: 'https://standardnotes.org/',
           label: 'Website',
           position: 'right',
         },
+        {
+          href: 'https://blog.standardnotes.org', 
+          label: 'Blog', 
+          position: 'right'},
         {
           href: 'https://standardnotes.org/help',
           label: 'Help',
@@ -105,7 +105,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/standardnotes/newdocs/',
+            'https://github.com/standardnotes/newdocs/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
