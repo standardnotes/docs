@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Standard Notes',
+  title: 'Standard Notes Documentation',
   tagline: 'A safe place for your notes, thoughts, and life\'s work',
   url: 'https://standardnotes.github.io',
   baseUrl: '/newdocs/',
@@ -8,7 +8,7 @@ module.exports = {
   projectName: 'newdocs', // Usually your repo name. Originally 'docusaurus'
   themeConfig: {
     navbar: {
-      title: 'Standard Notes Documentation',
+      title: 'SN Docs',
       logo: {
         alt: 'Standard Notes Logo',
         src: 'img/icon.png',
@@ -17,7 +17,7 @@ module.exports = {
         {to: 'docs/self-hosting/getting-started', label: 'Self Host', position: 'left'},
         {to: 'docs/extensions/intro', label: 'Extensions', position: 'left'},
         {to: 'docs/specification/encryption', label: 'Specification', position: 'left'},
-        {to: 'blog', label: 'Blog', position: 'left'},
+        //{to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://blog.standardnotes.org', 
           label: 'Blog', 
@@ -45,7 +45,7 @@ module.exports = {
       ],
     },
     footer: {
-      style: 'blue',// 'dark',
+      style: 'light',// 'dark',
       links: [
         {
           title: 'Resources',

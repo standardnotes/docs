@@ -7,10 +7,11 @@
 
 module.exports = {
   someSidebar: {
+    'Standard Notes Documentation': ['welcome'],
     'Self Hosting': ['self-hosting/getting-started','self-hosting/ec2-nginx','self-hosting/docker','self-hosting/heroku','self-hosting/preconfigured-image'],
     Extensions: ['extensions/intro','extensions/building-an-extension','extensions/local-setup','extensions/themes','extensions/actions','extensions/publishing'],
     Specification: ['specification/encryption','specification/sync'],
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    //Docusaurus: ['doc1', 'doc2', 'doc3'],
+    //Features: ['mdx'],
   },
 };
