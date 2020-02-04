@@ -6,8 +6,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
-window.location = "/newdocs/doc/welcome"
-
 const features = [
   {
     title: <>Host a Sync Server</>,
@@ -73,7 +71,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/self-hosting/getting-started')}>
+              to={useBaseUrl('docs/welcome')}>
               Get Started
             </Link>
           </div>
