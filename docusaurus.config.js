@@ -14,9 +14,9 @@ module.exports = {
         src: 'img/icon.png',
       },
       links: [
-        {to: 'docs/self-hosting/getting-started', label: 'Self Host', position: 'left'},
-        {to: 'docs/extensions/intro', label: 'Extensions', position: 'left'},
-        {to: 'docs/specification/encryption', label: 'Specification', position: 'left'},
+        {to: 'self-hosting/getting-started', label: 'Self Host', position: 'left'},
+        {to: 'extensions/intro', label: 'Extensions', position: 'left'},
+        {to: 'specification/encryption', label: 'Specification', position: 'left'},
         //{to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://standardnotes.org/',
@@ -52,15 +52,15 @@ module.exports = {
           items: [
             {
               label: 'Self Host a Sync Server',
-              to: 'docs/self-hosting',
+              to: '/self-hosting/getting-started',
             },
             {
               label: 'Build an Extension',
-              to: 'docs/extensions/',
+              to: '/extensions/intro',
             },
             {
               label: 'Specifications',
-              to: '/docs/specification',
+              to: '/specification/encryption',
             },
           ],
         },
@@ -106,6 +106,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/standardnotes/newdocs/edit/master/',
+          routeBasePath: '',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
