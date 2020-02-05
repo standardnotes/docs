@@ -101,7 +101,7 @@ module.exports = {
   scripts: [
     {
       src:
-        '/analytics.js',
+        '/newdocs/analytics.js',
       async: true,
     },
   ],
