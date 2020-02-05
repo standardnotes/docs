@@ -1,8 +1,9 @@
+const baseUrl = '/newdocs/';
 module.exports = {
   title: 'Standard Notes Documentation',
   tagline: 'Extend Your Notes App',
   url: 'https://standardnotes.github.io',
-  baseUrl: '/newdocs/',
+  baseUrl, // See const baseUrl above. baseUrl: '/newdocs/',
   favicon: 'img/icon.png',//'img/favicon.ico',
   organizationName: 'standardnotes', // Usually your GitHub org/user name. Originally 'facebook'
   projectName: 'newdocs', // Usually your repo name. Originally 'docusaurus'
@@ -101,7 +102,12 @@ module.exports = {
   scripts: [
     {
       src:
-        '/newdocs/analytics.js',
+        `${baseUrl}fathom.js`,
+      async: true,
+    },
+    {
+      src:
+        `${baseUrl}matomo.js`,
       async: true,
     },
   ],
