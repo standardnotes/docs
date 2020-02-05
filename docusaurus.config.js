@@ -14,9 +14,9 @@ module.exports = {
         src: 'img/icon.png',
       },
       links: [
-        {to: 'self-hosting/getting-started', label: 'Self Host', position: 'left'},
-        {to: 'extensions/intro', label: 'Extensions', position: 'left'},
-        {to: 'specification/encryption', label: 'Specification', position: 'left'},
+        //{to: 'self-hosting/getting-started', label: 'Self Host', position: 'left'},
+        //{to: 'extensions/intro', label: 'Extensions', position: 'left'},
+        //{to: 'specification/encryption', label: 'Specification', position: 'left'},
         //{to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://standardnotes.org/',
@@ -98,6 +98,13 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Standard Notes`, // My Project, Inc. Built with Docusaurus.`,
     },
   },
+  scripts: [
+    {
+      src:
+        '/analytics.js',
+      async: true,
+    },
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
