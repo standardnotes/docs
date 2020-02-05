@@ -9,7 +9,8 @@
 .cache-loader
 
 # Analytics
-/static/analytics.js
+/static/fathom.js
+/static/matomo.js
 
 # Misc
 .DS_Store
