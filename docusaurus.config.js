@@ -1,8 +1,8 @@
-const baseUrl = '/newdocs/';
+const baseUrl = '/';
 module.exports = {
   title: 'Standard Notes Documentation',
   tagline: 'Extend Your Notes App',
-  url: 'https://standardnotes.github.io',
+  url: 'https://standardnotes.org',
   baseUrl, // See const baseUrl above. baseUrl: '/newdocs/',
   favicon: 'img/icon.png',//'img/favicon.ico',
   organizationName: 'standardnotes', // Usually your GitHub org/user name. Originally 'facebook'
@@ -120,6 +120,7 @@ module.exports = {
           editUrl:
             'https://github.com/standardnotes/newdocs/edit/master/',
           routeBasePath: '',
+          showLastUpdateTime: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

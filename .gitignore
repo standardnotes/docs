@@ -8,10 +8,6 @@
 .docusaurus
 .cache-loader
 
-# Analytics
-/static/fathom.js
-/static/matomo.js
-
 # Misc
 .DS_Store
 .env.local

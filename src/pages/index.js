@@ -57,7 +57,7 @@ function Feature({imageUrl, title, description}) {
 }
 
 function Home() {
-  return <Redirect to="/newdocs/welcome" />;
+  return <Redirect to="/welcome" />;
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
   return (
