@@ -19,7 +19,7 @@ module.exports = {
       'listed/how-do-i-specify-a-custom-date-for-a-post-or-set-the-canonical-url',
       'listed/how-do-i-hide-a-story-from-my-main-feed',
       'listed/how-do-i-add-separate-pages-to-my-blog'],
-    'Self Hosting': ['self-hosting/getting-started','self-hosting/ec2-nginx','self-hosting/docker','self-hosting/heroku','self-hosting/preconfigured-image'],
+    'Self Hosting': ['self-hosting/getting-started','self-hosting/ec2-nginx','self-hosting/docker','self-hosting/heroku'],
     Extensions: ['extensions/intro','extensions/building-an-extension','extensions/local-setup','extensions/themes','extensions/actions','extensions/publishing'],
     Specification: ['specification/encryption','specification/sync'],
     //Docusaurus: ['doc1', 'doc2', 'doc3'],

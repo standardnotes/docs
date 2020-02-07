@@ -9,6 +9,7 @@ module.exports = {
   projectName: 'newdocs', // Usually your repo name. Originally 'docusaurus'
   themeConfig: {
     navbar: {
+      hideOnScroll: true,
       title: 'Documentation',
       logo: {
         alt: 'Standard Notes Logo',
@@ -98,6 +99,7 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Standard Notes`, // My Project, Inc. Built with Docusaurus.`,
     },
+    image: 'img/SN-ICON-500.png',
   },
   scripts: [
     {
