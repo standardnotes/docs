@@ -7,7 +7,7 @@
 
 module.exports = {
   someSidebar: {
-    'Standard Notes Documentation': ['welcome'],
+    'Standard Notes Docs': ['welcome'],
     Listed: [
       'listed/creating-a-blog-from-your-notes-with-listed-and-standard-notes',
       'listed/how-do-i-register-for-a-listed-blog',
