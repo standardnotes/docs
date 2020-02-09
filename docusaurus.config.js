@@ -120,7 +120,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/standardnotes/newdocs/edit/master/',
+            'https://github.com/standardnotes/docs/edit/master/',
           routeBasePath: '',
           showLastUpdateTime: true,
         },
