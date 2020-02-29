@@ -64,10 +64,10 @@ To get your extension running locally, both of these components must be hosted o
 
 ---
 
-#### Themes
+### Themes
 
 If you're creating a theme, you would follow the same instructions, and for `area` in the JSON file, use "themes", and for the URL, it should link directly to your css file, i.e `http://localhost:8001/theme.css`.
 
-#### Publishing
+### Publishing
 
 Once you're ready to ship your extension in a production environment, check out the [Publishing guide](/extensions/publishing) to learn more about configuring your extension to autoupdate and be installed in an offline environment.

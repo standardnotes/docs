@@ -3,11 +3,11 @@ id: sync
 title: Sync
 sidebar_label: Sync
 ---
-<h2><a id='introduction'></a>Introduction</h2>
+## Introduction
 
 This document outlines the specifications for the client-server communications of the Standard Notes client/server system.
 
-<h2><a id='models'></a>Models</h2>
+## Models
 
 The protocol consists of models on the server side and what are known as structures on the client side.
 
@@ -24,7 +24,7 @@ An `Item` model has a `content` field. The `content` field stores a JSON encoded
 
 Relationships are handled by the client and not the server, which clients today have no problem handling. This allows for improvements to be made to the data model on the client level, and not on the difficult-to-change server level. It also allows for relationships to be encrypted.
 
-<h1><a id='user'></a>User</h1>
+## User
 
 A user model has the following properties:
 
@@ -37,7 +37,7 @@ A user model has the following properties:
 | version | String | The version of the SF specification used when creating this user's account. (Latest is 003) (This value is also updated when a user changes their password or updates their security version.) |
 
 
-<h1><a id='items'></a>Items</h1>
+## Items
 
 Item models have the following properties:
 
@@ -70,7 +70,7 @@ Client structures are stored in the `content` field of the `Item` model. A clien
 ```
 
 
-<h1><a id='api'></a>REST API</h1>
+## REST API
 
 General:
 
@@ -81,11 +81,11 @@ General:
 
     ```
 
-<h1><a id='api-auth'></a>Auth</h1>
+## API-Auth
 
 Standard Notes uses JSON Web Tokens (JWT) for authentication.
 
-#### POST auth
+### POST auth
 
 **Registers a user and returns a JWT**
 
@@ -93,7 +93,7 @@ Standard Notes uses JSON Web Tokens (JWT) for authentication.
 
 *Note*: `password` needs to be processed locally before being sent to the server. See Encryption for more. Never send the user's inputted password to the server.
 
-Responses
+Responses:
 
 `200`
 
@@ -107,12 +107,13 @@ Responses
 {"errors" : []}
 ```
 
-#### POST auth/change_pw
+### POST auth/change_pw
 **Updates a user's password.**
 
 *Params: email, password, current_password*
 
-Responses
+Responses:
+
 `204`
 
 ```
@@ -125,46 +126,47 @@ No Content
 {"errors" : []}
 ```
 
-#### POST auth/sign_in
+### POST auth/sign_in
 **Authenticates a user and returns a JWT.**
 
 *Note*: Passwords needs to be processed locally before being sent to the server. See Encryption for more. Never send the user's inputted password to the server.
 
 *Params: email, password*
 
-Responses
-200
+Responses:
+
+`200`
 
 ```
 {"token" : "..."}
 ```
 
-5xx
+`5xx`
 
 ```
 {"errors" : []}
 ```
 
-#### GET auth/params
+### GET auth/params
 **Returns the parameters used for password generation.**
 
 *Params: email*
 
-Responses
-200
+Responses:
+
+`200`
 
 ```
 {"pw_cost" : "...", "pw_nonce" : "...", "version" : "..."}
 ```
 
-5xx
+`5xx`
 
 ```
 {"errors" : []}
 ```
 
-<h1><a id='api-items'></a>Items</h1>
-
+### Items
 
 #### POST items/sync
 **Saves local changes as well as retrieves remote changes.**
@@ -177,26 +179,26 @@ Responses
 
 Responses
 
-200
+`200`
 
 ```
 {"retrieved_items" : [], "saved_items" : [], "unsaved" : [], "sync_token" : ""}
 ```
 
-5xx
+`5xx`
 
 ```
 {"errors" : []}
 ```
 
-### Sync Discussion
+## Sync Discussion
 
-**Deletion:**
+### Deletion:
 
 - Clients: set `deleted` equal to `true` and sync. When receiving an item that is `deleted`, remove it from the local database immediately.
 - Servers: if syncing an item that is `deleted`, clear out its `content` and `enc_item_key` fields, set `deleted` to true, and save.
 
-**Sync completion:**
+### Sync completion:
 
 Upon sync completion, the client should handle each response item as follows:
 
@@ -206,7 +208,7 @@ Upon sync completion, the client should handle each response item as follows:
 - `sync_token`: this token should be saved when it is received and sent to subsequent sync requests. This token should also be persisted locally between app sessions. For first time sync, no token should be provided.
 - `cursor_token`: returned if original request had a `limit`. Send this token back to the server to retrieve next page of results.
 
-<h1><a id='import-export'></a>Import/Export</h1>
+## Import/Export
 
 The export file is a JSON file of all the user's items, unencrypted.
 

@@ -5,7 +5,7 @@ sidebar_label: Customize Styles
 ---
 You can use CSS to stylize your blog as you see fit.
 
-**To stylize your blog with custom CSS:**
+### To stylize your blog with custom CSS:
 
 1. Create a new note in Standard Notes, and call it `theme.css` (name can be anything).
 2. Use the following metadata structure, overriding any of the variables with your desired color values.

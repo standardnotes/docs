@@ -10,8 +10,7 @@ These instructions make the following assumptions:
 
 - You've configured a domain name (or subdomain) to point to your server's IP address.
 
-### Getting started
-
+## Getting started
 1. SSH into your new server with the keys you should have received after launching an instance:
 
 	``` bash
@@ -78,7 +77,6 @@ These instructions make the following assumptions:
     > quit;
     ```
 
-
 1. Install Passenger:
 
 	``` bash
@@ -127,7 +125,6 @@ These instructions make the following assumptions:
 
 	Note the location of the certificates, typically `/etc/letsencrypt/live/domain.com/fullchain.pem`
 
-
 1. Configure Nginx:
 
 	``` bash
@@ -147,7 +144,6 @@ These instructions make the following assumptions:
 	    root /home/ec2-user/syncing-server/public;
 	  }
 	```
-
 
 1. Make sure you are in your home directory and clone the Standard Notes [syncing-server](https://github.com/standardnotes/syncing-server) project:
 

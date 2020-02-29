@@ -86,6 +86,6 @@ _Note that font and font sizes do not apply to mobile; only desktop/web._
 
 The mobile app will download a theme once and cache it indefinitely. If you're installing your own mobile theme and make changes, you can press and hold on the theme name in the list to bring up the option to re-download the theme from the server.
 
-# Licensing
+## Licensing
 
 Our themes are provided open-source mainly for educational and quality purposes. You're free to install them on your own servers, but please consider subscribing to [Standard Notes Extended](https://standardnotes.org/extensions) to help sustain future development of the Standard Notes ecosystem.

@@ -3,6 +3,7 @@ id: heroku
 title: Self Hosting with Heroku
 sidebar_label: Self Hosting with Heroku
 ---
+## Getting started
 1. Configure the Heroku Command Line Interface (CLI) using these steps: [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli).
 
 1. Deploy the Standard Notes server to your account using the following deploy link: https://heroku.com/deploy?template=https://github.com/standardnotes/syncing-server

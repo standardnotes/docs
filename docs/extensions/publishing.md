@@ -7,7 +7,7 @@ Once you've crafted the code for your extension, you'll need to create a JSON de
 
 The JSON description must be hosted on a URL the app can reach out to. In these steps, we'll use Listed to generate a JSON endpoint.
 
-### Steps:
+## Steps:
 
 1. Create a new note in Standard Notes called "my-extension.json", and enter the following as its contents:
 
@@ -37,7 +37,7 @@ metatype: json
 
 3. In the Extensions window, click "Import Extension", and paste in your JSON endpoint, press Enter, then accept to install your extension.
 
-#### Key Descriptions
+### Key Descriptions
 
 | Key | Description |
 | :--- | :--- |
@@ -52,7 +52,7 @@ metatype: json
 | marketing\_url | If specified, the Extensions manager will display an "Info" button, which on click, will open a web browser to this location. |
 | thumbnail\_url | The image the Extensions manager will display for your extension. |
 
-### Local Installation
+## Local Installation
 
 Extensions in Standard Notes desktop support local installation. We recommend using GitHub releases to host your download file.
 
@@ -64,7 +64,7 @@ Extensions in Standard Notes desktop support local installation. We recommend us
 
 By default, Standard Notes will look for the `index.html` file located in the root of the project. If your main file is not in the root, you can specify a custom path.
 
-**To specify the root file of your extension:**
+### To specify the root file of your extension:
 
 1. In your extension's repository, create a file called `package.json` if it does not already exist.
 
@@ -80,10 +80,10 @@ By default, Standard Notes will look for the `index.html` file located in the ro
 
 `main` can also be a CSS file if you're publishing a theme.
 
-### Autoupdate
+## Autoupdate
 
 Standard Notes will ping the `latest_url`endpoint automatically to update extensions. For this value, you can use the same JSON endpoint you're using for `url` \(your `my-extension.json` endpoint\).
 
-### Questions?
+## Questions?
 
 Join the [Slack group](https://standardnotes.org/slack) and ask away in the \#dev channel.

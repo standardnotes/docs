@@ -3,7 +3,7 @@ id: encryption
 title: Encryption
 sidebar_label: Encryption
 ---
-**Version 0.0.3**
+## Version 0.0.3
 
 It is important that there exist a separation of concerns between the server and the client. That is, the client should not trust the server, and vice versa.
 
@@ -20,13 +20,13 @@ Note: client-server connections must be made securely through SSL/TLS.
 | pw_cost | The number of iterations to be used by the KDF. The minimum for version 003 is 100,000. However note that non-native clients (web clients not using WebCrypto) will not be able to handle any more than 3,000 iterations. |
 | pw_nonce | A nonce for password derivation. This value is initially created by the client during registration. |
 
-<h1><a id='key-generation'></a>Key Generation</h1>
+## Key Generation
 
 ### Client Instructions
 
 Given a user inputted password `uip`, the client's job is to generate a password `pw` to send to the server, a master key `mk` that the user stores locally to encrypt/decrypt data, and an auth key `ak` for authenticating encrypted data.
 
-**Login Steps**
+#### Login Steps
 
 1.  Client makes GET request with user's email to `auth/params` to retrieve password nonce, cost, and version.
 1.  Client verifies cost >= minimum cost (100,000 for 003.)
@@ -42,7 +42,7 @@ Given a user inputted password `uip`, the client's job is to generate a password
 
 1.  Client sends `pw` to the server as the user's "regular" password and stores `mk` and `ak` locally. (`mk` and `ak` are never sent to the server).
 
-**Registration Steps**
+#### Registration Steps
 
 1.  Client chooses default for `pw_cost` (minimum 100,000).
 1.  Client generates `pw_nonce`:
@@ -55,7 +55,7 @@ Given a user inputted password `uip`, the client's job is to generate a password
 
 1.  Client registers with `email`, `pw`, `pw_cost`, `pw_nonce`, and `version`.
 
-<h1><a id='item-encryption'></a>Item Encryption</h1>
+## Item Encryption
 
 In general, when encrypting a string, one should use an IV so that two subsequent encryptions of the same content yield different results, and one should authenticate the data as to ascertain its authenticity and lack of tampering.
 
@@ -67,7 +67,7 @@ In Standard Notes, two strings are encrypted for every item:
 
 An item is encrypted using a random key generated for each item.
 
-**Encryption:**
+### Encryption:
 
 Note that when encrypting/decrypting data, keys should be converted to the proper format your platform function supports. It's best to convert keys to binary data before running through any encryption/hashing algorithm.
 
@@ -78,7 +78,7 @@ For every item:
 3.  Encrypt `content` using `item_ek` and `item_ak` following the instructions "Encrypting a string using the 003 scheme" below and send to server as `content`.
 4.  Encrypt `item_key` using the global `mk` and global `ak` following the instructions "Encrypting a string using the 003 scheme" below and send to server as `enc_item_key`.
 
-**Decryption:**
+### Decryption:
 
 Check the first 3 characters of the `content` string. This will be the encryption version.
 
