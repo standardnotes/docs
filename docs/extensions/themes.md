@@ -15,7 +15,7 @@ Themes are simple CSS files which override a few variables to style the look of 
 
 _Note that font and font sizes do not apply to mobile; only desktop/web._
 
-```
+```css
 :root {
   --sn-stylekit-base-font-size: 14px;
 

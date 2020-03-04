@@ -31,7 +31,7 @@ In this example, we'll use our blank-slate ReactJS template to build a utility b
 
 	``` bash
 	npm run start
-  ```		
+    ```		
 
 1. In the command output from above, note the port number used. By default, it will probably be port 8080 if it's available. Open `localhost:8080` in your browser. You should see the text "Component is ready" on the page.
 
@@ -82,7 +82,7 @@ More detailed instructions on setting up your local environment can be found in 
 		s = s.replace(/\n /,"\n"); // exclude newline with a start spacing
 		let wordCount = s.split(' ').length;
 		this.setState({wordCount: wordCount});
-  }
+  	}
 	```
 
 1. In the constructor of the Home class, call `analyzeNote` in the BridgeManager updateObserver so that it looks like this:
