@@ -13,7 +13,7 @@
   --ifm-color-primary-light: #0978eb; /*rgb(70, 203, 174);*/
   --ifm-color-primary-lighter: #097df6; /*rgb(102, 212, 189);*/
   --ifm-color-primary-lightest: #2a8ef7; /*rgb(146, 224, 208);*/
-  --ifm-code-font-size: 95%;
+  --ifm-code-font-size: 90%; /*95%;*/
 }
 
 html[data-theme=dark] {
