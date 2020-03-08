@@ -8,6 +8,7 @@
 module.exports = {
   someSidebar: {
     'Standard Notes Docs': ['welcome'],
+    'Editing': ['editing','editing/markdown-pro','editing/task-editor',],
     Listed: [
       'listed/creating-a-blog-from-your-notes-with-listed-and-standard-notes',
       'listed/how-do-i-register-for-a-listed-blog',
