@@ -19,7 +19,7 @@ Most of our extensions are [open-source](https://github.com/sn-extensions) and a
 
 There are 3 main types of extensions:
 
-1. **Components**: Components are user interface elements that completely swap out areas of Standard Notes with custom behavior. Components include editors (such as the [Advanced Markdown Editor](https://standardnotes.org/extensions/advanced-markdown) and [Plus Editor](https://standardnotes.org/extensions/plus-editor)), editor stack components (like the [Action Bar](https://standardnotes.org/extensions/action-bar) and [FileSafe](https://standardnotes.org/extensions/filesafe)), and other components (like [Folders](https://standardnotes.org/extensions/folders) and [Quick Tags](https://standardnotes.org/extensions/quick-tags)).
+1. **Components**: Components are user interface elements that completely swap out areas of Standard Notes with custom behavior. Components include editors (such as the [Markdown Pro Editor](https://standardnotes.org/extensions/markdown-pro) and [Plus Editor](https://standardnotes.org/extensions/plus-editor)), editor stack components (like the [Action Bar](https://standardnotes.org/extensions/action-bar) and [FileSafe](https://standardnotes.org/extensions/filesafe)), and other components (like [Folders](https://standardnotes.org/extensions/folders) and [Quick Tags](https://standardnotes.org/extensions/quick-tags)).
 
     **[Developing a component →](/extensions/building-an-extension)**
 

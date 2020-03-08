@@ -201,6 +201,6 @@ These instructions make the following assumptions:
 
 You can immediately start using your new server by using the Standard Notes app at https://app.standardnotes.org.
 
-In the Account menu, enter the address of your new server in "Sync Server Domain" under "Advanced Options".
+In the account menu, choose `Advanced Options` and enter the address of your new server in `Sync Server Domain`.
 
-Then, register for a new account, and begin using your private new secure Standard Notes server!
+Then, register for a new account or log into an existing account and begin using your private new secure Standard Notes server!

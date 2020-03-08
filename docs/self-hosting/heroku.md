@@ -36,7 +36,14 @@ sidebar_label: Self Hosting with Heroku
 	``` bash
 	heroku run rake db:migrate --app name_of_app
 	```
+1. You're done!
 
-And that's it! You're up and running with a free Standard Notes server that you can use in [Standard Notes](https://standardnotes.org).
+## Using your new server
+
+You can immediately start using your new server by using the Standard Notes app at https://app.standardnotes.org.
+
+In the account menu, choose `Advanced Options` and enter the address of your new server in `Sync Server Domain`.
+
+Then, register for a new account or log into an existing account and begin using your private new secure Standard Notes server!
 
 Note that you should understand the limitations of Heroku's free tier. In particular, your instance will sleep after 30 minutes of idleness, and may take several seconds to start up again on subsequent requests.

@@ -13,4 +13,4 @@ sidebar_label: Editing
 
 ## Mobile Themes
 
-To use a custom theme on mobile, tap and hold the name of the theme, tap "Redownload" and then tap "Redownload".   
+The mobile app will download a theme once and cache it indefinitely. To update or refresh a custom theme, you can press and hold on the theme name in the list and re-download it from the server.

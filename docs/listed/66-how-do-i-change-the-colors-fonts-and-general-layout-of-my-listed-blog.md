@@ -9,7 +9,7 @@ You can use CSS to stylize your blog as you see fit.
 
 1. Create a new note in Standard Notes, and call it `theme.css` (name can be anything).
 2. Use the following metadata structure, overriding any of the variables with your desired color values.
-  ```
+  ```css
   ---
   metatype: css
   ---
@@ -37,12 +37,13 @@ You can use CSS to stylize your blog as you see fit.
 
 ---
 
-A list of pre-defined CSS colors can be found [here](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value).
+A list of pre-defined CSS colors can be found [here](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value).  
+You can create the perfect colors using [Adobe's Color Wheel](https://color.adobe.com/create/color-wheel)
 
 ---
 
 Note that you can also specify custom CSS here as well:
-  ```
+  ```css
   ---
   metatype: css
   ---

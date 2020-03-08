@@ -140,10 +140,10 @@ For every received item:
 
 1.  (Optional but recommended) Encrypt `content` using server known key and store. Decrypt before sending back to client.
 
-# Next Steps
+## Next Steps
 
 Join the [Slack group](https://standardnotes.org/slack) to discuss implementation details and ask any questions you may have.
 
 You can also email [help@standardnotes.org](mailto:help@standardnotes.org).
 
-Follow [@standardnotes](https://twitter.com/standardnotes) for updates and announcements.
+Follow [@standardnotes on Twitter](https://twitter.com/standardnotes) for updates and announcements.
