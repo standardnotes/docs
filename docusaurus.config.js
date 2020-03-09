@@ -97,7 +97,7 @@ module.exports = {
           ],
         },  
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Standard Notes`, // My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} <a href="https://standardnotes.org">Standard Notes</a>`, // My Project, Inc. Built with Docusaurus.`,
     },
     image: 'img/SN-ICON-500.png',
   },
