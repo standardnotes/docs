@@ -38,3 +38,7 @@ html[data-theme=dark] {
     --ifm-font-size-base: 17px;
   }
 }
+
+div[class^="announcementBarContent"] {
+  color:white;
+}

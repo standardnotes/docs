@@ -8,6 +8,11 @@ module.exports = {
   organizationName: 'standardnotes', // Usually your GitHub org/user name. Originally 'facebook'
   projectName: 'newdocs', // Usually your repo name. Originally 'docusaurus'
   themeConfig: {
+    announcementBar: {
+      id: 'supportus',
+      content:
+        '⭐️ Star us on <a target="_blank" rel="noopener noreferrer" href="https://github.com/standardnotes">GitHub</a>! ⭐️',// 
+    },
     navbar: {
       hideOnScroll: true,
       title: 'Documentation',
