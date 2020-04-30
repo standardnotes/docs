@@ -4,7 +4,7 @@ title: Self Hosting with Docker
 sidebar_label: Self Hosting with Docker
 ---
 These instructions make the following assumptions:
-- You've just finished setting up a Linux server (say, Ubuntu 16.04 64-bit) and have installed [Docker](https://docs.docker.com/get-docker/) on it.
+- You've just finished setting up a Linux server (say, Ubuntu 16.04 64-bit) and have installed [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/) on it.
 - You've configured your security groups to allow for incoming SSH connections from your local IP.
 - You've configured a domain name (or subdomain) to point to your server's IP address.
 - You've configured the DNS to enable HTTPS for your domain (say, using Cloudflare).
@@ -58,7 +58,7 @@ SSH into your server and follow the steps below:
 1. Simply run:
 
     ``` bash
-    $ docker-compose up -d
+    $ sudo docker-compose up -d
     ```
     This should load the `syncing-server` and MySQL database containers and run the necessary migrations.
 
