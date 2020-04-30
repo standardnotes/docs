@@ -109,11 +109,6 @@ module.exports = {
   scripts: [
     {
       src:
-        `${baseUrl}fathom.js`,
-      async: true,
-    },
-    {
-      src:
         `${baseUrl}matomo.js`,
       async: true,
     },
