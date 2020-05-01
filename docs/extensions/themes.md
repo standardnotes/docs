@@ -82,6 +82,17 @@ _Note that font and font sizes do not apply to mobile; only desktop/web._
 }
 ```
 
+In order to get SN to display a dock icon for your theme (a circle in the lower right corner of the app that allows you to quickly toggle themes), add the following payload into the your ext.json file when [publishing your theme](/extensions/publishing):
+
+```json
+"dock_icon": {
+   "type": "circle",
+   "background_color": "#086DD6",
+   "foreground_color": "#ffffff",
+   "border_color": "#086DD6"
+}
+```
+
 ### Reloading Mobile Themes
 
 The mobile app will download a theme once and cache it indefinitely. If you're installing your own mobile theme and make changes, you can press and hold on the theme name in the list to bring up the option to re-download the theme from the server.
