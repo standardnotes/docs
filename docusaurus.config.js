@@ -4,10 +4,11 @@ module.exports = {
   tagline: 'Extend Your Notes App',
   url: 'https://standardnotes.org',
   baseUrl, // See const baseUrl above. baseUrl: '/newdocs/',
-  favicon: 'img/icon.png',//'img/favicon.ico',
+  favicon: 'img/favicon.png',//'img/favicon.ico',
   organizationName: 'standardnotes', // Usually your GitHub org/user name. Originally 'facebook'
   projectName: 'newdocs', // Usually your repo name. Originally 'docusaurus'
   themeConfig: {
+    image: 'img/favicon.png',
     announcementBar: {
       id: 'supportus',
       content:
@@ -18,7 +19,7 @@ module.exports = {
       title: 'Documentation',
       logo: {
         alt: 'Standard Notes Logo',
-        src: 'img/icon.png',
+        src: 'img/favicon.png',
       },
       links: [
         //{to: 'self-hosting/getting-started', label: 'Self Host', position: 'left'},
@@ -104,7 +105,6 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} <a href="https://standardnotes.org">Standard Notes</a>`, // My Project, Inc. Built with Docusaurus.`,
     },
-    image: 'img/SN-ICON-500.png',
   },
   scripts: [
     {
