@@ -100,23 +100,9 @@ In this example, we'll recreate a simple clone of Listed.
     end
     ```
 
-    Actions have the following properties:
+1. When a user selects the action, your server should be ready to handle that endpoint, and in most cases expect an item. Here's how Listed handles the "Publish to Blog" action:
 
-    | Key | Description |
-    | :--- | :--- |
-    | **`label`** | What the UI will display for this action. |
-    | **`url`** | The URL that Standard Notes will make a request to when the user selects this action. |
-    | **`verb`** | Instructs Standard Notes how to handle the URL. This can be one of: 
-    ||**`show`**: Standard Notes will open the `url` in a browser.|
-    ||**`post`**: Standard Notes will make a POST request to the `url` with the current item included in the parameters.|
-    ||**`get`**: Standard Notes will make a GET request to the `url` and expect an `Item` in response. The item will be used to update the current working note. We use this for our Note History extension to update the current note with a previous version of it.|
-    ||**`render`**: Standard Notes will make a `GET` request to the `url` and expect an `Item`, but instead of updating the item, it will preview it in a modal. This allows a user to preview the contents of an incoming item before choosing to replace the current note with whatever is retrieved from the server. We also use this in our Note History extension.|
-    ||**`context`**: Context should mostly be `Item`, which means that this action applies to a particular item, and is not just a general action. In the past, `context` could take on the value of `global`, which means it has actions available that are not related to an item. However, this functionality is unofficially deprecated, with an official deprecation coming soon.|
-    ||**`content_types`**: The kinds of items this action applies to. Currently only 'Note' actions are supported. In the future, we might allow for actions on a `Tag` or other content types, but no such interface is currently available. |
-
-3. When a user selects the action, your server should be ready to handle that endpoint, and in most cases expect an item. Here's how Listed handles the "Publish to Blog" action:
-
-    ``` ruby
+    ```ruby
     def create
       item_uuid = params[:item_uuid]
       post = Post.find_by_item_uuid(item_uuid)
@@ -139,7 +125,37 @@ In this example, we'll recreate a simple clone of Listed.
     end
     ```
 
-4. That's about it.
+### Properties 
+
+Actions have the following properties:
+
+  | Key               | Description |
+  | :---------------- | :--- |
+  | **`label`**       | What the UI will display for this action. |
+  | **`url`**         | The URL that Standard Notes will make a request to when the user selects this action. |
+  | **`verb`**        | Instructs Standard Notes how to handle the URL. This can be one of: 
+  | **`show`**        | Standard Notes will open the `url` in a browser.|
+  | **`post`**        | Standard Notes will make a POST request to the `url` with the current item included in the parameters.|
+  | **`get`**         | Standard Notes will make a GET request to the `url` and expect an `Item` in response. The item will be used to update the current working note. We use this for our Note History extension to update the current note with a previous version of it.|
+  | **`render`**      | Standard Notes will make a `GET` request to the `url` and expect an `Item`, but instead of updating the item, it will preview it in a modal. This allows a user to preview the contents of an incoming item before choosing to replace the current note with whatever is retrieved from the server. We also use this in our Note History extension.|
+  |**`context`**      | Context should mostly be `Item`, which means that this action applies to a particular item, and is not just a general action. In the past, `context` could take on the value of `global`, which means it has actions available that are not related to an item. However, this functionality is unofficially deprecated, with an official deprecation coming soon.|
+  |**`content_types`**| The kinds of items this action applies to. Currently only 'Note' actions are supported. In the future, we might allow for actions on a `Tag` or other content types, but no such interface is currently available. |
+
+For example, the expected response of a **`get`** action is:
+
+```json
+    {
+      item: {
+        uuid: '',
+        content_type: '',
+        content: '',
+        created_at: '',
+        updated_at: '',
+      }
+    }
+```
+
+The payload inside the `item` key is the same payload structure you would see if you downloaded an encrypted backup file from the Account menu and inspected the `.txt` file. The item needs to be in the encrypted format when it appears. We'll need to modify the client code to also accept decrypted items.
 
 ## Installing an Action
 
@@ -153,4 +169,4 @@ https://host.org/my-action?type=action&name=MyAction
 
 There are a lot of cool things you can build with actions. For example, you can build an action that receives the current note which consists of a bunch of numbers separated by a comma, and the action can compute the average, and return the new note contents which appends the average. This is a simple use case, but can be enlarged to build more powerful abilities.
 
-You might even build an action that for example receives JavaScript code in the note text, runs the JavaScript, computes the result, and returns the result which is then appended to the note body in creative ways. The possibilities are endless.
+You might even build an action that for example receives JavaScript code in the note text, runs the JavaScript, computes the result, and returns the result which is then appended to the note body in creative ways. The possibilities are almost endless.
