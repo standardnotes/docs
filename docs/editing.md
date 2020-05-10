@@ -27,10 +27,10 @@ sidebar_label: Editing
 | Actual Size              | Ctrl + 0                    | ⌘ + 0
 | Zoom In                  | Ctrl + Shift + `+` (plus)   | ⌘ + Shift + `+` (plus) 
 | Zoom Out                 | Ctrl + `-`    (minus)       | ⌘ + `-` (minus) 
-|Toggle Full Screen        | F11                         | F11
+| Toggle Full Screen       | F11                         | F11
 | Hide Menu Bar*           | Alt + M                     | Alt + M 
 
-*The Hide Menu Bar shortcut is available only when not using the Themed Menu Bar. To toggle the Themed Menu Bar, visit **☰** > View > Themed Menu Bar. 
+*The Hide Menu Bar shortcut is available only when not using the Themed Menu Bar (window decoration). To toggle the Themed Menu Bar on Windows and Linux, visit **☰** > View > Themed Menu Bar.
 
 ### Window
 | Result                | Windows/Linux               | Mac 
