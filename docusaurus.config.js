@@ -1,3 +1,5 @@
+const math = require('remark-math')
+const katex = require('rehype-katex')
 const baseUrl = '/';
 module.exports = {
   title: 'Standard Notes Documentation',
@@ -106,6 +108,14 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} <a href="https://standardnotes.org">Standard Notes</a>`, // My Project, Inc. Built with Docusaurus.`,
     },
   },
+  stylesheets: [
+    {
+      href: '/katex/katex.min.css',
+      type: 'text/css',
+      integrity: 'sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq',
+      crossorigin: 'anonymous',
+    },
+  ],
   scripts: [
     {
       src:
@@ -122,6 +132,8 @@ module.exports = {
           editUrl:
             'https://github.com/standardnotes/docs/edit/master/',
           routeBasePath: '',
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
           showLastUpdateTime: true,
         },
         theme: {
