@@ -1,7 +1,7 @@
 ---
-id: editing
-title: Editing
-sidebar_label: Editing
+id: usage
+title: Usage
+sidebar_label: Usage
 ---
 ## Keyboard Shortcuts
 
