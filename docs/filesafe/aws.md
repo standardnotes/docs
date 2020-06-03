@@ -1,5 +1,5 @@
 ---
-id: aws-s3
+id: aws
 title: How to configure Amazon S3 with Standard Notes FileSafe
 sidebar_label: Amazon S3
 ---

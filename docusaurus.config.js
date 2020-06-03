@@ -5,7 +5,7 @@ module.exports = {
   title: 'Standard Notes Documentation',
   tagline: 'Extend Your Notes App',
   url: 'https://docs.standardnotes.org',
-  baseUrl: '/', // See const baseUrl above. baseUrl: '/newdocs/',
+  baseUrl: '/',
   favicon: 'img/favicon.png',//'img/favicon.ico',
   organizationName: 'standardnotes', // Usually your GitHub org/user name. Originally 'facebook'
   projectName: 'docs', // Usually your repo name. Originally 'docusaurus'
@@ -121,6 +121,7 @@ module.exports = {
       src:
         `/matomo.js`,
       async: true,
+      defer: true,
     },
   ],
   presets: [
