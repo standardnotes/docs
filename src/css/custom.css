@@ -42,3 +42,11 @@ html[data-theme=dark] {
 div[class^="announcementBarContent"] {
   color:white;
 }
+
+article header h1[class^="docTitle"] {
+  font-size: 2rem;
+}
+
+article h2 {
+  font-size: 1.75rem;
+}

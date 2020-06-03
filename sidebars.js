@@ -9,6 +9,7 @@ module.exports = {
   someSidebar: {
     'Standard Notes Docs': ['welcome'],
     'Usage': ['usage','usage/bold-editor','usage/markdown-pro','usage/task-editor',],
+    FileSafe: ['filesafe/aws-s3'],
     Listed: [
       'listed/creating-a-blog-from-your-notes-with-listed-and-standard-notes',
       'listed/how-do-i-register-for-a-listed-blog',

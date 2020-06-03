@@ -1,14 +1,14 @@
 const math = require('remark-math')
 const katex = require('rehype-katex')
-const baseUrl = '/';
+
 module.exports = {
   title: 'Standard Notes Documentation',
   tagline: 'Extend Your Notes App',
-  url: 'https://standardnotes.org',
-  baseUrl, // See const baseUrl above. baseUrl: '/newdocs/',
+  url: 'https://docs.standardnotes.org',
+  baseUrl: '/', // See const baseUrl above. baseUrl: '/newdocs/',
   favicon: 'img/favicon.png',//'img/favicon.ico',
   organizationName: 'standardnotes', // Usually your GitHub org/user name. Originally 'facebook'
-  projectName: 'newdocs', // Usually your repo name. Originally 'docusaurus'
+  projectName: 'docs', // Usually your repo name. Originally 'docusaurus'
   themeConfig: {
     image: 'img/favicon.png',
     announcementBar: {
@@ -18,7 +18,7 @@ module.exports = {
     },
     navbar: {
       hideOnScroll: true,
-      title: 'Documentation',
+      title: 'SN Docs',
       logo: {
         alt: 'Standard Notes Logo',
         src: 'img/favicon.png',
@@ -119,7 +119,7 @@ module.exports = {
   scripts: [
     {
       src:
-        `${baseUrl}matomo.js`,
+        `/matomo.js`,
       async: true,
     },
   ],
@@ -128,10 +128,11 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          homePageID: 'welcome',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/standardnotes/docs/edit/master/',
-          routeBasePath: '',
+          routeBasePath: '/',
           remarkPlugins: [math],
           rehypePlugins: [katex],
           showLastUpdateTime: true,
