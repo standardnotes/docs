@@ -1,7 +1,7 @@
 ---
-id: "task-editor"
-title: Simple Task Editor
-sidebar_label: Task Editor
+id: "token-vault"
+title: Token Vault Editor
+sidebar_label: Token Vault
 ---
 
 ## Add Task
