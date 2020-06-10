@@ -50,3 +50,8 @@ article header h1[class^="docTitle"] {
 article h2 {
   font-size: 1.75rem;
 }
+
+/* Remove shadow on the left */ 
+:root {
+  --ifm-global-shadow-md: 0px
+}

@@ -24,10 +24,6 @@ module.exports = {
         src: 'img/favicon.png',
       },
       links: [
-        //{to: 'self-hosting/getting-started', label: 'Self Host', position: 'left'},
-        //{to: 'extensions/intro', label: 'Extensions', position: 'left'},
-        //{to: 'specification/encryption', label: 'Specification', position: 'left'},
-        //{to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://standardnotes.org/',
           label: 'Website',
@@ -129,7 +125,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          homePageID: 'welcome',
+          homePageId: 'welcome',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/standardnotes/docs/edit/master/',
