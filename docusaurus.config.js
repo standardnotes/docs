@@ -18,7 +18,7 @@ module.exports = {
     },
     navbar: {
       hideOnScroll: true,
-      title: 'SN Docs',
+      title: 'Standard Notes',
       logo: {
         alt: 'Standard Notes Logo',
         src: 'img/favicon.png',
