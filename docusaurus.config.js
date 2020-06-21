@@ -61,6 +61,10 @@ module.exports = {
               to: '/self-hosting/getting-started',
             },
             {
+              label: 'Securing HTTP traffic of your Sync server',
+              to: '/self-hosting/https-support'
+            },
+            {
               label: 'Build an Extension',
               to: '/extensions/intro',
             },
