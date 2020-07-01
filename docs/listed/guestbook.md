@@ -1,5 +1,5 @@
 ---
-id: 'what-is-my-listed-guestbook'
+id: 'guestbook'
 title: 'What is my Listed guestbook?'
 sidebar_label: 'Guest Book'
 ---

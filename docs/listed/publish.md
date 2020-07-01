@@ -1,5 +1,5 @@
 ---
-id: 'how-do-i-publish-articles-to-listed'
+id: 'publish'
 title: How do I publish articles to Listed?
 sidebar_label: Publish articles
 ---

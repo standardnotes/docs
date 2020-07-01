@@ -1,7 +1,7 @@
 ---
-id: creating-a-blog-from-your-notes-with-listed-and-standard-notes
+id: about
 title: Creating a Blog From Your Notes with Listed and Standard Notes
-sidebar_label: Getting Started
+sidebar_label: About Listed
 ---
 
 You can publish a public blog directly from Standard Notes using [Listed](https://listed.to). Read on to learn more about creating

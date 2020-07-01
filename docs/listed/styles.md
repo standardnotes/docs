@@ -1,5 +1,5 @@
 ---
-id: 'how-do-i-change-the-colors-fonts-and-general-layout-of-my-listed-blog'
+id: 'styles'
 title: How do I change the colors, fonts, and general layout of my Listed blog?
 sidebar_label: Customize Styles
 ---

@@ -1,5 +1,5 @@
 ---
-id: 'how-do-i-register-for-a-listed-blog'
+id: 'register'
 title: How do I register for a listed blog?
 sidebar_label: Register
 ---

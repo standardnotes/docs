@@ -1,5 +1,5 @@
 ---
-id: 'how-do-i-email-my-subscribers-about-new-articles-and-updates'
+id: 'subscribers'
 title: How do I email my subscribers about new articles and updates?
 sidebar_label: Email Subscribers
 ---

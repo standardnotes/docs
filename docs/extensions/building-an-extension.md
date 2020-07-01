@@ -124,6 +124,8 @@ Areas tell Standard Notes where to display a particular component. The current l
 | `editor-editor` | replaces the plain text editor with a custom editor. We use this for all of our editors, including Markdown, Code, and Plus.                                                                                      |
 | `themes`        | replaces the default css styles with a custom set of styles.                                                                                                                                                      |
 
+![Image of areas](/img/extensions/areas.png)
+
 ## Next Steps
 
 There are an unlimited number of things you can build with components that do anything from nested folders in the tags pane and autocomplete in the editor pane, to pushing notes to GitHub or WordPress.
