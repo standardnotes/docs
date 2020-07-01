@@ -62,6 +62,10 @@ module.exports = {
               to: '/self-hosting/getting-started',
             },
             {
+              label: 'Listed Blogging Platform',
+              to: '/listed/about',
+            },
+            {
               label: 'Build an Extension',
               to: '/extensions/intro',
             },

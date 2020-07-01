@@ -1,5 +1,5 @@
 ---
-id: 'publish'
+id: 'publishing'
 title: How do I publish articles to Listed?
 sidebar_label: Publish articles
 ---
@@ -11,4 +11,6 @@ You can publish any note you've written. You might also want to create a tag in 
 3. You can also unpublish the post by clicking **Unpublish**.
 4. To email your subscribers, click _Actions_ and you will see an option to **Email Subscribers**.
 
-Note that _Actions_ are only available in the Standard Notes web or desktop application.
+Note that _Actions_ are only available in the Standard Notes web or desktop applications.
+
+Each note can be published to only one Listed blog at a time. If you publish your note to one Listed blog and decide that you want to publish it in another Listed blog, delete the post in the [Settings for your first Listed blog](/listed/settings) and publish the post to your second blog. 

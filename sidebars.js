@@ -13,7 +13,7 @@ module.exports = {
     Listed: [
       'listed/about',
       'listed/register',
-      'listed/publish',
+      'listed/publishing',
       'listed/settings',
       'listed/subscribers',
       'listed/guestbook',

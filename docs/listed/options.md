@@ -84,3 +84,13 @@ Your story...
 1. Publish the note to your blog.
 
 The title of your note will be used as the page title and as the link text in the navigation menu of your blog.
+
+## JSON
+
+To server your note as a JavaScript Object Notation (JSON) file (e.g., to [publish an extension](/extensions/publishing)), add this metadata to the beginning of your note:
+
+```md
+---
+metatype: json
+---
+```
