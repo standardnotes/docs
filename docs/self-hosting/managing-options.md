@@ -31,6 +31,6 @@ Host: your-self-hosted-syncing-server.com
 
 Below is a list of endpoints that are available withing the Admin API:
 
-| Method    | URL                      | Params              | Description                                            | Successful response code |
-|-----------|--------------------------|---------------------|--------------------------------------------------------|--------------------------|
-|`POST`     | /admin/delete_account    | **email**           | Deletes an account with the specified `email`          | `200`                    |
+| Method | URL                   | Params    | Description                                   | Successful response code |
+| ------ | --------------------- | --------- | --------------------------------------------- | ------------------------ |
+| `POST` | /admin/delete_account | **email** | Deletes an account with the specified `email` | `200`                    |

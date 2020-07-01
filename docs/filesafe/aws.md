@@ -26,7 +26,7 @@ Choose a name for your bucket and select the region you chose before.
 
 You can **skip directly to step 3** if you don't want any additional features such as _versioning_ or _logging_ for your bucket.
 
-In **step 3** make sure to keep ***Block all public access*** selected.
+In **step 3** make sure to keep **_Block all public access_** selected.
 
 After confirming your settings you should see your new bucket.
 
@@ -46,29 +46,19 @@ Now click on the JSON tab and add the following policy configuration:
 
 ```json
 {
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Action": [
-                "s3:ListBucket"
-            ],
-            "Resource": [
-                "arn:aws:s3:::<bucket-name>"
-            ]
-        },
-        {
-            "Effect": "Allow",
-            "Action": [
-                "s3:PutObject",
-                "s3:GetObject",
-                "s3:DeleteObject"
-            ],
-            "Resource": [
-                "arn:aws:s3:::<bucket-name>/*"
-            ]
-        }
-    ]
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": ["s3:ListBucket"],
+      "Resource": ["arn:aws:s3:::<bucket-name>"]
+    },
+    {
+      "Effect": "Allow",
+      "Action": ["s3:PutObject", "s3:GetObject", "s3:DeleteObject"],
+      "Resource": ["arn:aws:s3:::<bucket-name>/*"]
+    }
+  ]
 }
 ```
 
@@ -103,7 +93,7 @@ On the next screen add our user to the group we just created.
 
 ![image](/img/filesafe/aws/add-user-to-group.png)
 
-You can skip the tags screen and create the user. 
+You can skip the tags screen and create the user.
 
 In the success screen make sure to either download the **CSV** or copy the **Access key ID** and **Secret access key** as you won't be able to view the secret access key in the future.
 

@@ -3,6 +3,7 @@ id: local-setup
 title: Local Setup
 sidebar_label: Local Setup
 ---
+
 These instructions describe how to run an extension in a local environment.
 
 Installing an extension inside Standard Notes consists of two main components:
@@ -10,51 +11,51 @@ Installing an extension inside Standard Notes consists of two main components:
 - A JSON file that describes the extension, and includes metadata such as the extension's current version, description, hosted URL, and download URL.
 - The source code for the extension.
 
-To get your extension running locally, both of these components must be hosted on a local web server. In this guide, we'll use the command line server  `http-server`.
+To get your extension running locally, both of these components must be hosted on a local web server. In this guide, we'll use the command line server `http-server`.
 
 ## Steps
 
 1. Install http-server:
 
-    ``` bash
-     npm install -g http-server
-    ```
+   ```bash
+    npm install -g http-server
+   ```
 
 1. In your extension's root directory, run the following command to begin hosting your local server:
 
-    ``` bash
-    http-server -p 8001 --cors
-    ```
+   ```bash
+   http-server -p 8001 --cors
+   ```
 
-    The `--cors` option allows the Standard Notes app to load your extension via cross-origin resource sharing (required).
+   The `--cors` option allows the Standard Notes app to load your extension via cross-origin resource sharing (required).
 
 1. In your extension's root directory, create a file called `ext.json`.
 
 1. Place, at minimum, the following key/value pairs. For the full listing of keys, see the [Publishing guide](/extensions/publishing).
 
-    ``` json
-    {
-        "identifier": "org.yourdomain.my-extension",
-        "name": "My Extension",
-        "content_type": "SN|Component",
-        "area": "editor-editor",
-        "version": "1.0.0",
-        "url": "http://localhost:8001"
-    }
-    ```
+   ```json
+   {
+     "identifier": "org.yourdomain.my-extension",
+     "name": "My Extension",
+     "content_type": "SN|Component",
+     "area": "editor-editor",
+     "version": "1.0.0",
+     "url": "http://localhost:8001"
+   }
+   ```
 
-    The `url` should point to where your extension's index.html is hosted on your local server.
-    The `area` describes what kind of extension this will be. A list of valid values can be found in the [Publishing guide](/extensions/publishing).
+   The `url` should point to where your extension's index.html is hosted on your local server.
+   The `area` describes what kind of extension this will be. A list of valid values can be found in the [Publishing guide](/extensions/publishing).
 
 1. In your browser, open http://localhost:8001/ext.json and make sure you see the JSON file content from above.
 
 1. Copy the `url` from the JSON content and open it in your browser. Here, you should see your actual extension running. Your server will look for an `index.html` file by default.
 
-    If your main HTML file is called something different, or is not located in the root directory, simply change the `url` value in the JSON file to reflect this location. For example:
+   If your main HTML file is called something different, or is not located in the root directory, simply change the `url` value in the JSON file to reflect this location. For example:
 
-    ``` bash
-    url: "http://localhost:8001/dist/index.html"
-    ```
+   ```bash
+   url: "http://localhost:8001/dist/index.html"
+   ```
 
 1. At this point, your extension is ready to be installed. Open **Standard Notes**, and click on **Extensions** in the lower left corner of the app.
 

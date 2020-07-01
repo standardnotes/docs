@@ -1,5 +1,5 @@
 ---
-id: "task-editor"
+id: 'task-editor'
 title: Simple Task Editor
 sidebar_label: Task Editor
 ---

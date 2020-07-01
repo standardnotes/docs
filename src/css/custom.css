@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #086dd6;/*#25c2a0;*/
+  --ifm-color-primary: #086dd6; /*#25c2a0;*/
   --ifm-color-primary-dark: #0762c1; /*rgb(33, 175, 144);*/
   --ifm-color-primary-darker: #075db6; /*rgb(31, 165, 136);*/
   --ifm-color-primary-darkest: #064c96; /*rgb(26, 136, 112);*/
@@ -16,7 +16,7 @@
   --ifm-code-font-size: 90%; /*95%;*/
 }
 
-html[data-theme=dark] {
+html[data-theme='dark'] {
   --ifm-background-color: #1e2125;
   --ifm-background-surface-color: #121212;
 }
@@ -39,11 +39,11 @@ html[data-theme=dark] {
   }
 }
 
-div[class^="announcementBarContent"] {
-  color:white;
+div[class^='announcementBarContent'] {
+  color: white;
 }
 
-article header h1[class^="docTitle"] {
+article header h1[class^='docTitle'] {
   font-size: 2rem;
 }
 
@@ -51,7 +51,16 @@ article h2 {
   font-size: 1.75rem;
 }
 
-/* Remove shadow on the left */ 
+/* Remove shadow on the left */
 :root {
-  --ifm-global-shadow-md: 0px
+  --ifm-global-shadow-md: 0px;
+}
+
+#__docusaurus > footer > div > div.text--center > div > a {
+  color: unset;
+}
+
+#__docusaurus > footer > div > div.text--center > div > a:hover {
+  color: var(--ifm-link-color);
+  text-decoration: underline;
 }

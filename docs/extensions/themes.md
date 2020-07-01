@@ -3,6 +3,7 @@ id: themes
 title: Themes
 sidebar_label: Themes
 ---
+
 Themes allow you to customize the look and feel of the Standard Notes app on all platforms.
 
 You can view the [source code](https://github.com/sn-extensions/solarized-dark-theme) of our official themes in order to best understand how to create your own theme.
@@ -19,12 +20,12 @@ _Note that font and font sizes do not apply to mobile; only desktop/web._
 :root {
   --sn-stylekit-base-font-size: 14px;
 
-  --sn-stylekit-font-size-p: 1.0rem;
+  --sn-stylekit-font-size-p: 1rem;
   --sn-stylekit-font-size-editor: 1.21rem;
 
   --sn-stylekit-font-size-h6: 0.8rem;
   --sn-stylekit-font-size-h5: 0.9rem;
-  --sn-stylekit-font-size-h4: 1.0rem;
+  --sn-stylekit-font-size-h4: 1rem;
   --sn-stylekit-font-size-h3: 1.1rem;
   --sn-stylekit-font-size-h2: 1.2rem;
   --sn-stylekit-font-size-h1: 1.3rem;
@@ -32,28 +33,28 @@ _Note that font and font sizes do not apply to mobile; only desktop/web._
   --sn-stylekit-neutral-color: #989898;
   --sn-stylekit-neutral-contrast-color: white;
 
-  --sn-stylekit-info-color: #086DD6;
+  --sn-stylekit-info-color: #086dd6;
   --sn-stylekit-info-contrast-color: white;
 
-  --sn-stylekit-success-color: #2B9612;
+  --sn-stylekit-success-color: #2b9612;
   --sn-stylekit-success-contrast-color: white;
 
   --sn-stylekit-warning-color: #f6a200;
   --sn-stylekit-warning-contrast-color: white;
 
-  --sn-stylekit-danger-color: #F80324;
+  --sn-stylekit-danger-color: #f80324;
   --sn-stylekit-danger-contrast-color: white;
 
-  --sn-stylekit-shadow-color: #C8C8C8;
+  --sn-stylekit-shadow-color: #c8c8c8;
   --sn-stylekit-background-color: white;
   --sn-stylekit-border-color: #e3e3e3;
   --sn-stylekit-foreground-color: black;
 
-  --sn-stylekit-contrast-background-color: #F6F6F6;
+  --sn-stylekit-contrast-background-color: #f6f6f6;
   --sn-stylekit-contrast-foreground-color: #2e2e2e;
   --sn-stylekit-contrast-border-color: #e3e3e3;
 
-  --sn-stylekit-secondary-background-color: #F6F6F6;
+  --sn-stylekit-secondary-background-color: #f6f6f6;
   --sn-stylekit-secondary-foreground-color: #2e2e2e;
   --sn-stylekit-secondary-border-color: #e3e3e3;
 
@@ -70,15 +71,14 @@ _Note that font and font sizes do not apply to mobile; only desktop/web._
   --sn-stylekit-input-border-color: #e3e3e3;
 
   --sn-stylekit-scrollbar-thumb-color: #dfdfdf;
-  --sn-stylekit-scrollbar-track-border-color: #E7E7E7;
+  --sn-stylekit-scrollbar-track-border-color: #e7e7e7;
 
   --sn-stylekit-general-border-radius: 2px;
 
-  --sn-stylekit-monospace-font: "Ubuntu Mono", courier, monospace;
-  --sn-stylekit-sans-serif-font: -apple-system, BlinkMacSystemFont,
-    "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans",
-    "Droid Sans", "Helvetica Neue", sans-serif;
+  --sn-stylekit-monospace-font: 'Ubuntu Mono', courier, monospace;
+  --sn-stylekit-sans-serif-font: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
 }
 ```
 

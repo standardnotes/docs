@@ -1,5 +1,5 @@
 ---
-id: "how-do-i-change-the-colors-fonts-and-general-layout-of-my-listed-blog"
+id: 'how-do-i-change-the-colors-fonts-and-general-layout-of-my-listed-blog'
 title: How do I change the colors, fonts, and general layout of my Listed blog?
 sidebar_label: Customize Styles
 ---
@@ -53,7 +53,7 @@ metatype: css
 
 html,
 body {
-  font-family: "Avenir Next", sans-serif;
+  font-family: 'Avenir Next', sans-serif;
 }
 
 .post-content {

@@ -1,9 +1,9 @@
 ---
 id: welcome
-title: "Welcome to the Standard Notes Documentation"
+title: 'Welcome to the Standard Notes Documentation'
 hide_title: true
 sidebar_label: Welcome
-image: "https://s3.amazonaws.com/standard-notes/media/SN-Icon-500.png"
+image: 'https://s3.amazonaws.com/standard-notes/media/SN-Icon-500.png'
 ---
 
 ## Welcome to the Standard Notes Documentation

@@ -1,5 +1,5 @@
 ---
-id: "plus-editor"
+id: 'plus-editor'
 title: Plus Editor
 sidebar_label: Plus Editor
 ---

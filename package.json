@@ -1,17 +1,24 @@
 {
   "name": "docs",
   "version": "0.0.0",
+  "license": "AGPL-3.0-or-later",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/standardnotes/docs"
+  },
   "scripts": {
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy"
+    "deploy": "docusaurus deploy",
+    "pretty": "prettier --write 'src/**/*.{css,js,jsx,json}' 'docs/**/*.{md,mdx,js,jsx}' sidebars.js docusaurus.config.js"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.56",
     "@docusaurus/preset-classic": "^2.0.0-alpha.56",
     "classnames": "^2.2.6",
+    "prettier": "^2.0.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1",

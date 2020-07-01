@@ -1,9 +1,11 @@
 ---
 id: docker
 title: Self Hosting with Docker
-sidebar_label: Self Hosting with Docker
+sidebar_label: Docker
 ---
+
 These instructions make the following assumptions:
+
 - You've just finished setting up a Linux server (say, Ubuntu 16.04 64-bit) and have installed [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/) on it.
 - You've configured your security groups to allow for incoming SSH connections from your local IP.
 - You've configured a domain name (or subdomain) to point to your server's IP address.
@@ -16,67 +18,70 @@ SSH into your server and follow the steps below:
 
 1. Update your system:
 
-    ``` bash
-    $ sudo apt-get update
-    $ sudo apt-get upgrade
-    ```
+   ```bash
+   $ sudo apt-get update
+   $ sudo apt-get upgrade
+   ```
 
 1. Install `git` and `libmysqlclient-dev`:
 
-    ``` bash
-    $ sudo apt-get install -y git libmysqlclient-dev
-    ```
+   ```bash
+   $ sudo apt-get install -y git libmysqlclient-dev
+   ```
 
 1. Make sure you are in your home directory and clone the Standard Notes Server [syncing-server](https://github.com/standardnotes/syncing-server) project:
 
-    ``` bash
-    $ cd ~
-    $ git clone https://github.com/standardnotes/syncing-server.git
-    $ cd syncing-server
-    ```
+   ```bash
+   $ cd ~
+   $ git clone https://github.com/standardnotes/syncing-server.git
+   $ cd syncing-server
+   ```
 
 1. Install `bundler` and then install gems
 
-    ``` bash
-    $ gem install bundler
-    ```
+   ```bash
+   $ gem install bundler
+   ```
 
-    ``` bash
-    $ bundle install
-    ```
+   ```bash
+   $ bundle install
+   ```
 
 1. Create `.env` file in the project's directory:
 
-    ``` bash
-    $ cp env.sample .env
-    ```
+   ```bash
+   $ cp env.sample .env
+   ```
 
-    Generate the `SECRET_KEY_BASE` with:
-    ```bash
-    $ bundle exec rake secret
-    ```
+   Generate the `SECRET_KEY_BASE` with:
+
+   ```bash
+   $ bundle exec rake secret
+   ```
+
 1. Simply run:
 
-    ``` bash
-    $ sudo docker-compose up -d
-    ```
-    This should load the `syncing-server` and MySQL database containers and run the necessary migrations.
+   ```bash
+   $ sudo docker-compose up -d
+   ```
+
+   This should load the `syncing-server` and MySQL database containers and run the necessary migrations.
 
 1. Test your access to the server locally:
 
-    ``` bash
-    $ curl {domain name}
-    <!doctype html>
-    <html>
-      ...
-      <body>
-        <h1> Hi! You're not supposed to be here. </h1>
+   ```bash
+   $ curl {domain name}
+   <!doctype html>
+   <html>
+     ...
+     <body>
+       <h1> Hi! You're not supposed to be here. </h1>
 
-        <p> You might be looking for the <a href="https://app.standardnotes.org"> Standard Notes Web App</a> or the main <a href="https://standardnotes.org"> Standard Notes Website</a>. </p>
+       <p> You might be looking for the <a href="https://app.standardnotes.org"> Standard Notes Web App</a> or the main <a href="https://standardnotes.org"> Standard Notes Website</a>. </p>
 
-      </body>
-    </html>
-    ```
+     </body>
+   </html>
+   ```
 
 1. You're done!
 

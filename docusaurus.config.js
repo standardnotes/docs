@@ -1,12 +1,12 @@
-const math = require('remark-math')
-const katex = require('rehype-katex')
+const math = require('remark-math');
+const katex = require('rehype-katex');
 
 module.exports = {
   title: 'Standard Notes Documentation',
   tagline: 'Extend Your Notes App',
   url: 'https://docs.standardnotes.org',
   baseUrl: '/',
-  favicon: 'img/favicon.png',//'img/favicon.ico',
+  favicon: 'img/favicon.png', //'img/favicon.ico',
   organizationName: 'standardnotes', // Usually your GitHub org/user name. Originally 'facebook'
   projectName: 'docs', // Usually your repo name. Originally 'docusaurus'
   themeConfig: {
@@ -14,7 +14,7 @@ module.exports = {
     announcementBar: {
       id: 'supportus',
       content:
-        '⭐️ Star us on <a target="_blank" rel="noopener noreferrer" href="https://github.com/standardnotes">GitHub</a>! ⭐️',// 
+        '⭐️ Star us on <a target="_blank" rel="noopener noreferrer" href="https://github.com/standardnotes">GitHub</a>! ⭐️', //
     },
     navbar: {
       hideOnScroll: true,
@@ -30,9 +30,10 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://blog.standardnotes.org', 
-          label: 'Blog', 
-          position: 'right'},
+          href: 'https://blog.standardnotes.org',
+          label: 'Blog',
+          position: 'right',
+        },
         {
           href: 'https://standardnotes.org/help',
           label: 'Help',
@@ -51,7 +52,7 @@ module.exports = {
       ],
     },
     footer: {
-      style: 'light',// 'dark',
+      style: 'dark',
       links: [
         {
           title: 'Resources',
@@ -87,7 +88,7 @@ module.exports = {
           title: 'Support',
           items: [
             {
-              label: 'Help \& Contact',
+              label: 'Help & Contact',
               href: 'https://blog.standardnotes.org',
             },
             {
@@ -99,7 +100,7 @@ module.exports = {
               href: 'https://reddit.com/r/standardnotes',
             },
           ],
-        },  
+        },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} <a href="https://standardnotes.org">Standard Notes</a>`, // My Project, Inc. Built with Docusaurus.`,
     },
@@ -108,14 +109,14 @@ module.exports = {
     {
       href: '/katex/katex.min.css',
       type: 'text/css',
-      integrity: 'sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq',
+      integrity:
+        'sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq',
       crossorigin: 'anonymous',
     },
   ],
   scripts: [
     {
-      src:
-        `/matomo.js`,
+      src: `/matomo.js`,
       async: true,
       defer: true,
     },
@@ -127,8 +128,7 @@ module.exports = {
         docs: {
           homePageId: 'welcome',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/standardnotes/docs/edit/master/',
+          editUrl: 'https://github.com/standardnotes/docs/edit/master/',
           routeBasePath: '/',
           remarkPlugins: [math],
           rehypePlugins: [katex],

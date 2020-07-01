@@ -1,10 +1,10 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 
-import {Redirect} from '@docusaurus/router';
+import { Redirect } from '@docusaurus/router';
 
 function Hello() {
-    return <Redirect to="/self-hosting/ec2-nginx" />;
-  }
+  return <Redirect to="/self-hosting/ec2-nginx" />;
+}
 
 export default Hello;

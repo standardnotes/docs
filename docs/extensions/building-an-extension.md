@@ -16,22 +16,22 @@ In this example, we'll use our blank-slate ReactJS template to build a utility b
 
 1. Clone the [blank-slate](https://github.com/sn-extensions/react-blank-slate) project from GitHub:
 
-	``` bash
-	git clone https://github.com/sn-extensions/react-blank-slate.git
-	```
+   ```bash
+   git clone https://github.com/sn-extensions/react-blank-slate.git
+   ```
 
 1. Build the project:
 
-	``` bash
-	cd react-blank-slate
-	npm install
-	```
+   ```bash
+   cd react-blank-slate
+   npm install
+   ```
 
 1. Start the local web server to host the app.
 
-	``` bash
-	npm run start
-    ```		
+   ```bash
+   npm run start
+   ```
 
 1. In the command output from above, note the port number used. By default, it will probably be port 8080 if it's available. Open `localhost:8080` in your browser. You should see the text "Component is ready" on the page.
 
@@ -53,52 +53,52 @@ More detailed instructions on setting up your local environment can be found in 
 
 1. In order to count the number of words in a note, the component needs access to the "working note", or the note the user is currently editing. In `app/lib/BridgeManager.js`, uncomment the relevant parts of the permissions so it looks like this:
 
-	``` javascript
-	var permissions = [
-		{
-			name: "stream-context-item"
-		}
-	]
-	```
+   ```javascript
+   var permissions = [
+     {
+       name: 'stream-context-item',
+     },
+   ];
+   ```
 
 1. Uncomment the function `streamContextItem` so it looks like this:
 
-	``` javascript
-	this.componentManager.streamContextItem((item) => {
-		this.note = item;
-		this.notifyObserversOfUpdate();
-	})
-	```
+   ```javascript
+   this.componentManager.streamContextItem((item) => {
+     this.note = item;
+     this.notifyObserversOfUpdate();
+   });
+   ```
 
-	Whenever a change is made to the working note, the block in that function will be called automatically.
+   Whenever a change is made to the working note, the block in that function will be called automatically.
 
 1. In `app/components/Home.js`, create a function called `analyzeNote` that will count the number of words in the note's text:
 
-	``` javascript
-	analyzeNote() {
-		var s = this.state.note.content.text;
-		s = s.replace(/(^\s*)|(\s*$)/gi,"");//exclude  start and end white-space
-		s = s.replace(/[ ]{2,}/gi," ");//2 or more space to 1
-		s = s.replace(/\n /,"\n"); // exclude newline with a start spacing
-		let wordCount = s.split(' ').length;
-		this.setState({wordCount: wordCount});
-  	}
-	```
+   ```javascript
+   analyzeNote() {
+   	var s = this.state.note.content.text;
+   	s = s.replace(/(^\s*)|(\s*$)/gi,"");//exclude  start and end white-space
+   	s = s.replace(/[ ]{2,}/gi," ");//2 or more space to 1
+   	s = s.replace(/\n /,"\n"); // exclude newline with a start spacing
+   	let wordCount = s.split(' ').length;
+   	this.setState({wordCount: wordCount});
+   }
+   ```
 
 1. In the constructor of the Home class, call `analyzeNote` in the BridgeManager updateObserver so that it looks like this:
 
-	``` javascript
-	BridgeManager.get().addUpdateObserver(() => {
-		this.setState({note: BridgeManager.get().getNote()});
-		this.analyzeNote();
-	})
-	```
+   ```javascript
+   BridgeManager.get().addUpdateObserver(() => {
+     this.setState({ note: BridgeManager.get().getNote() });
+     this.analyzeNote();
+   });
+   ```
 
-5. In the `render` function, add the following inside the first `div` of the `{this.state.note}` conditional:
+1. In the `render` function, add the following inside the first `div` of the `{this.state.note}` conditional:
 
-	``` html
-	<p>Number of words: <strong>{this.state.wordCount}</strong></p>
-	```
+   ```html
+   <p>Number of words: <strong>{this.state.wordCount}</strong></p>
+   ```
 
 Save all changes, then reload the entire Standard Notes web page. You should now see your word count update live as you type.
 
@@ -108,7 +108,7 @@ Save all changes, then reload the entire Standard Notes web page. You should now
 
 If you'd like to see the finished product, switch to the `word-count` branch:
 
-``` bash
+```bash
 git checkout word-count
 ```
 
@@ -116,13 +116,13 @@ git checkout word-count
 
 Areas tell Standard Notes where to display a particular component. The current list of available areas are:
 
-| Key | Description |
-| :--- | :--- |
-| `tags-list` | replaces the tags pane with a custom component. We use this for the Folders component. |
-| `note-tags` | replaces the editor pane's tags area with a custom component. We use this for autocomplete tags. |
-| `editor-stack` | adds custom-sized components in a stack in the editor pane. This does not replace any native modules but simply adds layers on top of the editor pane. We use this for the Action Bar and GitHub Push components. |
-| `editor-editor` | replaces the plain text editor with a custom editor. We use this for all of our editors, including Markdown, Code, and Plus. |
-| `themes` | replaces the default css styles with a custom set of styles. |
+| Key             | Description                                                                                                                                                                                                       |
+| :-------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `tags-list`     | replaces the tags pane with a custom component. We use this for the Folders component.                                                                                                                            |
+| `note-tags`     | replaces the editor pane's tags area with a custom component. We use this for autocomplete tags.                                                                                                                  |
+| `editor-stack`  | adds custom-sized components in a stack in the editor pane. This does not replace any native modules but simply adds layers on top of the editor pane. We use this for the Action Bar and GitHub Push components. |
+| `editor-editor` | replaces the plain text editor with a custom editor. We use this for all of our editors, including Markdown, Code, and Plus.                                                                                      |
+| `themes`        | replaces the default css styles with a custom set of styles.                                                                                                                                                      |
 
 ## Next Steps
 

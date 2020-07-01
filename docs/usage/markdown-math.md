@@ -1,5 +1,5 @@
 ---
-id: "markdown-math"
+id: 'markdown-math'
 title: Markdown Math
 sidebar_label: Markdown Math
 ---

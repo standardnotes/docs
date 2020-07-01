@@ -3,6 +3,7 @@ id: 'how-do-i-manage-my-blog-settings-like-username-and-custom-domain'
 title: How do I manage my blog settings, like username and custom domain?
 sidebar_label: Settings
 ---
+
 There are a number of options in Settings for you to customize your blog. Settings can be found from any note in the Standard Notes web or desktop application by clicking _Actions_ and then **Settings** under your blog.
 
 ### Adding Details To Your Blog

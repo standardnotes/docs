@@ -3,6 +3,7 @@ id: encryption
 title: Encryption
 sidebar_label: Encryption
 ---
+
 ## Version 0.0.3
 
 It is important that there exist a separation of concerns between the server and the client. That is, the client should not trust the server, and vice versa.
@@ -15,10 +16,10 @@ Note: client-server connections must be made securely through SSL/TLS.
 
 #### Elaboration on User model encryption related fields
 
-| name | details |
-| --- | --- |
-| pw_cost | The number of iterations to be used by the KDF. The minimum for version 003 is 100,000. However note that non-native clients (web clients not using WebCrypto) will not be able to handle any more than 3,000 iterations. |
-| pw_nonce | A nonce for password derivation. This value is initially created by the client during registration. |
+| name     | details                                                                                                                                                                                                                   |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| pw_cost  | The number of iterations to be used by the KDF. The minimum for version 003 is 100,000. However note that non-native clients (web clients not using WebCrypto) will not be able to handle any more than 3,000 iterations. |
+| pw_nonce | A nonce for password derivation. This value is initially created by the client during registration.                                                                                                                       |
 
 ## Key Generation
 
@@ -60,6 +61,7 @@ Given a user inputted password `uip`, the client's job is to generate a password
 In general, when encrypting a string, one should use an IV so that two subsequent encryptions of the same content yield different results, and one should authenticate the data as to ascertain its authenticity and lack of tampering.
 
 In Standard Notes, two strings are encrypted for every item:
+
 - The item's `content`.
 - The item's `enc_item_key`.
 
@@ -90,7 +92,6 @@ Check the first 3 characters of the `content` string. This will be the encryptio
   2.  Split `item_key` in half; set encryption key `item_ek = first_half` and authentication key `item_ak = second_half`.
   3.  Decrypt `content` using `item_ek` and `item_ak` according to the "Decrypting a string using the 003 scheme" instructions below.
 
-
 ### Encrypting a string using the 003 scheme:
 
 Given a `string_to_encrypt`, an `encryption_key`, and an `auth_key`:
@@ -98,21 +99,22 @@ Given a `string_to_encrypt`, an `encryption_key`, and an `auth_key`:
 1.  Generate a random 128 bit string called IV.
 1.  Encrypt `string_to_encrypt` using `AES-CBC-256:Base64`, `encryption_key`, and `IV`:
 
-  ```
-  ciphertext = AES-Encrypt(string_to_encrypt, encryption_key, IV)
-  ```
+```
+ciphertext = AES-Encrypt(string_to_encrypt, encryption_key, IV)
+```
 
 1.  Generate `string_to_auth` by combining the encryption version (003), the item's UUID, the IV, and the ciphertext using the colon ":" character:
 
-  ```
-  string_to_auth = ["003", uuid, IV, ciphertext].join(":")
-  ```
+```
+string_to_auth = ["003", uuid, IV, ciphertext].join(":")
+```
 
 1.  Compute `auth_hash = HMAC-SHA256:Hex(string_to_auth, auth_key)`.
 1.  Generate the final result by combining the five components into a `:` separated string:
-  ```
-  result = ["003", auth_hash, uuid, IV, ciphertext].join(":")
-  ```
+
+```
+result = ["003", auth_hash, uuid, IV, ciphertext].join(":")
+```
 
 ### Decrypting a string using the 003 scheme:
 
@@ -121,13 +123,13 @@ Given a `string_to_decrypt`, an `encryption_key`, and an `auth_key`:
 1. Split the string into its constituent parts: `components = string_to_decrypt.split(":")`.
 1. Assign local variables:
 
-  ```
-  version = components[0]
-  auth_hash = components[1]
-  uuid = components[2]
-  IV = components[3]
-  ciphertext = components[4]
-  ```
+```
+version = components[0]
+auth_hash = components[1]
+uuid = components[2]
+IV = components[3]
+ciphertext = components[4]
+```
 
 1. Ensure that `uuid == item.uuid`. If not, abort decryption.
 1. Generate `string_to_auth = [version, uuid, IV, ciphertext].join(":")`.

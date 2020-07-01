@@ -1,5 +1,5 @@
 ---
-id: "bold-editor"
+id: 'bold-editor'
 title: Bold Editor
 sidebar_label: Bold Editor
 ---

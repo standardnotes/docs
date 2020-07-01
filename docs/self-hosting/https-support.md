@@ -3,6 +3,7 @@ id: https-support
 title: Securing HTTP traffic of your Sync server
 sidebar_label: Securing HTTP traffic of your Sync server
 ---
+
 ### Introduction
 
 These instructions will enable you to secure HTTP traffic of your `syncing-server`, using a reverse proxy with `Nginx`.
@@ -19,7 +20,7 @@ These instructions will enable you to secure HTTP traffic of your `syncing-serve
 
 1. Disable the default virtual host:
 
-``` bash
+```bash
 unlink /etc/nginx/sites-enabled/default
 ```
 
@@ -40,7 +41,7 @@ server {
 }
 ```
 
-Replace `yourdomain.com` with your actual domain. 
+Replace `yourdomain.com` with your actual domain.
 
 Also, adjust the following line if necessary:
 
@@ -50,13 +51,13 @@ proxy_pass http://127.0.0.1:3000
 
 1. Enable your new site:
 
-``` bash
+```bash
 ln -s /etc/nginx/sites-available/syncing-server.conf /etc/nginx/sites-enabled/syncing-server.conf
 ```
 
 1. Test the `Nginx` configuration with:
 
-``` bash
+```bash
 nginx -t
 ```
 
