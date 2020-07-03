@@ -13,4 +13,4 @@ You can publish any note you've written. You might also want to create a tag in 
 
 Note that _Actions_ are only available in the Standard Notes web or desktop applications.
 
-Each note can be published to only one Listed blog at a time. If you publish your note to one Listed blog and decide that you want to publish it in another Listed blog, delete the post in the [Settings for your first Listed blog](/listed/settings) and publish the post to your second blog. 
+Each note can be published to only one Listed blog at a time. If you publish your note to one Listed blog and decide that you want to publish it to a different Listed blog, delete the post in the [Settings for your first Listed blog](/listed/settings) and publish the post to your second blog.

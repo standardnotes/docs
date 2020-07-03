@@ -7,7 +7,7 @@ You can add the following metadata structure to the beginning of your note to se
 
 ```md
 ---
-key: value
+option: value
 ---
 
 Your story...
@@ -94,3 +94,5 @@ To server your note as a JavaScript Object Notation (JSON) file (e.g., to [publi
 metatype: json
 ---
 ```
+
+JSON notes are always published as private links.

@@ -10,6 +10,10 @@ module.exports = {
   organizationName: 'standardnotes', // Usually your GitHub org/user name. Originally 'facebook'
   projectName: 'docs', // Usually your repo name. Originally 'docusaurus'
   themeConfig: {
+    algolia: {
+      apiKey: 'f2899fea0369aeea336963e48a0e46dc',
+      indexName: 'standardnotes',
+    },
     image: 'img/favicon.png',
     announcementBar: {
       id: 'supportus',
