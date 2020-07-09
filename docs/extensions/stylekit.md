@@ -9,7 +9,7 @@ You can find a list of variables [here](/extensions/themes).
 
 ## License
 
-The Standard Notes StyleKit is licensed under the [AGPL-3.0-or-later](https://github.com/sn-extensions/StyleKit/blob/master/LICENSE).
+The Standard Notes StyleKit is licensed under the GNU [AGPL-3.0-or-later](https://github.com/sn-extensions/StyleKit/blob/master/LICENSE).
 
 ## Resources
 

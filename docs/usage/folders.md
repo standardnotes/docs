@@ -38,7 +38,7 @@ The Folders Component is written in JavaScript and compiled with Grunt.
 
 ## License
 
-The source code for the Folders Component is licensed under [AGPL-3.0-or-later](https://github.com/standardnotes/folders-component/blob/master/LICENSE).
+The source code for the Folders Component is licensed under GNU [AGPL-3.0-or-later](https://github.com/standardnotes/folders-component/blob/master/LICENSE).
 
 ## Resources
 

@@ -17,7 +17,7 @@ The Batch Manager is written in JavaScript and is compiled with Webpack.
 
 ## License
 
-The Standard Notes Batch Manager is licensed under the [AGPL-3.0-or-later](https://github.com/sn-extensions/batch-manager/blob/master/LICENSE).
+The Standard Notes Batch Manager is licensed under the GNU [AGPL-3.0-or-later](https://github.com/sn-extensions/batch-manager/blob/master/LICENSE).
 
 ## Resources
 

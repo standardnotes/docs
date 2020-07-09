@@ -19,7 +19,7 @@ The Standard Notes EditorKit is written in JavaScript and compiled with Webpack.
 
 ## License
 
-The Standard Notes EditorKit is licensed under the [AGPL-3.0-or-later](https://github.com/standardnotes/editor-kit/blob/master/LICENSE).
+The Standard Notes EditorKit is licensed under the GNU [AGPL-3.0-or-later](https://github.com/standardnotes/editor-kit/blob/master/LICENSE).
 
 ## Resources
 

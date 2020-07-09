@@ -22,7 +22,7 @@ module.exports = {
       {
         type: 'category',
         label: 'Actions',
-        items: ['usage/note-history'],
+        items: ['usage/note-history', 'usage/action-bar'],
       },
     ],
     FileSafe: ['filesafe/aws'],
