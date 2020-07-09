@@ -3,11 +3,27 @@ module.exports = {
     'Standard Notes Docs': ['welcome'],
     Usage: [
       'usage',
-      'usage/bold-editor',
-      'usage/markdown-basic',
-      'usage/markdown-math',
-      'usage/markdown-pro',
-      'usage/task-editor',
+      {
+        type: 'category',
+        label: 'Editors',
+        items: [
+          'usage/bold-editor',
+          'usage/markdown-basic',
+          'usage/markdown-math',
+          'usage/markdown-pro',
+          'usage/task-editor',
+        ],
+      },
+      {
+        type: 'category',
+        label: 'Folders and Tags',
+        items: ['usage/folders', 'usage/tags', 'usage/autocomplete-tags'],
+      },
+      {
+        type: 'category',
+        label: 'Actions',
+        items: ['usage/note-history'],
+      },
     ],
     FileSafe: ['filesafe/aws'],
     Listed: [
@@ -20,7 +36,7 @@ module.exports = {
       'listed/styles',
       'listed/options',
     ],
-    'Self Hosting': [
+    'Self-Hosting a Sync Server': [
       'self-hosting/getting-started',
       'self-hosting/ec2-nginx',
       'self-hosting/docker',
@@ -28,9 +44,14 @@ module.exports = {
       'self-hosting/managing-options',
       'self-hosting/https-support',
     ],
-    Extensions: [
+    'Building Extensions': [
       'extensions/intro',
       'extensions/building-an-extension',
+      {
+        type: 'category',
+        label: 'Editors',
+        items: ['extensions/editorkit', 'extensions/stylekit'],
+      },
       'extensions/local-setup',
       'extensions/themes',
       'extensions/actions',
@@ -38,7 +59,5 @@ module.exports = {
     ],
     Specification: ['specification/encryption', 'specification/sync'],
     Contribute: ['contribute'],
-    //Docusaurus: ['doc1', 'doc2', 'doc3'],
-    //Features: ['mdx'],
   },
 };

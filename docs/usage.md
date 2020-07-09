@@ -1,7 +1,7 @@
 ---
 id: usage
-title: Usage
-sidebar_label: Usage
+title: General Usage
+sidebar_label: General Usage
 ---
 
 ## Keyboard Shortcuts
@@ -45,9 +45,9 @@ sidebar_label: Usage
 
 These keyboard shortcuts have not been implemented but are reserved for future use. Developers who are interested in implementing keyboard shortcuts for their extensions should avoid using these shortcuts.
 
-- Ctrl/⌘ + T
-- Ctrl/⌘ + Shift + F
-- Ctrl/⌘ + Shift + L
+- Ctrl/⌘ + `T`
+- Ctrl/⌘ + Shift + `F`
+- Ctrl/⌘ + Shift + `L`
 
 ## Mobile Themes
 

@@ -9,15 +9,15 @@ You can use the [Folders](https://standardnotes.org/extensions/folders) extensio
 
 ## Terminology
 
-The words *tags* and *folders* can be used interchangeably in the Standard Notes context. However, when discussing their use on the web and desktop apps, it is helpful to distinguish them. The labels located at the top of the app are referred to as *tags* and the labels located on the left side of the app are referred to as *folders*.
+The words _tags_ and _folders_ can be used interchangeably in the Standard Notes context. However, when discussing their use on the web and desktop apps, it is helpful to distinguish them. The labels located at the top of the app are referred to as _tags_ and the labels located on the left side of the app are referred to as _folders_.
 
-When tags are nested inside other tags, the outer/higher level tag is called a *parent* tag and the inner/lower level tag is called a *child* tag.
+When tags are nested inside other tags, the outer/higher level tag is called a _parent_ tag and the inner/lower level tag is called a _child_ tag.
 
 Nested tags are recorded in a `Parent.Child` format and appear that way on mobile.
 
 ## Usage
 
-If you add a child tag to a note, the tag's parent tag may or may not be added depending on how you add the child tag. 
+If you add a child tag to a note, the tag's parent tag may or may not be added depending on how you add the child tag.
 
 If you create a note in a folder (e.g., the **All** folder) and add a child tag using the [Quick Tags](/usage/quick-tags) extension, its parent tag will also be added. If you create a note in the child folder, the child tag will automatically be added to the note, but the tag for the parent folder will not be added.
 

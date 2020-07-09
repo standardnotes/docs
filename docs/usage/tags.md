@@ -2,7 +2,8 @@
 title: Smart Tags
 sidebar_label: Smart Tags
 ---
-Questions: 
+
+Questions:
 
 - How do I view a list of untagged notes (and create other dynamic filters)?
 
