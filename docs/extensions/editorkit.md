@@ -1,6 +1,17 @@
 ---
 title: How to build editors with EditorKit
 sidebar_label: EditorKit
+description: How to use the Standard Notes EditorKit to build an editor.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - build an extension
+  - EditorKit
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 ## Introduction

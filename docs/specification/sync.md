@@ -2,6 +2,16 @@
 id: sync
 title: Sync
 sidebar_label: Sync
+description: Specification for the Standard Notes Sync protocol.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - Template
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 ## Introduction

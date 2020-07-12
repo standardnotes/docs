@@ -2,6 +2,16 @@
 id: about
 title: Creating a Blog From Your Notes with Listed and Standard Notes
 sidebar_label: About Listed
+description: Create a blog from your Standard Notes app with Listed.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - listed blogging platform
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 You can publish a public blog directly from Standard Notes using [Listed](https://listed.to). Read on to learn more about creating

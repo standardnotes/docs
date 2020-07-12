@@ -4,6 +4,7 @@ sidebar_label: Template
 description: Template
 keywords:
   - standard notes
+  - docs
   - notes app
   - end-to-end encryption
   - Template

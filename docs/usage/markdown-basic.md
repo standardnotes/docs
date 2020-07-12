@@ -2,6 +2,16 @@
 id: 'markdown-basic'
 title: Markdown Basic Editor
 sidebar_label: Markdown Basic
+description: How to use the Standard Notes Markdown Basic editor.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - markdown basic
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 ## Introduction

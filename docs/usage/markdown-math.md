@@ -2,6 +2,16 @@
 id: 'markdown-math'
 title: Markdown Math
 sidebar_label: Markdown Math
+description: How to use the Standard Notes Markdown Math editor.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - markdown math
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 ## Introduction

@@ -2,6 +2,17 @@
 id: themes
 title: Themes
 sidebar_label: Themes
+description: How to build a theme for Standard Notes.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - build an extension
+  - theme
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 Themes allow you to customize the look and feel of the Standard Notes app on all platforms.

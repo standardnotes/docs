@@ -1,6 +1,16 @@
 ---
 title: Autocomplete Tags
 sidebar_label: Autocomplete Tags
+description: How to use the Standard Notes quick tags extension.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - Template
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 Work more efficiently by quickly selecting from a live list of tags while you type. Supports keyboard shortcuts and folders.

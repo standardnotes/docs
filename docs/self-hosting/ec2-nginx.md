@@ -1,7 +1,19 @@
 ---
 id: ec2-nginx
-title: Self Hosting with EC2 and Nginx
+title: Self-Hosting with EC2 and Nginx
 sidebar_label: EC2 and Nginx
+description: How to self-host a Standard Notes Sync server with EC2 and Nginx.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - self-hosting
+  - sync server
+  - ec2 nginx
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 These instructions make the following assumptions:

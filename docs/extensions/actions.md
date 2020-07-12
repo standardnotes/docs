@@ -2,6 +2,17 @@
 id: actions
 title: Actions
 sidebar_label: Actions
+description: How to build Action components for Standard Notes.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - build an extension
+  - actions
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 Actions are menu-based extensions that allow you to build simple APIs that do not require a user interface. Actions have the power to receive the working note and modify it. We use actions for our Note History extension, as well as Listed and File Attachments.

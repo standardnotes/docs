@@ -2,6 +2,16 @@
 id: 'task-editor'
 title: Simple Task Editor
 sidebar_label: Task Editor
+description: How to use the Standard Notes simple task editor.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - simple task editor
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 ## Add Task

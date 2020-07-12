@@ -1,6 +1,16 @@
 ---
 title: How to contribute
 sidebar: How to contribute
+description: How to contribute to Standard Notes
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - Template
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 Thank you for your interest in contributing to Standard Notes. We are very happy that you want to help. The development for all our apps are done publicly on [GitHub](https://github.com/standardnotes). Here are some ways that you can help us improve Standard Notes:

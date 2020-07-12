@@ -2,6 +2,17 @@
 id: settings
 title: Listed Blog Settings
 sidebar_label: Settings
+description: Customize the settings for your Listed blog by Standard Notes.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - listed blogging platform
+  - settings
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 ## How do I manage my blog settings, like username and custom domain?

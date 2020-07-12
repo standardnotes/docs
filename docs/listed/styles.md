@@ -2,6 +2,17 @@
 id: 'styles'
 title: How do I change the colors, fonts, and general layout of my Listed blog?
 sidebar_label: Customize Styles
+description: How to customize styles (colors, fonts, and general layout) of your Listed blog.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - listed blogging platform
+  - customize styles
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 You can use CSS to stylize your blog as you see fit.

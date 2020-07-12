@@ -2,6 +2,16 @@
 id: building-an-extension
 title: Building an Extension
 sidebar_label: Building an Extension
+description: How to build an extension for Standard Notes.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - build an extension
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 In this section, we'll talk about building **components**, which are a type of extension related to user interface elements that can replace or be appended to areas of the Standard Notes app. They allow us to do cool things like custom editors, nested folders, tag autocomplete, and custom extension bars in the editor pane.

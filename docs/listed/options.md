@@ -1,6 +1,17 @@
 ---
 title: 'Per-Post Options'
 sidebar: 'Per-post Options'
+description: Per-post options for the Listed blogging platform.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - listed blogging platform
+  - per-post options
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 You can add the following metadata structure to the beginning of your note to select options for each note:

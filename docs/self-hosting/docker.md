@@ -1,7 +1,19 @@
 ---
 id: docker
-title: Self Hosting with Docker
+title: Self-hosting with Docker
 sidebar_label: Docker
+description: How to self-host a Standard Notes Sync server with Docker.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - self-hosting
+  - sync server
+  - docker
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 These instructions make the following assumptions:

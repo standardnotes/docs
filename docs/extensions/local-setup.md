@@ -2,6 +2,17 @@
 id: local-setup
 title: Local Setup
 sidebar_label: Local Setup
+description: How to set up a development environment to build a Standard Notes extension.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - build an extension
+  - local setup
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 These instructions describe how to run an extension in a local environment.

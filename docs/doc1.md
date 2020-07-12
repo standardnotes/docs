@@ -2,6 +2,16 @@
 id: doc1
 title: Style Guide
 sidebar_label: Style Guide
+description: Style Guide for the Standard Notes documentation.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - Template
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).

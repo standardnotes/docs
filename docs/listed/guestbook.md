@@ -2,6 +2,17 @@
 id: 'guestbook'
 title: 'What is my Listed guestbook?'
 sidebar_label: 'Guest Book'
+description: What is a Listed guestbook and how to use it.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - listed blogging platform
+  - listed guestbook
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 Each Listed blog comes with a guestbook, which readers can sign. A guestbook is a way for readers to leave comments on your blog, usually showing appreciation and offering encouragement.

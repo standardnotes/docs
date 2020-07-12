@@ -2,6 +2,17 @@
 id: 'subscribers'
 title: How do I email my subscribers about new articles and updates?
 sidebar_label: Email Subscribers
+description: How to email subscribers of your Listed blog of new articles and updates.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - listed blogging platform
+  - email subscribers
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 Each Listed blog comes with an email subscription box, so that readers can subscribe to your blog and stay up to date with new posts you may publish.

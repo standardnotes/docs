@@ -2,6 +2,18 @@
 id: https-support
 title: Securing HTTP traffic of your Sync server
 sidebar_label: Securing HTTP traffic of your Sync server
+description: How to secure HTTP traffic of your Standard Notes Sync server.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - self-hosting
+  - sync server
+  - secure http traffic
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 ### Introduction

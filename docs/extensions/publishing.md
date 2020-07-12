@@ -2,6 +2,17 @@
 id: publishing
 title: Publishing
 sidebar_label: Publishing
+description: How to publish an extension for Standard Notes.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - build an extension
+  - publish an extension
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 Once you've crafted the code for your extension, you'll need to create a JSON description of your package, so that it can be imported using the Extension manager.

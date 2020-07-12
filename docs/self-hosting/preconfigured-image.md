@@ -2,7 +2,23 @@
 id: preconfigured-image
 title: Preconfigured Image
 sidebar_label: Preconfigured Image
+description: Set up your Standard Notes Sync server with a preconfigured image.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - self-hosting
+  - sync server
+  - preconfigured image
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
+
+:::warning
+This is deprecated.
+:::
 
 Instead of setting up a server from scratch, you can use our public Amazon Machine Image (AMI), which launches (almost) ready to go with a working Standard Notes server.
 

@@ -2,6 +2,17 @@
 id: aws
 title: How to configure Amazon S3 with Standard Notes FileSafe
 sidebar_label: Amazon S3
+description: How to configure Amazon S3 with Standard Notes FileSafe.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - FileSafe
+  - AWS Amazon S3
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 ## Integration Guide

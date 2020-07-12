@@ -2,6 +2,17 @@
 id: 'publishing'
 title: How do I publish articles to Listed?
 sidebar_label: Publish articles
+description: How to publish articles to the Listed blogging platform by Standard Notes.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - listed blogging platform
+  - publish articles
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 You can publish any note you've written. You might also want to create a tag in Standard Notes called _blog_ and keep your blog notes in there. It's up to you! Publishing content is easy:

@@ -2,6 +2,16 @@
 id: 'bold-editor'
 title: Bold Editor
 sidebar_label: Bold Editor
+description: How to use the Standard Notes bold editor.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - bold editor
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 export const Highlight = ({children, color}) => ( <span style={{

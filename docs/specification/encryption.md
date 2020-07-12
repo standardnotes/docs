@@ -2,6 +2,16 @@
 id: encryption
 title: Encryption
 sidebar_label: Encryption
+description: Specification for the Standard Notes end-to-end encryption.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - encryption specification
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 ## Version 0.0.3

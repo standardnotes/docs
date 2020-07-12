@@ -1,7 +1,19 @@
 ---
 id: heroku
-title: Self Hosting with Heroku
+title: Self-Hosting with Heroku
 sidebar_label: Heroku
+description: Self-host a Standard Notes sync server with Heroku.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - self-host
+  - sync server
+  - Heroku
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 ## Getting started

@@ -2,6 +2,18 @@
 id: managing-options
 title: Managing options
 sidebar_label: Managing options
+description: Manage options for your Standard Notes Sync server.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - self-hosting
+  - sync server
+  - managing options
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 ## Disable new user registrations

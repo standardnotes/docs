@@ -2,11 +2,12 @@
 id: usage
 title: General Usage
 sidebar_label: General Usage
+description: How to use the Standard Notes app.
 keywords:
   - standard notes
   - notes app
   - end-to-end encryption
-  - Template
+  - usage
 image: /img/logo.png
 hide_title: false
 hide_table_of_contents: false

@@ -1,9 +1,16 @@
 ---
 id: welcome
 title: 'Welcome to the Standard Notes Documentation'
-hide_title: true
 sidebar_label: Welcome
-image: 'https://s3.amazonaws.com/standard-notes/media/SN-Icon-500.png'
+description: Welcome to the Standard Notes Documentation
+keywords:
+  - standard notes
+  - notes app
+  - end-to-end encryption
+  - welcome
+image: /img/logo.png
+hide_title: true
+hide_table_of_contents: false
 ---
 
 ## Welcome to the Standard Notes Documentation

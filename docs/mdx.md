@@ -1,6 +1,15 @@
 ---
 id: mdx
 title: Powered by MDX
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - Template
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 You can write JSX and use React components within your Markdown thanks to [MDX](https://mdxjs.com/).

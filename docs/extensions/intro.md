@@ -2,6 +2,16 @@
 id: intro
 title: Intro to Extensions
 sidebar_label: Intro to Extensions
+description: Documentation for the Standard Notes Extensions.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - build an extension
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 ## Philosophy

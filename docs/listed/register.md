@@ -2,6 +2,17 @@
 id: 'register'
 title: How do I register for a listed blog?
 sidebar_label: Register
+description: How to register for a Listed blog by Standard Notes.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - listed blogging platform
+  - register
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 Setting up your blog in Standard Notes is easy:

@@ -2,6 +2,16 @@
 id: 'markdown-pro'
 title: Markdown Pro
 sidebar_label: Markdown Pro
+description: How to use the Standard Notes Markdown Pro editor.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - markdown pro
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 ## Introduction

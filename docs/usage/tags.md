@@ -1,6 +1,16 @@
 ---
 title: Smart Tags
 sidebar_label: Smart Tags
+description: How to use the Standard Notes tags extension.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - tags
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 Questions:

@@ -1,6 +1,16 @@
 ---
 title: Action Bar
 sidebar_label: Action Bar
+description: How to use the Standard Notes Action Bar.
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - action bar
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 ## Introduction
