@@ -62,7 +62,7 @@ module.exports = {
           title: 'Resources',
           items: [
             {
-              label: 'Self Host a Sync Server',
+              label: 'Self-host a Sync Server',
               to: '/self-hosting/getting-started',
             },
             {
