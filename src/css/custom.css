@@ -6,19 +6,14 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #086dd6; /*#25c2a0;*/
-  --ifm-color-primary-dark: #0762c1; /*rgb(33, 175, 144);*/
-  --ifm-color-primary-darker: #075db6; /*rgb(31, 165, 136);*/
-  --ifm-color-primary-darkest: #064c96; /*rgb(26, 136, 112);*/
-  --ifm-color-primary-light: #0978eb; /*rgb(70, 203, 174);*/
-  --ifm-color-primary-lighter: #097df6; /*rgb(102, 212, 189);*/
-  --ifm-color-primary-lightest: #2a8ef7; /*rgb(146, 224, 208);*/
-  --ifm-code-font-size: 90%; /*95%;*/
-}
-
-html[data-theme='dark'] {
-  --ifm-background-color: #1e2125;
-  --ifm-background-surface-color: #121212;
+  --ifm-color-primary: #086dd6;
+  --ifm-color-primary-dark: #0762c1;
+  --ifm-color-primary-darker: #075db6;
+  --ifm-color-primary-darkest: #064c96;
+  --ifm-color-primary-light: #0978eb;
+  --ifm-color-primary-lighter: #097df6;
+  --ifm-color-primary-lightest: #2a8ef7;
+  --ifm-code-font-size: 90%;
 }
 
 .docusaurus-highlight-code-line {
@@ -26,6 +21,11 @@ html[data-theme='dark'] {
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] {
+  --ifm-background-color: #20232a;
+  --ifm-background-surface-color: #121212;
 }
 @media screen and (max-width: 996px) {
   :root {
@@ -56,6 +56,7 @@ article h2 {
   --ifm-global-shadow-md: 0px;
 }
 
+/* Adjust footer link colors */
 #__docusaurus > footer > div > div.text--center > div > a {
   color: unset;
 }

@@ -6,15 +6,15 @@ module.exports = {
   tagline: 'Extend Your Notes App',
   url: 'https://docs.standardnotes.org',
   baseUrl: '/',
-  favicon: 'img/favicon.png', //'img/favicon.ico',
-  organizationName: 'standardnotes', // Usually your GitHub org/user name. Originally 'facebook'
-  projectName: 'docs', // Usually your repo name. Originally 'docusaurus'
+  favicon: 'img/favicon.png',
+  organizationName: 'standardnotes', // Usually your GitHub org/user name.
+  projectName: 'docs', // Usually your repo name.
   themeConfig: {
     algolia: {
       apiKey: 'f2899fea0369aeea336963e48a0e46dc',
       indexName: 'standardnotes',
     },
-    image: 'img/favicon.png',
+    image: 'img/logo.png',
     announcementBar: {
       id: 'supportus',
       content:
@@ -25,7 +25,7 @@ module.exports = {
       title: 'Standard Notes',
       logo: {
         alt: 'Standard Notes Logo',
-        src: 'img/favicon.png',
+        src: 'img/logo.png',
       },
       links: [
         {

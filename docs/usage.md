@@ -2,6 +2,14 @@
 id: usage
 title: General Usage
 sidebar_label: General Usage
+keywords:
+  - standard notes
+  - notes app
+  - end-to-end encryption
+  - Template
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
 ---
 
 ## Keyboard Shortcuts
