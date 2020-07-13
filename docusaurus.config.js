@@ -34,13 +34,13 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://blog.standardnotes.org',
-          label: 'Blog',
+          href: 'https://standardnotes.org/help',
+          label: 'Help',
           position: 'right',
         },
         {
-          href: 'https://standardnotes.org/help',
-          label: 'Help',
+          href: 'https://blog.standardnotes.org',
+          label: 'Blog',
           position: 'right',
         },
         {
@@ -90,6 +90,10 @@ module.exports = {
               label: 'Community Forum',
               href: 'https://forum.standardnotes.org/',
             },
+            {
+              label: 'Listed Blogging Platform',
+              href: 'https://listed.to',
+            },
           ],
         },
         {
@@ -97,7 +101,7 @@ module.exports = {
           items: [
             {
               label: 'Help & Contact',
-              href: 'https://blog.standardnotes.org',
+              href: 'https://standardnotes.org/help',
             },
             {
               label: 'Twitter',
