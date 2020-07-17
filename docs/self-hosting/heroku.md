@@ -20,7 +20,7 @@ hide_table_of_contents: false
 
 1. Configure the Heroku Command Line Interface (CLI) using these steps: [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli).
 
-1. Deploy the Standard Notes server to your account using the following deploy link: https://heroku.com/deploy?template=https://github.com/standardnotes/syncing-server
+1. Deploy the Standard Notes server to your account using the following deploy link: https://heroku.com/deploy?template=https://github.com/standardnotes/syncing-server/tree/master
 
 1. Install a MySQL add-on. Here we'll use the JawsDB add-on: https://elements.heroku.com/addons/jawsdb. If you already have a database, you can skip this step.
 

@@ -45,9 +45,11 @@ SSH into your server and follow the steps below:
 
    ```bash
    $ cd ~
-   $ git clone https://github.com/standardnotes/syncing-server.git
+   $ git clone --single-branch --branch master https://github.com/standardnotes/syncing-server.git
    $ cd syncing-server
    ```
+
+> **Note:** The `master` branch has the latest, stable code. Use this branch in production environments.
 
 1. Install `bundler` and then install gems
 
