@@ -65,7 +65,7 @@ SSH into your server and follow the steps below:
    $ cp env.sample .env
    ```
 
-   Generate the `SECRET_KEY_BASE` with:
+   Generate the `SECRET_KEY_BASE` and paste the output in the `.env` file's `SECRET_KEY_BASE` key:
 
    ```bash
    $ bundle exec rake secret
@@ -77,7 +77,7 @@ SSH into your server and follow the steps below:
    $ sudo docker-compose up -d
    ```
 
-   This should load the `syncing-server` and MySQL database containers and run the necessary migrations.
+   This should load the `syncing-server` on `http://localhost:3000` and MySQL database containers and run the necessary migrations.
 
 1. Test your access to the server locally:
 
