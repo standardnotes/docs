@@ -52,37 +52,43 @@ Smart tags can be used to construct any kind of simple query. The components of 
 
 ## More Examples
 
-Show all notes that have tags that start with the letter b.
+Show all notes that have tags that start with the letter b:
 
 ```
 !["B-tags", "tags", "includes", ["title", "startsWith", "b"]]
 ```
 
-Show all notes whose title starts with Foo.
+Show all notes that have tags `Blog.Scheduled` or `Blog.Published`:
+
+```
+!["Blog Scheduled or Published", "tags", "includes", ["title", "in", ["Blog.Scheduled", "Blog.Published"]]]
+```
+
+Show all notes whose title starts with Foo:
 
 ```
 !["Foo Notes", "title", "startsWith", "Foo"]
 ```
 
-Show notes that are pinned.
+Show notes that are pinned:
 
 ```
 !["Pinned", "pinned", "=", true]
 ```
 
-Show notes that are not pinned.
+Show notes that are not pinned:
 
 ```
 !["Not Pinned", "pinned", "=", false]
 ```
 
-Show notes that have been updated within the last day.
+Show notes that have been updated within the last day:
 
 ```
 !["Last Day", "updated_at", ">", "1.days.ago"]
 ```
 
-Show notes whose text has more than 500 characters.
+Show notes whose text has more than 500 characters:
 
 ```
 !["Long", "text.length", ">", 500]
@@ -90,16 +96,22 @@ Show notes whose text has more than 500 characters.
 
 ### Compound Predicates
 
-You can use compound and/or predicates to combine multiple queries. For example, to get all notes that are pinned and locked:
+You can use compound and/or predicates to combine multiple queries. For example, to show all notes that are pinned and locked:
 
 ```
 !["Pinned & Locked", "ignored", "and", [["pinned", "=", true], ["locked", "=", true]]]
 ```
 
-To get all notes that are protected or pinned:
+Show all notes that are protected or pinned:
 
 ```
 !["Protected or Pinned", "ignored", "or", [["content.protected", "=", true], ["pinned", "=", true]]]
+```
+
+Show all notes that have tags `Blog.Scheduled` or `Blog.Published`.
+
+```
+!["Blog Scheduled or Published", "ignored", "or", [["tags", "includes", ["title", "=", "Blog.Scheduled"]], ["tags", "includes", ["title", "=", "Blog.Published"]]]]
 ```
 
 ## Attributes
@@ -118,10 +130,10 @@ Here are a list of note attributes that can be queried:
 
 If constructing a filter that queries tags, you can use the following tag attributes:
 
-- title
-- title.length
-- updated_at
-- created_at
+- `title`
+- `title.length`
+- `updated_at`
+- `created_at`
 
 Note that smart tags always query notes, and so the query you're building refers to notes firstmost. You reference tags by referring to a note's tags:
 
