@@ -20,10 +20,10 @@ The Markdown Pro editor (aka Advanced Markdown Editor) is a [derived editor](htt
 
 ## Features
 
-- Markdown
+- Markdown with live side-by-side rendering
 - Three views: Edit, Split, and Preview
 - Keyboard Shortcuts
-- Inline styling
+- Inline styling with HTML/CSS
 
 ## Keyboard Shortcuts
 
@@ -88,6 +88,21 @@ Copy this into your editor to see what it creates:
 | one more         |    row        |   Yay! 😆
 ```
 
+
+## Inline Styling
+
+You can personalize the styling of the editor with inline HTML/CSS. For example, if you want to use monospace font for the editor, add this to your note, and replace `var(--sn-stylekit-monospace-font)` with your preferred font-families:
+
+```html
+<style>.CodeMirror { font-family: var(--sn-stylekit-monospace-font); }</style>
+```
+
+If you want to use monospace font for the preview, adjust the styles for `.editor-preview`:
+
+```html
+<style>.CodeMirror, .editor-preview { font-family: var(--sn-stylekit-monospace-font); }</style>
+```
+
 #### Not yet available:
 
 - Footnotes
@@ -95,7 +110,7 @@ Copy this into your editor to see what it creates:
 - Subscript
 - Syntax Highlighting
 - Printing
-- Custom Fonts
+- Default Custom Fonts
 
 ## License
 
