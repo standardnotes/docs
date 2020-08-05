@@ -16,12 +16,16 @@ hide_table_of_contents: false
 
 ## Introduction
 
-The Markdown Math editor (aka Math Editor) is a [derived editor](https://standardnotes.org/help/77/what-are-editors) for Standard Notes. It is derived from the [Upmath](https://github.com/parpalak/upmath.me) editor by [Roman Parpalak](https://github.com/parpalak).
+The Markdown Math editor (aka Math Editor) is a [derived editor](https://standardnotes.org/help/77/what-are-editors) for Standard Notes. It is derived from the [Upmath](https://github.com/parpalak/upmath.me) editor by [Roman Parpalak](https://github.com/parpalak), but uses [KaTeX](https://katex.org) for client-side rendering. Because the original Upmath editor and the Markdown Math editor render math using slightly different methods, some TeX libraries and their environments may be available in the Upmath editor but not in the Markdown Math editor. For a full list of functions supported by KaTeX, please see the [official KaTeX documentation](https://katex.org/docs/supported.html).
 
 ## Features
 
-- KaTeX
-- Markdown
+- $\LaTeX$ math rendering via [$\KaTeX$](https://katex.org)
+- Markdown with side-by-side live rendering
+- Option to view the HTML source of the rendered markdown 
+- Option to overwrite the note text with the contents of a text file on local storage
+- Option to download the plain note text as a text file to save on local storage
+- Option to download the HTML source of the rendered text as a text file to save on local storage
 
 ## Style Guide
 
@@ -61,9 +65,9 @@ Copy this into your editor to see what it creates:
 
 ## $\KaTeX$
 
-This editor requires double dollar signs. For example, `$$\int_0^\infty f(x)dx$$` or `$$\pi$$` should yield $$\int_0^\infty f(x)dx$$ and $$\pi$$.
+The Markdown Math editor requires double dollar signs. For example, `$$\int_0^\infty f(x)dx$$` or `$$\pi$$` should yield $$\int_0^\infty f(x)dx$$ and $$\pi$$.
 
-For display mode KaTeX, use double dollar signs on new lines. For example,:
+To use Display Mode in the KaTeX, use double dollar signs on new lines. For example,
 
 ```latex
 Text
