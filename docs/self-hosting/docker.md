@@ -18,11 +18,10 @@ hide_table_of_contents: false
 
 These instructions make the following assumptions:
 
-- You've just finished setting up a Linux server (say, Ubuntu 16.04 64-bit) and have installed [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/) on it.
+- You've just finished setting up a Linux server (say, Ubuntu 20.04 64-bit) and have installed [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/) on it.
 - You've configured your security groups to allow for incoming SSH connections from your local IP.
 - You've configured a domain name (or subdomain) to point to your server's IP address.
 - You've configured the DNS to enable HTTPS for your domain (say, using Cloudflare).
-- You've installed Ruby +2.3 ([RVM](https://rvm.io/rvm/install) is recommended!).
 
 ### Getting started
 
@@ -51,26 +50,16 @@ SSH into your server and follow the steps below:
 
 > **Note:** The `master` branch has the latest, stable code. Use this branch in production environments.
 
-1. Install `bundler` and then install gems
-
-   ```bash
-   $ gem install bundler
-   ```
-
-   ```bash
-   $ bundle install
-   ```
-
 1. Create `.env` file in the project's directory:
 
    ```bash
    $ cp env.sample .env
    ```
 
-   Generate the `SECRET_KEY_BASE` and paste the output in the `.env` file's `SECRET_KEY_BASE` key:
+   Generate the secret key base and paste the output in the `.env` file's `SECRET_KEY_BASE` key:
 
    ```bash
-   $ bundle exec rake secret
+   $ openssl rand -hex 64
    ```
 
 1. Simply run:
