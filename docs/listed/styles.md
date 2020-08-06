@@ -20,7 +20,8 @@ You can use CSS to stylize your blog as you see fit.
 ### To stylize your blog with custom CSS:
 
 1. Create a new note in Standard Notes, and call it `theme.css` (name can be anything).
-2. Use the following metadata structure, overriding any of the variables with your desired color values.
+2. Use the metadata structure below, overriding any of the variables with your desired color values.
+3. Publish the note to your blog (the note won't actually appear in your blog, but the style changes will apply immediately)
 
 ```css
 ---
