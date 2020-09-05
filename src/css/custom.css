@@ -39,8 +39,20 @@ html[data-theme='dark'] {
   }
 }
 
+/* Announcement Bar */
 div[class^='announcementBarContent'] {
-  color: white;
+  background-color: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+}
+
+div[class^='announcementBarContent'] a {
+  color: var(--ifm-link-color);
+  text-decoration: inherit;
+}
+
+div[class^='announcementBarContent'] a:hover {
+  color: var(--ifm-link-color);
+  text-decoration: underline;
 }
 
 article header h1[class^='docTitle'] {

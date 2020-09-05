@@ -27,7 +27,7 @@ module.exports = {
         alt: 'Standard Notes Logo',
         src: 'img/logo.png',
       },
-      links: [
+      items: [
         {
           href: 'https://standardnotes.org/',
           label: 'Website',
@@ -119,10 +119,10 @@ module.exports = {
   },
   stylesheets: [
     {
-      href: '/katex/katex.min.css',
+      href: '/katex/v0.12.0/katex.min.css',
       type: 'text/css',
       integrity:
-        'sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq',
+        'sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X',
       crossorigin: 'anonymous',
     },
   ],
@@ -138,7 +138,6 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          homePageId: 'welcome',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/standardnotes/docs/edit/master/',
           routeBasePath: '/',

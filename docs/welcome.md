@@ -1,5 +1,6 @@
 ---
 id: welcome
+slug: /
 title: 'Welcome to the Standard Notes Documentation'
 sidebar_label: Welcome
 description: Welcome to the Standard Notes Documentation
