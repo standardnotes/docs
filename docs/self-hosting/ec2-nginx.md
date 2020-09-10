@@ -174,7 +174,6 @@ These instructions make the following assumptions:
 
    ```bash
    bundle install
-   bower install
    rails assets:precompile
    ```
 
