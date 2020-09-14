@@ -86,11 +86,7 @@ More detailed instructions on setting up your local environment can be found in 
 
    ```javascript
    analyzeNote() {
-   	var s = this.state.note.content.text;
-   	s = s.replace(/(^\s*)|(\s*$)/gi,"");//exclude  start and end white-space
-   	s = s.replace(/[ ]{2,}/gi," ");//2 or more space to 1
-   	s = s.replace(/\n /,"\n"); // exclude newline with a start spacing
-   	let wordCount = s.split(' ').length;
+   	let wordCount = this.state.note.content.text.match(/\b/gm).length / 2;
    	this.setState({wordCount: wordCount});
    }
    ```
