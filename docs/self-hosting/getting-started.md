@@ -22,6 +22,7 @@ We offer free and fast sync for unlimited devices to both free and paid users. I
 - [Docker](./docker.md)
 - [Heroku](./heroku.md)
 - [AWS EC2 and Nginx](./ec2-nginx.md)
+- [Raspberry Pi](./raspberry-pi.md)
 
 ### Recommendations
 
