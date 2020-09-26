@@ -41,6 +41,7 @@ module.exports = {
       'self-hosting/docker',
       'self-hosting/heroku',
       'self-hosting/ec2-nginx',
+      'self-hosting/raspberry-pi',
       'self-hosting/managing-options',
       'self-hosting/https-support',
     ],
