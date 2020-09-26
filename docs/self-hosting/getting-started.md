@@ -2,7 +2,7 @@
 id: getting-started
 title: Getting Started with Self-hosting
 sidebar_label: Getting Started
-description: Getting started with self-hosting a Standard Notes sync server.
+description: How to get started with self-hosting a Standard Notes syncing server.
 keywords:
   - standard notes
   - docs
@@ -31,6 +31,10 @@ We highly recommend that you use our [official Docker image](https://hub.docker.
 If you are new to Docker, please see the [official Docker documentation](https://docs.docker.com/get-started/) on how to get started.
 
 We recommend that you avoid setting up the syncing server from scratch with Nginx unless you are proficient with Nginx. Setting up the full architecture can be challenging without full knowledge of how the syncing server works.
+
+### Issues
+
+If you have any issues with setting up your syncing server, please [open an issue on GitHub](https://github.com/standardnotes/syncing-server/issues). 
 
 ## Web application
 
