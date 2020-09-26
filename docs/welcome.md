@@ -16,7 +16,7 @@ hide_table_of_contents: false
 
 ## Welcome to the Standard Notes Documentation
 
-Using this documentation, you should be able to learn everything you need to get started with using the editors, configuring FileSafe, self-hosting your own Standard Notes server, developing an extension for Standard Notes, or developing your own client application for Standard Notes (e.g., a command line application).
+This documentation explains how to get started with using Standard Notes, configuring FileSafe, self-hosting a Standard Notes syncing server, developing an extension for Standard Notes, and developing a client application for Standard Notes (e.g., a command line application).
 
 ## Topics
 
