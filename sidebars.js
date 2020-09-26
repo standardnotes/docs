@@ -38,9 +38,9 @@ module.exports = {
     ],
     'Self-Hosting a Sync Server': [
       'self-hosting/getting-started',
-      'self-hosting/ec2-nginx',
       'self-hosting/docker',
       'self-hosting/heroku',
+      'self-hosting/ec2-nginx',
       'self-hosting/managing-options',
       'self-hosting/https-support',
     ],
