@@ -16,6 +16,8 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
+## Introduction
+
 These instructions make the following assumptions:
 
 - You've just finished setting up a Linux server (say, Ubuntu 20.04 64-bit) and have installed [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/) on it.
@@ -23,7 +25,7 @@ These instructions make the following assumptions:
 - You've configured a domain name (or subdomain) to point to your server's IP address.
 - You've configured the DNS to enable HTTPS for your domain (say, using Cloudflare).
 
-### Getting started
+## Getting started
 
 SSH into your server and follow the steps below:
 
@@ -88,7 +90,7 @@ SSH into your server and follow the steps below:
 
 1. You're done!
 
-### Using your new server
+## Using your new server
 
 You can immediately start using your new server by using the Standard Notes app at https://app.standardnotes.org.
 
