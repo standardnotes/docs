@@ -17,15 +17,17 @@ hide_table_of_contents: false
 
 ### Edit
 
-| Result                  | Windows/Linux    | Mac           |
-| :---------------------- | :--------------- | :------------ |
-| Undo                    | Ctrl + Z         | ⌘ + Z         |
-| Redo                    | Ctrl + Y         | ⌘ + Y         |
-| Cut                     | Ctrl + X         | ⌘ + X         |
-| Copy                    | Ctrl + C         | ⌘ + C         |
-| Paste                   | Ctrl + V         | ⌘ + V         |
-| Paste and Match Style\* | Ctrl + Shift + V | ⌘ + Shift + V |
-| Select All              | Ctrl + A         | ⌘ + A         |
+| Result                            | Windows/Linux    | Mac                 |
+| :-------------------------------- | :--------------- | :------------------ |
+| Undo                              | Ctrl + Z         | ⌘ + Z               |
+| Redo                              | Ctrl + Y         | ⌘ + Y               |
+| Cut                               | Ctrl + X         | ⌘ + X               |
+| Copy                              | Ctrl + C         | ⌘ + C               |
+| Paste                             | Ctrl + V         | ⌘ + V               |
+| Paste and Match Style\*           | Ctrl + Shift + V | ⌘ + Shift + V       |
+| Select All                        | Ctrl + A         | ⌘ + A               |
+| Jump to the beginning of the note | Ctrl + Home      | ⌘ + Home or ⌘ + Up  |
+| Jump to the end of the note       | Ctrl + End       | ⌘ + End or ⌘ + Down |
 
 \*Paste and Match Style only works with Rich Text Editors such as the Bold and Plus editors
 
