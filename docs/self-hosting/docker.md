@@ -55,7 +55,7 @@ SSH into your server and follow the steps below:
 1. Create `.env` file in the project's directory:
 
    ```bash
-   $ cp env.sample .env
+   $ cp .env.sample .env
    ```
 
    Generate the secret key base and paste the output in the `.env` file's `SECRET_KEY_BASE` key:
