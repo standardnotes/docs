@@ -20,8 +20,8 @@
     "@docusaurus/preset-classic": "2.0.0-alpha.66",
     "clsx": "^1.1.1",
     "prettier": "^2.1.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "rehype-katex": "^4.0.0",
     "remark-math": "^3.0.1"
   },
