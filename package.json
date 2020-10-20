@@ -12,16 +12,16 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "pretty": "prettier --write 'src/**/*.{css,js,jsx,json}' 'docs/**/*.{md,mdx,js,jsx}' sidebars.js docusaurus.config.js"
+    "serve": "docusaurus serve",
+    "pretty": "prettier --write 'src/**/*.{html,css,js,jsx,json}' 'docs/**/*.{md,mdx,js,jsx}' sidebars.js docusaurus.config.js"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.63",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.63",
-    "classnames": "^2.2.6",
+    "@docusaurus/core": "2.0.0-alpha.66",
+    "@docusaurus/preset-classic": "2.0.0-alpha.66",
+    "clsx": "^1.1.1",
     "prettier": "^2.1.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.3",
     "rehype-katex": "^4.0.0",
     "remark-math": "^3.0.1"
   },
