@@ -114,6 +114,18 @@ Show all notes that have tags `Blog.Scheduled` or `Blog.Published`.
 !["Blog Scheduled or Published", "ignored", "or", [["tags", "includes", ["title", "=", "Blog.Scheduled"]], ["tags", "includes", ["title", "=", "Blog.Published"]]]]
 ```
 
+You can also use the not predicate to negate an expression. For example, to show all notes that do not have the `Unread` tag:
+
+```
+!["Read", "ignored", "not", ["tags", "includes", ["title", "=", "Unread"]]]
+```
+
+The not predicate can be combined with the compound operators. For example, to show all notes that have the `Blog` tag but not the `Blog.Published` one:
+
+```
+!["Blog Unpublished", "ignored", "and", [["tags", "includes", ["title", "=", "Blog"]], ["", "not", ["tags", "includes", ["title", "=", "Blog.Published"]]]]]
+```
+
 ## Attributes
 
 Here are a list of note attributes that can be queried:
@@ -158,3 +170,4 @@ Here are a list of operators that can be used to construct filters. The operator
 - `matches` (regex pattern)
 - `and` (for compound filters)
 - `or` (for compound filters)
+- `not` (negates the expected value, property is ignored)
