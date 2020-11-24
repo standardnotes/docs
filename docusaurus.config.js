@@ -14,12 +14,18 @@ module.exports = {
       apiKey: 'f2899fea0369aeea336963e48a0e46dc',
       indexName: 'standardnotes',
     },
-    image: 'img/logo.png',
     announcementBar: {
       id: 'supportus',
       content:
         '⭐️ Star us on <a target="_blank" rel="noopener noreferrer" href="https://github.com/standardnotes">GitHub</a>! ⭐️', //
     },
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+    },
+    hideableSidebar: true,
+    image: 'img/logo.png',
     navbar: {
       hideOnScroll: true,
       title: 'Standard Notes',
