@@ -152,9 +152,23 @@ module.exports = {
           showLastUpdateTime: true,
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom.scss'),
         },
       },
     ],
+  ],
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            to: '/extensions/intro', // string
+            from: ['/extensions/introduction'], // string | string[]
+          },
+        ],
+      },
+    ],
+    'docusaurus-plugin-sass',
   ],
 };
