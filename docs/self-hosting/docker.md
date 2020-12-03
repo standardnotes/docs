@@ -58,11 +58,17 @@ SSH into your server and follow the steps below:
    $ cp .env.sample .env
    ```
 
-   Generate the secret key base and paste the output in the `.env` file's `SECRET_KEY_BASE` key:
+   Generate the secret key base and paste the output in the `.env` file's `SECRET_KEY_BASE` and `PSEUDO_KEY_PARAMS_KEY` key:
 
    ```bash
    $ openssl rand -hex 64
    ```
+   
+   Also make sure to check the following variables:
+   + `DB_PASSWORD` create a password for your database and set it
+   + `RAILS_ENV` change this to "production" for production use, otherwise the access token time is very short and forces re-login
+   
+   These variables cannot be changed within the docker container once they are set. To change them, the container needs to be removed `docker-compose rm` and rebuilt (see next step). Data might be lost during this process. 
 
 1. Simply run:
 
