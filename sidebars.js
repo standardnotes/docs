@@ -58,7 +58,11 @@ module.exports = {
       'extensions/actions',
       'extensions/publishing',
     ],
-    Specification: ['specification/encryption', 'specification/sync'],
+    Specification: [
+      'specification/encryption',
+      'specification/encryption-003',
+      'specification/sync',
+    ],
     Contribute: ['contribute'],
   },
 };

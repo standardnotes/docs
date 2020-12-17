@@ -1,7 +1,8 @@
 ---
-id: encryption
-title: Encryption
-sidebar_label: Encryption
+slug: encryption/003/
+id: encryption-003
+title: Encryption Protocol Specification v003
+sidebar_label: Encryption v003
 description: Specification for the Standard Notes end-to-end encryption.
 keywords:
   - standard notes
