@@ -180,7 +180,7 @@ module.exports = {
             ],
           },
           {
-            to: '/specification/encryption',
+            to: '/specification/encryption/',
             from: ['/specification/'],
           },
         ],
