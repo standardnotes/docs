@@ -80,6 +80,11 @@ div[class^='announcementBar'] a:hover {
   margin: 0 auto;
 }
 
+/* Header Dropdown Menu */
+.dropdown__link {
+  font-size: inherit;
+}
+
 /* Remove shadow on the left */
 :root {
   --ifm-global-shadow-md: 0px;

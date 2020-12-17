@@ -35,6 +35,121 @@ module.exports = {
       },
       items: [
         {
+          label: 'Usage',
+          position: 'left',
+          items: [
+            { to: '/usage/', label: 'General', position: 'left' },
+            {
+              to: '/usage/bold-editor/',
+              label: 'Bold Editor',
+              position: 'left',
+            },
+            {
+              to: '/usage/bold-editor/',
+              label: 'Markdown Basic',
+              position: 'left',
+            },
+            {
+              to: '/usage/bold-editor/',
+              label: 'Markdown Math',
+              position: 'left',
+            },
+            {
+              to: '/usage/bold-editor/',
+              label: 'Markdown Pro',
+              position: 'left',
+            },
+            {
+              to: '/usage/task-editor/',
+              label: 'Task Editor',
+              position: 'left',
+            },
+            {
+              to: '/usage/folders/',
+              label: 'Folders',
+              position: 'left',
+            },
+            {
+              to: '/usage/tags/',
+              label: 'Tags',
+              position: 'left',
+            },
+            {
+              to: '/usage/task-editor/',
+              label: 'Task Editor',
+              position: 'left',
+            },
+          ],
+        },
+        {
+          label: 'Listed',
+          position: 'left',
+          items: [
+            { to: '/listed/about/', label: 'About', position: 'left' },
+            {
+              to: '/listed/register/',
+              label: 'Register',
+              position: 'left',
+            },
+            {
+              to: '/listed/publishing/',
+              label: 'Publish',
+              position: 'left',
+            },
+            {
+              to: '/listed/settings/',
+              label: 'Settings',
+              position: 'left',
+            },
+            {
+              to: '/listed/subscribers/',
+              label: 'Subscribers',
+              position: 'left',
+            },
+            {
+              to: '/listed/guestbook/',
+              label: 'Guestbook',
+              position: 'left',
+            },
+            {
+              to: '/listed/styles/',
+              label: 'Customize Styles',
+              position: 'left',
+            },
+            {
+              to: '/listed/options/',
+              label: 'Per-post Options',
+              position: 'left',
+            },
+          ],
+        },
+        {
+          label: 'Self-Hosting',
+          position: 'left',
+          items: [
+            {
+              to: '/self-hosting/getting-started/',
+              label: 'Getting Started',
+              position: 'left',
+            },
+            {
+              to: '/self-hosting/docker/',
+              label: 'Docker',
+              position: 'left',
+            },
+            {
+              to: '/self-hosting/managing-options/',
+              label: 'Managing Options',
+              position: 'left',
+            },
+            {
+              to: '/self-hosting/https-support/',
+              label: 'HTTPS Support',
+              position: 'left',
+            },
+          ],
+        },
+        {
           href: 'https://standardnotes.org/',
           label: 'Website',
           position: 'right',
