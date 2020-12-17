@@ -164,7 +164,24 @@ module.exports = {
         redirects: [
           {
             to: '/extensions/intro', // string
-            from: ['/extensions/introduction'], // string | string[]
+            from: [
+              // string | string[]
+              '/extensions/introduction',
+              '/extensions/components/',
+              '/extensions/',
+              '/extensions/intro-to-extensions/',
+            ],
+          },
+          {
+            to: '/self-hosting/getting-started',
+            from: [
+              '/self-hosting/',
+              '/self-hosting/getting-started-with-self-hosting',
+            ],
+          },
+          {
+            to: '/specification/encryption',
+            from: ['/specification/'],
           },
         ],
       },
