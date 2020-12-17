@@ -16,6 +16,8 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
+# Preconfigured Image
+
 :::warning
 This is deprecated.
 :::
