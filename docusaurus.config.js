@@ -260,7 +260,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/standardnotes/docs/edit/master/',
+          editUrl: 'https://github.com/standardnotes/docs/edit/main/',
           routeBasePath: '/',
           remarkPlugins: [math],
           rehypePlugins: [katex],
