@@ -1,5 +1,7 @@
 ---
-title: 'Action: GitHub Push'
+slug: github-push/
+id: github-push
+title: GitHub Push
 sidebar_label: GitHub Push
 description: How to use the Standard Notes GitHub Push extension.
 keywords:
