@@ -7,6 +7,7 @@ module.exports = {
         type: 'category',
         label: 'Editors',
         items: [
+          'usage/what-are-editors',
           'usage/bold-editor',
           'usage/markdown-basic',
           'usage/markdown-math',

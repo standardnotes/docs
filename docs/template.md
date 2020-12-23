@@ -1,4 +1,6 @@
 ---
+slug: template/
+id: template
 title: Template
 sidebar_label: Template
 description: Template
