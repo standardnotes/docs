@@ -23,7 +23,16 @@ module.exports = {
       {
         type: 'category',
         label: 'Actions',
-        items: ['usage/note-history', 'usage/action-bar', 'usage/github-push'],
+        items: ['usage/action-bar', 'usage/github-push'],
+      },
+      {
+        type: 'category',
+        label: 'Data Care',
+        items: [
+          'usage/note-history',
+          'usage/cloud-backups',
+          'usage/email-backups',
+        ],
       },
     ],
     FileSafe: ['filesafe/aws'],
