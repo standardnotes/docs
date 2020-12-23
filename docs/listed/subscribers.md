@@ -15,6 +15,14 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
+<!-- Copied from https://standardnotes.org/help/64/how-do-i-email-my-subscribers-about-new-articles-and-updates -->
+
+import CanonicalUrl from '../../src/components/CanonicalUrl';
+
+<CanonicalUrl
+ canonicalUrl="https://standardnotes.org/help/64/how-do-i-email-my-subscribers-about-new-articles-and-updates"
+/>
+
 Each Listed blog comes with an email subscription box, so that readers can subscribe to your blog and stay up to date with new posts you may publish.
 
 When you write a new post and want to email your subscribers, choose _Actions_ in the Standard Notes web or desktop app, then choose **Email Subscribers**.

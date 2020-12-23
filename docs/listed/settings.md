@@ -15,6 +15,14 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
+<!-- Copied from https://standardnotes.org/help/63/how-do-i-manage-my-blog-settings-like-username-and-custom-domain -->
+
+import CanonicalUrl from '../../src/components/CanonicalUrl';
+
+<CanonicalUrl
+ canonicalUrl="https://standardnotes.org/help/63/how-do-i-manage-my-blog-settings-like-username-and-custom-domain"
+/>
+
 ## How do I manage my blog settings, like username and custom domain?
 
 There are a number of options in Settings for you to customize your blog. Settings can be found from any note in the Standard Notes web or desktop application by clicking _Actions_ and then **Settings** under your blog.

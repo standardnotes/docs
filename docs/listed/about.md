@@ -14,6 +14,14 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
+<!-- Copied from https://standardnotes.org/help/60/creating-a-blog-from-your-notes-with-listed-and-standard-notes -->
+
+import CanonicalUrl from '../../src/components/CanonicalUrl';
+
+<CanonicalUrl
+ canonicalUrl="https://standardnotes.org/help/60/creating-a-blog-from-your-notes-with-listed-and-standard-notes"
+/>
+
 You can publish a public blog directly from Standard Notes using [Listed](https://listed.to). Read on to learn more about creating
 your own Listed blog.
 

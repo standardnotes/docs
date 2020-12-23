@@ -15,6 +15,14 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
+<!-- Copied from https://standardnotes.org/help/66/how-do-i-change-the-colors-fonts-and-general-layout-of-my-listed-blog -->
+
+import CanonicalUrl from '../../src/components/CanonicalUrl';
+
+<CanonicalUrl
+ canonicalUrl="https://standardnotes.org/help/66/how-do-i-change-the-colors-fonts-and-general-layout-of-my-listed-blog"
+/>
+
 You can use CSS to stylize your blog as you see fit.
 
 ### To stylize your blog with custom CSS:

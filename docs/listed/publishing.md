@@ -15,6 +15,14 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
+<!-- Copied from https://standardnotes.org/help/62/how-do-i-publish-articles-to-listed -->
+
+import CanonicalUrl from '../../src/components/CanonicalUrl';
+
+<CanonicalUrl
+ canonicalUrl="https://standardnotes.org/help/62/how-do-i-publish-articles-to-listed"
+/>
+
 You can publish any note you've written. You might also want to create a tag in Standard Notes called _blog_ and keep your blog notes in there. It's up to you! Publishing content is easy:
 
 1. Under _Actions_ in the note you want to publish, click **Publish to Blog** and your post will go live.

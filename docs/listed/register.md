@@ -15,6 +15,14 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
+<!-- Copied from https://standardnotes.org/help/61/how-do-i-register-for-a-listed-blog -->
+
+import CanonicalUrl from '../../src/components/CanonicalUrl';
+
+<CanonicalUrl
+ canonicalUrl="https://standardnotes.org/help/61/how-do-i-register-for-a-listed-blog"
+/>
+
 Setting up your blog in Standard Notes is easy:
 
 1. Visit the [Listed](https://listed.to/) homepage.
