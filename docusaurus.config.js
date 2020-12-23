@@ -288,6 +288,10 @@ module.exports = {
             ],
           },
           {
+            to: '/usage/filesafe/aws/',
+            from: ['/filesafe/aws/'],
+          },
+          {
             to: '/self-hosting/getting-started',
             from: [
               '/self-hosting/',

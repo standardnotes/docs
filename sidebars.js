@@ -34,8 +34,12 @@ module.exports = {
           'usage/email-backups',
         ],
       },
+      {
+        type: 'category',
+        label: 'FileSafe',
+        items: ['usage/filesafe', 'usage/filesafe-aws'],
+      },
     ],
-    FileSafe: ['filesafe/aws'],
     Listed: [
       'listed/about',
       'listed/register',

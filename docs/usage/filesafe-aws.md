@@ -1,8 +1,9 @@
 ---
-id: aws
-title: How to configure Amazon S3 with Standard Notes FileSafe
+slug: filesafe/aws/
+id: filesafe-aws
+title: FileSafe with Amazon S3
 sidebar_label: Amazon S3
-description: How to configure Amazon S3 with Standard Notes FileSafe.
+description: How to use Amazon S3 with Standard Notes FileSafe.
 keywords:
   - standard notes
   - docs
@@ -15,7 +16,7 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-## Integration Guide
+## Introduction
 
 This guide will help you set up your AWS account with an S3 bucket and User to be used by the Standard Notes FileSafe extension.
 
