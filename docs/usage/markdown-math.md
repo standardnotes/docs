@@ -22,7 +22,7 @@ The Markdown Math editor (aka Math Editor) is a [derived editor](https://standar
 
 - $\LaTeX$ math rendering via [$\KaTeX$](https://katex.org)
 - Markdown with side-by-side live rendering
-- Option to view the HTML source of the rendered markdown 
+- Option to view the HTML source of the rendered markdown
 - Option to overwrite the note text with the contents of a text file on local storage
 - Option to download the plain note text as a text file to save on local storage
 - Option to download the HTML source of the rendered text as a text file to save on local storage

@@ -34,7 +34,7 @@ We recommend that you avoid setting up the syncing server from scratch with Ngin
 
 ### Issues
 
-If you have any issues with setting up your syncing server, please [open an issue on GitHub](https://github.com/standardnotes/syncing-server/issues). 
+If you have any issues with setting up your syncing server, please [open an issue on GitHub](https://github.com/standardnotes/syncing-server/issues).
 
 ## Web application
 
