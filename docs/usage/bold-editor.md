@@ -50,8 +50,8 @@ The search feature in the [Minimist editor](https://standardnotes.org/extensions
 | Superscript        | Ctrl/⌘ + h                       |
 | Subscript          | Ctrl/⌘ + l                       |
 | Link               | Ctrl/⌘ + k                       |
-| Ordered List       | Ctrl/⌘ + 7                       |
-| Unordered List     | Ctrl/⌘ + 8                       |
+| Ordered List       | Ctrl/⌘ + Shift + 7               |
+| Unordered List     | Ctrl/⌘ + Shift + 8               |
 | Outdent            | Ctrl/⌘ + [                       |
 | Indent             | Ctrl/⌘ + ]                       |
 | Normal (Pagagraph) | Ctrl/⌘ + Alt + 0                 |
