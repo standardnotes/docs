@@ -16,16 +16,15 @@ hide_table_of_contents: false
 
 ## Welcome to the Standard Notes Documentation
 
-This documentation explains how to get started with using Standard Notes, configuring FileSafe, self-hosting a Standard Notes syncing server, developing an extension for Standard Notes, and developing a client application for Standard Notes (e.g., a command line application).
+This documentation explains how to get started with using Standard Notes, publishing a blog with Listed, self-hosting a Standard Notes syncing server, developing an extension to work with Standard Notes, and developing a client application for Standard Notes (e.g., a command line application).
 
 ## Topics
 
-- [Using the Editors](/usage)
-- [Filesafe](/filesafe/aws)
-- [Listed](/listed/creating-a-blog-from-your-notes-with-listed-and-standard-notes)
-- [Self-hosting a Syncing Server](/self-hosting/getting-started)
-- [Extensions](/extensions/intro)
-- [Encryption Specification](/specification/encryption)
+- [Using Standard Notes](/usage/)
+- [Publishing a blog with Listed](/listed/about/)
+- [Self-hosting a Syncing Server](/self-hosting/getting-started/)
+- [Developing Extensions](/extensions/intro/)
+- [Encryption Specification](/specification/encryption/)
 
 ## Staying informed
 
