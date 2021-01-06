@@ -5,10 +5,16 @@
 1. If possible, name the new documentation file using the desired URL path for that file. The default `id` is the name of the file before the `.md`, so naming the documentation files this way allows linking between docs with path names (e.g., `./self-hosting/getting-started.md`).
 2. Copy the contents of `docs/template` into your new documentation file. The template contains standard keywords and a link to the standard meta image.
 3. In VSCode, right-click the word `Template` and click "Change all occurrences".
-4. Finish writing the new documentation. 
+4. Finish writing the new documentation.
 5. Add the `id` to `sidebars.js`.
 
-When possible, use path names when linking between docs (see #1 above). This improves the editing experience because we can easily switch between docs in VSCode by pressing `Ctrl/Cmd` and clicking the links. Docusaurus will automatically remove the `.md`. 
+When possible, use path names when linking between docs (see #1 above). This improves the editing experience because we can easily switch between docs in VSCode by pressing `Ctrl/Cmd` and clicking the links. Docusaurus will automatically remove the `.md`.
+
+## Configuring Search
+
+The search is powered by [Algolia DocSearch](https://docsearch.algolia.com/), a free service. Thank you, Algolia!
+
+The DocSearch configuration file for Standard Notes is available at [algolia/docsearch-configs/../standardnotes.json](https://github.com/algolia/docsearch-configs/blob/master/configs/standardnotes.json). Try to keep it up to date with [algolia/docsearch-configs/../docusaurus-2.json](https://github.com/algolia/docsearch-configs/blob/master/configs/docusaurus-2.json).
 
 ## Development
 
