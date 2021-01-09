@@ -40,29 +40,9 @@ module.exports = {
           items: [
             { to: '/usage/', label: 'General', position: 'left' },
             {
-              to: '/usage/bold-editor/',
-              label: 'Bold Editor',
-              position: 'left',
-            },
-            {
-              to: '/usage/bold-editor/',
-              label: 'Markdown Basic',
-              position: 'left',
-            },
-            {
-              to: '/usage/bold-editor/',
-              label: 'Markdown Math',
-              position: 'left',
-            },
-            {
-              to: '/usage/bold-editor/',
-              label: 'Markdown Pro',
-              position: 'left',
-            },
-            {
-              to: '/usage/task-editor/',
-              label: 'Task Editor',
-              position: 'left',
+              to: 'usage/what-are-editors/',
+              label: 'Editors',
+              position: 'right',
             },
             {
               to: '/usage/folders/',
@@ -75,8 +55,23 @@ module.exports = {
               position: 'left',
             },
             {
-              to: '/usage/task-editor/',
-              label: 'Task Editor',
+              to: '/usage/note-history/',
+              label: 'Note History',
+              position: 'left',
+            },
+            {
+              to: '/usage/cloud-backups/',
+              label: 'Cloud Backups',
+              position: 'left',
+            },
+            {
+              to: '/usage/email-backups/',
+              label: 'Email Backups',
+              position: 'left',
+            },
+            {
+              to: '/usage/filesafe/',
+              label: 'FileSafe',
               position: 'left',
             },
           ],
