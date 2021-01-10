@@ -39,6 +39,15 @@ module.exports = {
         label: 'FileSafe',
         items: ['usage/filesafe', 'usage/filesafe-aws'],
       },
+      {
+        type: 'category',
+        label: 'Two-factor Authentication',
+        items: [
+          'usage/2fa',
+          'usage/2fa-store-secret-key',
+          'usage/2fa-lost-secret-key',
+        ],
+      },
     ],
     Listed: [
       'listed/about',

@@ -74,6 +74,11 @@ module.exports = {
               label: 'FileSafe',
               position: 'left',
             },
+            {
+              to: '/usage/2fa/',
+              label: 'Two-factor Auth',
+              position: 'left',
+            },
           ],
         },
         {
