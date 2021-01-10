@@ -5,6 +5,11 @@ module.exports = {
       'usage',
       {
         type: 'category',
+        label: 'Mobile',
+        items: ['usage/mobile'],
+      },
+      {
+        type: 'category',
         label: 'Editors',
         items: [
           'usage/what-are-editors',

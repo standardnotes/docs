@@ -59,7 +59,3 @@ These keyboard shortcuts have not been implemented but are reserved for future u
 - Ctrl/⌘ + `T`
 - Ctrl/⌘ + Shift + `F`
 - Ctrl/⌘ + Shift + `L`
-
-## Mobile Themes
-
-The mobile app will download a theme once and cache it indefinitely. To update or refresh a custom theme, you can press and hold on the theme name in the list and re-download it from the server.
