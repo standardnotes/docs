@@ -33,9 +33,9 @@ Because we integrate directly with your cloud provider, we do not instate any st
 
 ## How to use FileSafe
 
-To use FileSafe, sign up for [Extended](https://standardnotes.org/extensions), then:
+To use FileSafe, sign up for [Extended](https://standardnotes.org/extensions) and [activate](https://standardnotes.org/help/29/how-do-i-install-extensions-once-i-ve-signed-up-for-extended) your Extended benefits, then:
 
-1. In the **Extensions** menu, scroll down to **Components**, then install and activate **FileSafe**.
+1. In the **Extensions** menu, scroll down to the bottom of **Repository**, then install and activate **FileSafe**.
 2. At the bottom of your working note, next to **[Action Bar](./action-bar.md)**, click **FileSafe** to open the FileSafe tab.
 3. Under _Integrations_, click **Add New** to authorize each provider that you wish to use. To set up AWS S3, please see the [additional instructions](./filesafe-aws.md).
 4. Under _Keys_, click **Create New** to create a new encryption key for your files. These keys are used to encrypt your files before they are uploaded to the cloud providers. You can export these encryption keys and store them in a safe place.
@@ -45,7 +45,7 @@ To use FileSafe, sign up for [Extended](https://standardnotes.org/extensions), t
 
 If you are using the Bold Editor, then you can embed images and other files stored in FileSafe inside your notes:
 
-1. Store an image with FileSafe as described above.
+1. Upload an image with FileSafe as described above.
 2. Click the name of your image at the top of the FileSafe component or under _All Files_.
 3. Click "Copy Insert Link". The insert link will look something like `[FileSafe:277fd264-391a-42ee-a831-6a3d188eef90:my-image.png]`.
 4. Open your note with the Bold Editor.
