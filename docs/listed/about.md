@@ -69,6 +69,17 @@ Your Listed blog supports [CSS formatting](./styles.md), so you are welcome to c
 
 ### If I pour all my energy blogging on my Listed blog, how do I know you will be here tomorrow? Will I just one day lose all my data?
 
-We're people just like you and we hate seeing our favorite tools that we've come to depend on shutdown or disappear. This is why we've published our [Longevity Statement](https://standardnotes.org/longevity) to address this very question.
+We're people just like you and we hate seeing our favorite tools that we've come to depend on shutdown or disappear. That's why we've published our [Longevity Statement](https://standardnotes.org/longevity) to address this very question.
 
 The short answer when it comes to Listed Blogs and Standard Notes is, _your data is **your** data, and you will always have control and access to your data_.
+
+### Are limitations to what I can do with my Listed blog?
+
+Yes, there are limitations. For example, the following are currently not supported:
+
+- Custom `robots.txt`
+- Custom Favicons
+- Custom JavaScript (e.g., for analytics services such as Google Analytics or Plausible Analytics)
+- Images that are not already accessible from public-facing URLs such as images stored in [FileSafe](../usage/filesafe.md)
+
+Content that is in violation of the Standard Notes [Code of Conduct](https://github.com/standardnotes/web/blob/develop/CODE_OF_CONDUCT.md) or is otherwise illegal may be removed.
