@@ -37,9 +37,21 @@ To use FileSafe, sign up for [Extended](https://standardnotes.org/extensions) an
 
 1. In the **Extensions** menu, scroll down to the bottom of **Repository**, then install and activate **FileSafe**.
 2. At the bottom of your working note, next to **[Action Bar](./action-bar.md)**, click **FileSafe** to open the FileSafe tab.
-3. Under _Integrations_, click **Add New** to authorize each provider that you wish to use. To set up AWS S3, please see the [additional instructions](./filesafe-aws.md).
+3. Under _Integrations_, click **Add New** to authorize each provider that you wish to use.
 4. Under _Keys_, click **Create New** to create a new encryption key for your files. These keys are used to encrypt your files before they are uploaded to the cloud providers. You can export these encryption keys and store them in a safe place.
 5. At the top of the FileSafe tab, click **Attach File** to add a new file.
+
+### Integrations
+
+There are four options for FileSafe integrations: DropBox, Google Drive, WebDAV, and AWS S3. To set up AWS S3, please see the [additional instructions](./filesafe-aws.md).
+
+#### NextCloud
+
+Although not confirmed, some members of the community have reported that the following setup works for NextCloud:
+
+- Server-URL: `https://{Your domain/hostname}/nextcloud/remote.php/dav`
+- Username/Password: App credentials (not your actual login credentials).
+- Directory: `files/{Your subfolder}`
 
 ## FileSafe with the Bold Editor
 
