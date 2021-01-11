@@ -55,18 +55,8 @@ module.exports = {
               position: 'left',
             },
             {
-              to: '/usage/note-history/',
-              label: 'Note History',
-              position: 'left',
-            },
-            {
-              to: '/usage/cloud-backups/',
-              label: 'Cloud Backups',
-              position: 'left',
-            },
-            {
-              to: '/usage/email-backups/',
-              label: 'Email Backups',
+              to: '/usage/backups/',
+              label: 'Backups',
               position: 'left',
             },
             {
