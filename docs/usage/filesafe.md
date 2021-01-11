@@ -47,11 +47,13 @@ There are four options for FileSafe integrations: DropBox, Google Drive, WebDAV,
 
 #### NextCloud
 
-Although not confirmed, some members of the community have reported that the following WebDV setup works for NextCloud:
+Although not confirmed, some members of the community have reported that the following WebDAV setup works for NextCloud:
 
 - Server URL: `https://{Your domain/hostname}/nextcloud/remote.php/dav`
 - Username/Password: App credentials (not your actual login credentials).
 - Directory: `files/{Your subfolder}`
+
+Alternatively, you can try following the [official NextCloud docs](https://docs.nextcloud.com/server/16/user_manual/files/access_webdav.html) for how to use WebDAV.
 
 ## FileSafe with the Bold Editor
 
