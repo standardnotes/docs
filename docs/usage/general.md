@@ -1,5 +1,6 @@
 ---
-id: usage
+slug: /usage/
+id: general
 title: General Usage
 sidebar_label: General Usage
 description: How to use the Standard Notes app.

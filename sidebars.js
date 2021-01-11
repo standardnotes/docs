@@ -2,7 +2,7 @@ module.exports = {
   someSidebar: {
     'Standard Notes Docs': ['welcome'],
     Usage: [
-      'usage',
+      'usage/general',
       {
         type: 'category',
         label: 'Mobile',
