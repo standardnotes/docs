@@ -3,6 +3,7 @@ module.exports = {
     'Standard Notes Docs': ['welcome'],
     Usage: [
       'usage/general',
+      'usage/install-extensions',
       {
         type: 'category',
         label: 'Mobile',
@@ -17,6 +18,7 @@ module.exports = {
           'usage/markdown-basic',
           'usage/markdown-math',
           'usage/markdown-pro',
+          'usage/secure-spreadsheets',
           'usage/task-editor',
         ],
       },
