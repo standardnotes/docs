@@ -34,9 +34,10 @@ module.exports = {
         type: 'category',
         label: 'Data Care',
         items: [
-          'usage/note-history',
-          'usage/cloud-backups',
+          'usage/backups',
           'usage/email-backups',
+          'usage/cloud-backups',
+          'usage/note-history',
         ],
       },
       {
