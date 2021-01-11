@@ -31,6 +31,10 @@ Themes on mobile are found in the menu at the top left of your screen after open
 
 If a theme is not loading or you want to re-install the latest version of the theme, press and hold the name of the theme and tap "Redownload". Then, tap the name of the theme again to activate it.
 
+## Quick Actions
+
+When viewing a list of notes, press and hold a note to bring up quick actions: Pin, Archive, Lock, Protect, and Move to Trash.
+
 ## Currently not available
 
 These features of the web and desktop apps are not available on mobile:
