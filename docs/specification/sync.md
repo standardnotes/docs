@@ -8,7 +8,7 @@ keywords:
   - docs
   - notes app
   - end-to-end encryption
-  - Template
+  - sync
 image: /img/logo.png
 hide_title: false
 hide_table_of_contents: false
