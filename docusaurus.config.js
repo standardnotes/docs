@@ -140,6 +140,17 @@ module.exports = {
           ],
         },
         {
+          label: 'Troubleshooting',
+          position: 'left',
+          items: [
+            {
+              to: '/troubleshooting/reset apps/',
+              label: 'Reset the Apps',
+              position: 'left',
+            },
+          ],
+        },
+        {
           href: 'https://standardnotes.org/',
           label: 'Website',
           position: 'right',
