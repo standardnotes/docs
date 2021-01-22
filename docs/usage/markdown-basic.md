@@ -20,10 +20,26 @@ Markdown Basic is a [custom editor](https://standardnotes.org/help/77/what-are-e
 
 ## Features
 
-- Markdown-It
-- Syntax Highlighting
+- Markdown via Markdown-It
+- Syntax Highlighting via Highlight.js
+- Optional split pane view
 - Task Lists
+- Tables
 - Footnotes
+- Inline external images
+
+## Installation
+
+1. Register for an account at Standard Notes using the [Desktop App](https://standardnotes.org/download) or [Web app](https://app.standardnotes.org). Remember to use a strong and memorable password.
+2. Sign up for [Standard Notes Extended](https://dashboard.standardnotes.org/member). Then, follow the instructions [here](./install-extensions.md) or continue.
+3. Click **Extensions** in the lower left corner.
+4. Under **Repository**, find **Markdown Basic**.
+5. Click **Install**.
+6. Close the **Extensions** pop-up.
+7. At the top of your note, click **Editor**, then click **Markdown Basic**.
+8. Click **Continue**.
+
+After you have installed the editor on the web or desktop app, it will automatically sync to your [mobile app](https://standardnotes.org/download) after you sign in.
 
 ## Style Guide
 
@@ -94,19 +110,13 @@ isn’t indented.
 
 #### Not yet available:
 
+- KaTeX
+- Printing
+- Custom Font Families
+- Custom Font Sizes
 - Superscript
 - Subscript
-- Printing
-- Custom Fonts
-
-## License
-
-[GNU Affero General Public License v3.0](https://github.com/sn-extensions/markdown-basic/blob/master/LICENSE)
-
-## Development
-
-This editor uses Webpack to compile.
 
 ## Further Resources
 
-- [GitHub](https://github.com/sn-extensions/markdown-basic/)
+- [GitHub](https://github.com/sn-extensions/markdown-basic/) - Development instructions, license (AGPL-3.0-or-later), and source code.

@@ -62,14 +62,6 @@ The search feature in the [Minimist editor](https://standardnotes.org/extensions
 | Heading 5          | Ctrl/⌘ + Alt + 5                 |
 | Heading 6          | Ctrl/⌘ + Alt + 6                 |
 
-## Development
+## Further Resources
 
-Please see the [README.md](https://github.com/standardnotes/bold-editor) in the GitHub repository for the latest development information.
-
-## License
-
-The Bold Editor is licensed under the GNU [AGPL-3.0-or-later](https://github.com/standardnotes/bold-editor/blob/master/LICENSE).
-
-## Resources
-
-- [GitHub](https://github.com/standardnotes/bold-editor)
+- [GitHub](https://github.com/standardnotes/bold-editor) - Development instructions, license (AGPL-3.0-or-later), and source code.

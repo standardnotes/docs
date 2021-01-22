@@ -120,14 +120,6 @@ If you want to use monospace font for the preview, adjust the styles for `.edito
 - Printing
 - Default Custom Fonts
 
-## License
-
-[GNU Affero General Public License v3.0](https://github.com/standardnotes/advanced-markdown-editor/blob/master/LICENSE)
-
-## Development
-
-This editor uses Gulp to compile.
-
 ## Further Resources
 
-- [GitHub](https://github.com/standardnotes/advanced-markdown-editor)
+- [GitHub](https://github.com/standardnotes/markdown-pro) - Development instructions, license (AGPL-3.0-or-later), and source code.

@@ -93,14 +93,6 @@ More Text
 
 Please see [here](https://katex.org/docs/supported.html) and [here](https://katex.org/docs/support_table.html) for tables of all the functions and symbols that $\KaTeX$ supports.
 
-## License
-
-[GNU Affero General Public License v3.0](https://github.com/sn-extensions/math-editor/blob/master/LICENSE)
-
-## Development
-
-This editor uses Grunt to compile.
-
 ## Further Resources
 
-- [GitHub](https://github.com/sn-extensions/math-editor)
+- [GitHub](https://github.com/sn-extensions/math-editor) - Development instructions, license (AGPL-3.0-or-later), and source code.
