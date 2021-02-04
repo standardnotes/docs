@@ -19,7 +19,7 @@ hide_table_of_contents: false
 
 The 004 protocol upgrade centers around a system that makes it easy and painless to upgrade to a future protocol version, as well as more modern cryptographic primitives.
 
-This page is a copy of the specification file located [here](https://github.com/standardnotes/snjs/blob/master/specification.md).
+This page is a copy of the specification file located at [github.com/standardnotes/snjs](https://github.com/standardnotes/snjs/blob/master/packages/snjs/specification.md).
 
 ## Introduction
 
