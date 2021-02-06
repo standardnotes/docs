@@ -41,7 +41,7 @@ At this point, you should see an item called "Untagged" under **Views**. You can
 
 Smart tags can be used to construct any kind of simple query. The components of the smart tag syntax are as follows:
 
-`!:` Indicates the start of a smart tag
+`!`: Indicates the start of a smart tag
 
 `[...]`: A JSON array
 
