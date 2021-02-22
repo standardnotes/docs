@@ -19,10 +19,13 @@ hide_table_of_contents: false
 
 We offer free and fast sync for unlimited devices to both free and paid users. If you are interested in hosting your own syncing server, you are welcome to do so. We offer the following options:
 
-- [Docker](./docker.md)
+<!-- - [Docker](./docker.md)-->
+
 - [Heroku](./heroku.md)
 - [AWS EC2 and Nginx](./ec2-nginx.md)
 - [Raspberry Pi](./raspberry-pi.md)
+
+<!--
 
 ### Recommendations
 
@@ -31,6 +34,7 @@ We highly recommend that you use our [official Docker image](https://hub.docker.
 If you are new to Docker, please see the [official Docker documentation](https://docs.docker.com/get-started/) on how to get started.
 
 We recommend that you avoid setting up the syncing server from scratch with Nginx unless you are proficient with Nginx. Setting up the full architecture can be challenging without full knowledge of how the syncing server works.
+-->
 
 ### Issues
 

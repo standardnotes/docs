@@ -123,11 +123,6 @@ module.exports = {
               position: 'left',
             },
             {
-              to: '/self-hosting/docker/',
-              label: 'Docker',
-              position: 'left',
-            },
-            {
               to: '/self-hosting/managing-options/',
               label: 'Managing Options',
               position: 'left',
