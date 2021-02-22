@@ -27,7 +27,7 @@ For example, suppose you wanted to see a list of all notes that do not have a ta
 
 1. Activate the [Folders](https://standardnotes.org/extensions/folders) extension.
 1. Within the Folders extension, click on Views, then press the + button.
-1. Copy and paste the follow smart tag syntax :
+1. Copy and paste the following smart tag syntax:
 
    ```
    !["Untagged", "tags.length", "=", 0]
