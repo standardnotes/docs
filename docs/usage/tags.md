@@ -46,7 +46,7 @@ Smart tags can be used to construct any kind of simple query. The components of 
 `[...]`: A JSON array
 
 - The first item in the JSON array is the display label.
-- The second item is the note property you are targeting.
+- The second item is the note attribute you are targeting.
 - The third is the comparison operator.
 - And the last is the expected value.
 
@@ -170,4 +170,4 @@ Here are a list of operators that can be used to construct filters. The operator
 - `matches` (regex pattern)
 - `and` (for compound filters)
 - `or` (for compound filters)
-- `not` (negates the expected value, property is ignored)
+- `not` (negates the expected value, attribute is ignored)
