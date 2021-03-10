@@ -1,7 +1,8 @@
 ---
-id: import-workaround
+slug: import-backups/
+id: import-backups
 title: How to import a backup without being signed in
-sidebar_label: Import workaround
+sidebar_label: Import backups
 description: How to import a backup in the Standard Notes web and desktop app without being signed in.
 keywords:
   - standard notes

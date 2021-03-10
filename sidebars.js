@@ -98,7 +98,7 @@ module.exports = {
   secondSidebar: {
     Troubleshooting: [
       'troubleshooting/reset-apps',
-      'troubleshooting/import-workaround',
+      'troubleshooting/import-backups',
     ],
   },
 };
