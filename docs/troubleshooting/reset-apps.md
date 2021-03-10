@@ -16,8 +16,6 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-# How can I reset the apps?
-
 If you’re experiencing issues with signing into the apps, you may want to clear the app’s storage. Before proceeding, please sign into the [web](https://app.standardnotes.org) app (in a different browser, if needed) to confirm that notes, tags, and other items on your notes syncing account that were modified or created on another device are saved and synced to our servers.
 
 **Warning**: If you do not have an account, do not proceed with these steps until a fix has been made available. You may have some luck in simply entering in your password or passcode several times until the app unlocks, as one user has reported that helping them across different apps.
