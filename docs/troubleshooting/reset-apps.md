@@ -1,4 +1,5 @@
 ---
+slug: reset-apps/
 id: reset-apps
 title: How do I reset the app?
 sidebar_label: Reset the Apps

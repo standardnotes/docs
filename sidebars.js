@@ -96,6 +96,9 @@ module.exports = {
     Contribute: ['contribute'],
   },
   secondSidebar: {
-    Troubleshooting: ['troubleshooting/reset-apps'],
+    Troubleshooting: [
+      'troubleshooting/reset-apps',
+      'troubleshooting/import-backups',
+    ],
   },
 };
