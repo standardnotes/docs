@@ -36,7 +36,7 @@ If you’re experiencing issues with signing into the apps, you may want to clea
 
 1.  Please open the **Settings** app, and navigate to your iCloud backups with the following path:
 
-    `[Your name and iCloud account username (at the top)] → iCloud → Manage Storage → Backups → [Name of the desired device]`
+    **[Your name and iCloud account username (at the top)] → iCloud → Manage Storage → Backups → [Name of the desired device]**
 
 2.  Wait for the list of apps to load 
 
