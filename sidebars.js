@@ -89,9 +89,6 @@ module.exports = {
       'extensions/actions',
       'extensions/publishing',
     ],
-    Troubleshooting: [
-      'troubleshooting/reset-apps',
-    ],
     Specification: [
       'specification/encryption',
       'specification/encryption-003',
