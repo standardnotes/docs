@@ -1,5 +1,5 @@
 module.exports = {
-  someSidebar: {
+  mainSidebar: {
     'Standard Notes Docs': ['welcome'],
     Usage: [
       'usage/general',
@@ -94,5 +94,8 @@ module.exports = {
       'specification/sync',
     ],
     Contribute: ['contribute'],
+  },
+  secondSidebar: {
+    Troubleshooting: ['troubleshooting/reset-apps'],
   },
 };
