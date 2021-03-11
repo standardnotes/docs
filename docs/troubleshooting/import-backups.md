@@ -23,7 +23,7 @@ hide_table_of_contents: false
 
 ## Introduction
 
-We are aware of issues with importing backups. If you are signed in, some tags are duplicated and are not properly assigned to notes and a significant number of items (notes and tags) are not imported. We are working on a fix. As a temporary workaround, you can import the backup while signed out of the app before signing in to the account. Then, when you sign in, choose to merge local data (this is an option that is on by default).
+We are aware of issues with importing backups belonging to another account when that account is still registered, such as when you are [changing your account email](https://standardnotes.org/help/7/how-can-i-change-my-account-email). If you are signed in to your new account, some tags are duplicated and are not properly assigned to notes and a significant number of notes, tags and/or editors are not imported. We are working on a fix. As a temporary workaround, you can import the backup while signed out of the app before signing in to the new account. Then, when you sign in, choose to merge local data (this is an option that is on by default).
 
 :::note
 For the best experience, use a backup that was exported from the [web](https://app.standardnotes.org/) or desktop app. A backup that was generated from [CloudLink](https://standardnotes.org/help/27/how-do-i-enable-dropbox-google-drive-or-onedrive-backups) may not work as well.
