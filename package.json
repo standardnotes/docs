@@ -18,14 +18,14 @@
     "pretty": "prettier --write 'src/**/*.{html,css,js,jsx,json}' 'docs/**/*.{md,mdx,js,jsx}' sidebars.js docusaurus.config.js"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-alpha.70",
-    "@docusaurus/plugin-client-redirects": "^2.0.0-alpha.70",
-    "@docusaurus/preset-classic": "2.0.0-alpha.70",
+    "@docusaurus/core": "2.0.0-alpha.72",
+    "@docusaurus/plugin-client-redirects": "^2.0.0-alpha.72",
+    "@docusaurus/preset-classic": "2.0.0-alpha.72",
     "clsx": "^1.1.1",
-    "docusaurus-plugin-sass": "^0.1.11",
+    "docusaurus-plugin-sass": "^0.1.12",
     "prettier": "^2.2.1",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "rehype-katex": "^4.0.0",
     "remark-math": "^3.0.1"
   },
