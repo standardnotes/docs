@@ -57,6 +57,13 @@ module.exports = {
         ],
       },
     ],
+    Account: [
+      'account/change-email',
+      'account/change-password',
+      'account/delete-account',
+      'account/forgot-password',
+      'account/cannot-sign-in',
+    ],
     Listed: [
       'listed/about',
       'listed/register',
