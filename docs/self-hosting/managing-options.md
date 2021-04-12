@@ -1,4 +1,5 @@
 ---
+slug: managing-options/
 id: managing-options
 title: Managing options
 sidebar_label: Managing options
@@ -15,6 +16,12 @@ image: /img/logo.png
 hide_title: false
 hide_table_of_contents: false
 ---
+
+:::caution
+The docs below are not up-to-date. Please read the [README.md of the syncing-server repository](https://github.com/standardnotes/syncing-server#readme) for the most up-to-date instructions. Please [open an issue](https://github.com/standardnotes/syncing-server/issues) if you have any issues.
+
+The syncing-server is being rewritten in TypeScript. The new syncing-server is not ready for self-hosting, but you can follow its progress [on GitHub](https://github.com/standardnotes/syncing-server-js). When the new server is available for self-hosting, the docs below will be updated.
+:::
 
 ## Disable new user registrations
 
