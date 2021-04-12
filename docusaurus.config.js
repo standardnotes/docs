@@ -114,25 +114,30 @@ module.exports = {
           ],
         },
         {
-          label: 'Self-Hosting',
+          label: 'Developers',
           position: 'left',
           items: [
             {
               to: '/self-hosting/getting-started/',
-              label: 'Getting Started',
+              label: 'Self-Host a Sync Server',
               position: 'left',
             },
             {
-              to: '/self-hosting/managing-options/',
-              label: 'Managing Options',
+              to: '/extensions/intro/',
+              label: 'Build an Extension',
               position: 'left',
             },
             {
-              to: '/self-hosting/https-support/',
-              label: 'HTTPS Support',
+              to: '/specification/encryption/',
+              label: 'Encryption Specification',
               position: 'left',
             },
           ],
+        },
+        {
+          href: 'https://app.standardnotes.org/',
+          label: 'App',
+          position: 'right',
         },
         {
           href: 'https://standardnotes.org/',
@@ -154,34 +159,25 @@ module.exports = {
           label: 'GitHub',
           position: 'right',
         },
-        {
-          href: 'https://github.com/sn-extensions/',
-          label: 'Extensions',
-          position: 'right',
-        },
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'Resources',
+          title: 'Developers',
           items: [
             {
-              label: 'Self-host a Sync Server',
-              to: '/self-hosting/getting-started',
-            },
-            {
-              label: 'Listed Blogging Platform',
-              to: '/listed/about',
+              label: 'Self-Host a Sync Server',
+              to: '/self-hosting/getting-started/',
             },
             {
               label: 'Build an Extension',
-              to: '/extensions/intro',
+              to: '/extensions/intro/',
             },
             {
-              label: 'Specifications',
-              to: '/specification/encryption',
+              label: 'Encryption Specification',
+              to: '/specification/encryption/',
             },
           ],
         },
@@ -263,7 +259,7 @@ module.exports = {
       {
         redirects: [
           {
-            to: '/extensions/intro', // string
+            to: '/extensions/intro/', // string
             from: [
               // string | string[]
               '/extensions/introduction',
@@ -277,7 +273,11 @@ module.exports = {
             from: ['/filesafe/aws/'],
           },
           {
-            to: '/self-hosting/getting-started',
+            to: '/account/change-email/',
+            from: ['/account/'],
+          },
+          {
+            to: '/self-hosting/getting-started/',
             from: [
               '/self-hosting/',
               '/self-hosting/getting-started-with-self-hosting',

@@ -74,6 +74,9 @@ module.exports = {
       'listed/styles',
       'listed/options',
     ],
+    Contribute: ['contribute'],
+  },
+  technicalSidebar: {
     'Self-Hosting a Sync Server': [
       'self-hosting/getting-started',
       'self-hosting/heroku',
@@ -100,7 +103,6 @@ module.exports = {
       'specification/encryption-003',
       'specification/sync',
     ],
-    Contribute: ['contribute'],
   },
   secondSidebar: {
     Troubleshooting: [
