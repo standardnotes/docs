@@ -14,11 +14,6 @@ module.exports = {
       apiKey: 'f2899fea0369aeea336963e48a0e46dc',
       indexName: 'standardnotes',
     },
-    announcementBar: {
-      id: 'supportus',
-      content:
-        '⭐️ Star us on <a target="_blank" rel="noopener noreferrer" href="https://github.com/standardnotes">GitHub</a>! ⭐️', //
-    },
     colorMode: {
       defaultMode: 'light',
       disableSwitch: false,
