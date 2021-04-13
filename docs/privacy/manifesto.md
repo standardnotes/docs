@@ -1,0 +1,42 @@
+---
+slug: /privacy/
+id: manifesto
+title: Our Privacy Manifesto
+sidebar_label: Our Privacy Manifesto
+description: Our Privacy Manifesto
+keywords:
+  - standard notes
+  - docs
+  - notes app
+  - end-to-end encryption
+  - Our Privacy Manifesto
+image: /img/logo.png
+hide_title: false
+hide_table_of_contents: false
+---
+
+<!-- Copied from https://standardnotes.org/privacy -->
+
+import CanonicalUrl from '../../src/components/CanonicalUrl';
+
+<CanonicalUrl
+ canonicalUrl="https://standardnotes.org/privacy"
+/>
+
+We believe the Internet should do a simple thing: Keep your private information private. No one should be able to touch what you think or write and do, but you. And we are out to prove that far too many companies mismanage your information for no other reason than laziness and greed.
+
+We will never ask you to take our word for protecting your privacy by burying lax standards in user agreements carefully crafted so nobody understands them. Instead, we will proudly present peer review and auditable privacy policies that the entire world can see, touch and debate.
+
+Here's how we do it:
+
+1. **End to End Privacy.** All your data — no matter if you’re using a PC, a phone, a tablet or a gaming system — is encrypted everywhere you _don't control_. On our servers. On our network. On a public network. In the cloud. On mars. Whenever your information moves anywhere away from your direct control, it will be seriously encrypted with a passcode that no one else in the world knows but you.
+
+1. **Secure connections.** Whenever we move your encrypted data over a network, in order to deliver services to you, it is sent over a strictly secure connection to only our private servers. Because this data is encrypted, we can't read it, and we can’t sell it. Even if someone forced their way into our data centers, your data would be complete gibberish to them. Forever.
+
+1. **Open-source.** We've made all our code open-source, so it's clear how your data is being handled every step of the way. Many companies promise encryption but don't open up their code for peer-review. We believe the definition of end-to-end encryption should mean that code on both ends is open-sourced. While trust in a closed system can be convenient at times, nothing is more trustable than mathematical certainty and utter transparency.
+
+1. **No tracking or intrusive advertising.** We are heavily opposed to industry standard tracking tools like Google Analytics, which gathers and analyzes your browsing history to sell you better advertisements. Instead, we use an open-source, privacy-focused, and self-hosted Matomo analytics installation.
+
+1. **Respectful analytics.** We are utterly and completely transparent about reporting exactly what we track, and why. We announce when we update those policies. And we confirm with you that you are comfortable with those changes. To date, our applications, including web, desktop, and mobile, contain no analytics or tracking software whatsoever.
+
+If you have any questions or concerns whatsoever, please don't hesitate to get in touch: [help@standardnotes.org](mailto:help@standardnotes.org).

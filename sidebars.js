@@ -1,6 +1,18 @@
 module.exports = {
   mainSidebar: {
     'Standard Notes Docs': ['welcome'],
+    Privacy: [
+      'privacy/manifesto',
+      'privacy/private-notes',
+      'privacy/secure-notes',
+      'privacy/on-device-encryption',
+      'privacy/store-passwords',
+      'privacy/security-audit',
+      'privacy/information-collected',
+      'privacy/services-used',
+      'privacy/future-proofing',
+      'privacy/country',
+    ],
     Usage: [
       'usage/general',
       'usage/install-extensions',
