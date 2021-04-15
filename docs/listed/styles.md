@@ -89,7 +89,7 @@ You can also specify custom CSS here as well. Here are some examples.
 
 ### Custom Fonts
 
-You can use custom fonts like this:
+The default font for headers is Merriweather and the default font for paragraphs is Roboto. You can import and declare custom fonts (e.g., Open Sans) like this:
 
 ```css
 /* Import the font */
