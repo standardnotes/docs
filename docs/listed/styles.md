@@ -58,6 +58,25 @@ metatype: css
   --post-code-background-color: #f7f7f9;
   --post-code-border-color: #e1e1e8;
   --card-post-background-color: #f8f9fc;
+  --card-post-border-color: rgba(24, 24, 24, 0.16);
+  --post-background-color: #fff;
+  --author-posts-background-color: #fff;
+  --more-posts-background-color: #f8f9fc;
+  --more-posts-post-background-color: #fff;
+  --footer-background-color: var(--background-color);
+  --footer-border-top-color: rgba(24, 24, 24, 0.16);
+  --callout-background-color: #fff;
+  --callout-success-border-color: #1aa772;
+  --callout-warning-border-color: #f28b52;
+  --callout-info-border-color: #1aa772;
+  --scroll-to-top-background-color: #f8f9fc;
+  --scroll-to-top-border-color: 1px solid rgba(24, 24, 24, 0.16);
+  --scroll-to-top-border-color-hover: #181818;
+  --scroll-to-top-icon-color: #181818;
+  --blockquote-border-left-color: rgba(24, 24, 24, 0.36);
+  --guestbook-border-left-color: rgba(24, 24, 24, 0.16);
+  --author-header-info-links-separator-color: rgba(24, 24, 24, 0.16);
+  --author-footer-background-color: #fff;
 }
 ```
 
