@@ -20,6 +20,7 @@ This documentation explains how to get started with using Standard Notes, publis
 
 ## Topics
 
+- [Our Privacy Manifesto](/privacy/)
 - [Using Standard Notes](/usage/)
 - [Publishing a blog with Listed](/listed/about/)
 - [Self-hosting a Syncing Server](/self-hosting/getting-started/)
