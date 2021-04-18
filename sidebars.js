@@ -13,6 +13,7 @@ module.exports = {
       'privacy/future-proofing',
       'privacy/country',
     ],
+    Extended: ['extended/manage', 'extended/faq'],
     Usage: [
       'usage/general',
       'usage/install-extensions',
