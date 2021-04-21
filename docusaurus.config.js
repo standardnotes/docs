@@ -241,6 +241,10 @@ module.exports = {
             from: ['/account/'],
           },
           {
+            to: '/listed/publish/',
+            from: ['/listed/publishing/'],
+          },
+          {
             to: '/self-hosting/getting-started/',
             from: [
               '/self-hosting/',

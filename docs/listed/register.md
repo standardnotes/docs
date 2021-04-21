@@ -1,4 +1,5 @@
 ---
+slug: register/
 id: 'register'
 title: How do I register for a listed blog?
 sidebar_label: Register
@@ -23,14 +24,17 @@ import CanonicalUrl from '../../src/components/CanonicalUrl';
  canonicalUrl="https://standardnotes.org/help/61/how-do-i-register-for-a-listed-blog"
 />
 
-Setting up your blog in Standard Notes is easy:
+:::note
+Registering for a new Listed blog is currently available only in the Standard Notes [web](https://app.standardnotes.org) or [desktop](https://standardnotes.org/download) applications.
+:::
+
+Setting up your Listed blog in Standard Notes is easy:
 
 1. Visit the [Listed](https://listed.to/) homepage.
-2. Under _New Author?_ click **Generate Author Link**.
+2. In the top right corner of the website, click **Start Writing**.
 3. Follow the instructions on screen to import the Listed extension into your Standard Notes account.
-4. After you configure your username settings, your blog will be available at:
 
-- https://listed.to/@USERNAME
-- https://listed.standardnotes.org/@USERNAME and
+After importing the Listed extension to your Standard Notes account, you are ready to:
 
-[Extended](https://standardnotes.org/extensions) subscribers to Standard Notes can also set up a custom domain.
+1. [Configure your settings](./settings.md)
+2. [Publish to your blog](./publish.md)
