@@ -30,10 +30,16 @@ module.exports = {
       },
       items: [
         {
-          label: 'Usage',
+          label: 'Users',
           position: 'left',
           items: [
-            { to: '/usage/', label: 'General', position: 'left' },
+            { to: '/privacy/', label: 'Privacy', position: 'left' },
+            {
+              to: '/extended/manage/',
+              label: 'Manage Extended',
+              position: 'left',
+            },
+            { to: '/usage/', label: 'General Usage', position: 'left' },
             {
               to: 'usage/what-are-editors/',
               label: 'Editors',
@@ -41,12 +47,7 @@ module.exports = {
             },
             {
               to: '/usage/folders/',
-              label: 'Folders',
-              position: 'left',
-            },
-            {
-              to: '/usage/tags/',
-              label: 'Tags',
+              label: 'Folders and Tags',
               position: 'left',
             },
             {
@@ -61,49 +62,17 @@ module.exports = {
             },
             {
               to: '/usage/2fa/',
-              label: 'Two-factor Auth',
-              position: 'left',
-            },
-          ],
-        },
-        {
-          label: 'Listed',
-          position: 'left',
-          items: [
-            { to: '/listed/about/', label: 'About', position: 'left' },
-            {
-              to: '/listed/register/',
-              label: 'Register',
+              label: 'Two-factor Authentication',
               position: 'left',
             },
             {
-              to: '/listed/publishing/',
-              label: 'Publish',
+              to: '/account/change-email/',
+              label: 'Manage Account',
               position: 'left',
             },
             {
-              to: '/listed/settings/',
-              label: 'Settings',
-              position: 'left',
-            },
-            {
-              to: '/listed/subscribers/',
-              label: 'Subscribers',
-              position: 'left',
-            },
-            {
-              to: '/listed/guestbook/',
-              label: 'Guestbook',
-              position: 'left',
-            },
-            {
-              to: '/listed/styles/',
-              label: 'Customize Styles',
-              position: 'left',
-            },
-            {
-              to: '/listed/options/',
-              label: 'Per-post Options',
+              to: '/listed/about/',
+              label: 'Listed Blogging Platform',
               position: 'left',
             },
           ],
