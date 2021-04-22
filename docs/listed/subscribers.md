@@ -1,8 +1,9 @@
 ---
+slug: subscribers/
 id: 'subscribers'
-title: How do I email my subscribers about new articles and updates?
+title: How to email subscribers to your Listed blog
 sidebar_label: Email Subscribers
-description: How to email subscribers of your Listed blog of new articles and updates.
+description: How to email subscribers to your Listed blog
 keywords:
   - standard notes
   - docs
@@ -23,16 +24,18 @@ import CanonicalUrl from '../../src/components/CanonicalUrl';
  canonicalUrl="https://standardnotes.org/help/64/how-do-i-email-my-subscribers-about-new-articles-and-updates"
 />
 
-Each Listed blog comes with an email subscription box, so that readers can subscribe to your blog and stay up to date with new posts you may publish.
+## Email Subscribers
 
-When you write a new post and want to email your subscribers, choose _Actions_ in the Standard Notes web or desktop app, then choose **Email Subscribers**.
+Each Listed blog comes with a feature that allows readers to subscribe to your Listed blog. This feature helps subscribers stay up-to-date with your blog and lets you send posts directly to their inboxes. To send an email of your post to your subscribers, first [publish your post](publish.md), then click **Email Subscribers** in the same menu. Your subscribers will receive a copy of your published post with a link to the post on your blog.
 
-### Managing Subscribers
+## Replies and Notifications
 
-Standard Notes enables your email newsletter sign up by default. Whenever you publish a post to your blog, you'll see an option to **Email Subscribers** under the _Actions_ drop down.
+In the [settings](./settings.md), you can set an email address for your Listed blog. The email that you set must be verified. After the email is verified, it is used as the reply-to email for your newsletters, and it receives an email notification when you have a new subscriber. To disable this feature, leave the Email box empty.
 
-_Settings_ has the following features you can manage:
+## Disable Subscribers
 
-1.  Set an email that subscribers can reply to your newsletters at. This email is also used to notify you when you have a new subscriber. To disable this feature, just leave the text box empty.
+If you do not want to use the subscription and newsletter features on your Listed blog, open the [settings](./settings.md) for your blog, go to the **General** section, click **Disable email subscription and newsletter**, and click **Save changes**. Disabling email subscription and newsletter will remove the "Subscribe" button from the header of your blog and the "Email Subscribers" button from the Listed menu in your Standard Notes application.
 
-2.  Disable the subscription and newsletter features completely by checking _Disable email subscription and newsletter functionality_. This will remove the email subscription form from your blog, and also remove the "Email Subscribers" action.
+## Limitations
+
+The Email Subscribers feature does not currently offer a way to extensively customize the formatting, branding, or appearance of your newsletter. The post on your Listed blog may have custom in-line CSS, but potentially dangerous HTML, such as `<styles>` or `<script>`, is removed from newsletters for security reasons. The feature also does not offer a way to track who your subscribers are or how often they open your newsletters.

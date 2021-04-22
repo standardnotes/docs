@@ -42,8 +42,10 @@ In the Settings, you can:
 - Choose a username your blog Username
 - Change your Display name (the name of your blog)
 - Update your Bio
-- Add a link to your website or Twitter account
-- Add a Meta image URL - The image that will be used when generating link previews in Twitter, Slack, Facebook, etc.
+- Add a link to your website
+- Add a Twitter account
+- Add an email - Allows subscribers to reply to your posts, as well as notifies you when someone subscribes to your blog
+- Add a Meta image URL - The image that will be used when generating link previews in Twitter, Slack, Facebook, and other social media
 - Add a Header image URL - The image that will be displayed on top of your blog page (below the description)
 
 You can also choose to disable the [guestbook](./guestbook.md), disable email subscription and [newsletter](./subscribers.md), and hide your blog from the "Listed authors" section of the homepage.
