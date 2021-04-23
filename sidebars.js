@@ -104,7 +104,12 @@ module.exports = {
       {
         type: 'category',
         label: 'Editors',
-        items: ['extensions/editorkit', 'extensions/stylekit'],
+        items: [
+          'extensions/editors',
+          'extensions/editors-getting-started',
+          'extensions/editorkit',
+          'extensions/stylekit',
+        ],
       },
       'extensions/local-setup',
       'extensions/themes',
