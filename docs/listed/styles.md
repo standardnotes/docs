@@ -32,7 +32,7 @@ You can use custom CSS to stylize your Listed blog.
 2. Create a new note in Standard Notes and call it `listed-theme.css` (the name can be anything).
 3. Copy the following metadata structure and CSS, then paste it into your note.
 4. Change any of the variables with your desired color values.
-5. [Publish the note to your blog.](./publish.md) The note will be published as a private note, so it won't appear on your blog, but the custyle changes will apply immediately.
+5. [Publish the note to your blog.](./publish.md) The note will be published as a private note, so it won't appear on your blog, but the custom styles will apply immediately.
 
 ```css
 ---
