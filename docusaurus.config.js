@@ -92,6 +92,11 @@ module.exports = {
               position: 'left',
             },
             {
+              to: '/extensions/editors/',
+              label: 'Build an Editor',
+              position: 'left',
+            },
+            {
               to: '/specification/encryption/',
               label: 'Encryption Specification',
               position: 'left',
