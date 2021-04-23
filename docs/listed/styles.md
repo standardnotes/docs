@@ -28,9 +28,11 @@ You can use custom CSS to stylize your Listed blog.
 
 ## How to stylize your Listed blog with custom CSS
 
-1. Create a new note in Standard Notes and call it `theme.css` (name can be anything).
-2. Use the metadata structure below, overriding any of the variables with your desired color values.
-3. Publish the note to your blog (the note won't actually appear in your blog, but the style changes will apply immediately).
+1. Go to the [settings](./settings.md) for your Listed blog, scroll down to **Appearance**, click **Enable custom CSS**, and click **Save changes**.
+2. Create a new note in Standard Notes and call it `listed-theme.css` (the name can be anything).
+3. Copy the following metadata structure and CSS, then paste it into your note.
+4. Change any of the variables with your desired color values.
+5. [Publish the note to your blog.](./publish.md) The note will be published as a private note, so it won't appear on your blog, but the custyle changes will apply immediately.
 
 ```css
 ---
@@ -38,54 +40,91 @@ metatype: css
 ---
 
 :root {
-  --dimmed-text-color: rgba(24, 24, 24, 0.16);
-  --dimmed-border-color: #f8f9fc;
-  --background-color: #f8f9fc;
-  --body-text-color: #181818;
+  --border: 1px solid rgba(24, 24, 24, 0.16);
+  --color-default: #f8f9fc;
+  --color-primary: #00208f;
+  --color-primary-opacity-8: rgba(0, 32, 143, 0.08);
+  --color-neutral: #fff;
+  --color-neutral-darker: #f7f7f9;
+  --color-contrast: #181818;
+  --color-contrast-opacity-8: rgba(24, 24, 24, 0.08);
+  --color-contrast-opacity-16: rgba(24, 24, 24, 0.16);
+  --color-contrast-opacity-36: rgba(24, 24, 24, 0.36);
+  --color-contrast-opacity-86: rgba(24, 24, 24, 0.86);
+  --background-color: var(--color-default);
+  --dimmed-text-color: var(--color-contrast-opacity-16);
+  --dimmed-border-color: var(--color-default);
+  --body-text-color: var(--color-contrast);
   --post-title-color: var(--body-text-color);
   --post-date-color: var(--body-text-color);
   --post-text-color: var(--body-text-color);
   --page-menu-link-color: var(--link-color);
-  --header-author-name: #00208f;
-  --header-listed-name: #00208f;
+  --header-author-name: var(--color-primary);
+  --header-listed-name: var(--color-primary);
   --more-from-border-color: var(--dimmed-border-color);
   --bio-color: var(--body-text-color);
-  --wordcount-color: #00208f;
+  --wordcount-color: var(--color-primary);
   --website-color: var(--link-color);
   --twitter-color: var(--link-color);
-  --link-color: #00208f;
-  --header-border-color: #00208f;
+  --link-color: var(--color-primary);
+  --header-border-color: var(--color-primary);
   --post-code-background-color: #f7f7f9;
   --post-code-border-color: #e1e1e8;
-  --card-post-background-color: #f8f9fc;
-  --card-post-border-color: rgba(24, 24, 24, 0.16);
-  --post-background-color: #fff;
-  --author-posts-background-color: #fff;
-  --more-posts-background-color: #f8f9fc;
-  --more-posts-post-background-color: #fff;
+  --card-post-background-color: var(--color-default);
+  --card-post-border: var(--border);
+  --post-background-color: var(--color-neutral);
+  --author-posts-background-color: var(--color-neutral);
+  --more-posts-background-color: var(--color-default);
+  --more-posts-post-background-color: var(--color-neutral);
   --footer-background-color: var(--background-color);
-  --footer-border-top-color: rgba(24, 24, 24, 0.16);
-  --callout-background-color: #fff;
+  --footer-border-top-color: var(--color-contrast-opacity-16);
+  --callout-background-color: var(--color-neutral);
   --callout-success-border-color: #1aa772;
   --callout-warning-border-color: #f28b52;
   --callout-info-border-color: #1aa772;
-  --scroll-to-top-background-color: #f8f9fc;
-  --scroll-to-top-border-color: 1px solid rgba(24, 24, 24, 0.16);
-  --scroll-to-top-border-color-hover: #181818;
-  --scroll-to-top-icon-color: #181818;
-  --blockquote-border-left-color: rgba(24, 24, 24, 0.36);
-  --guestbook-border-left-color: rgba(24, 24, 24, 0.16);
-  --author-header-info-links-separator-color: rgba(24, 24, 24, 0.16);
-  --author-footer-background-color: #fff;
+  --scroll-to-top-background-color: var(--color-default);
+  --scroll-to-top-border: var(--border);
+  --scroll-to-top-border-color-hover: var(--color-contrast);
+  --author-footer-background-color: var(--color-neutral);
+  --scroll-to-top-icon-color: var(--color-contrast);
+  --blockquote-border-left-color: var(--color-contrast-opacity-36);
+  --guestbook-border-left-color: var(--color-contrast-opacity-16);
+  --author-header-info-links-separator-color: var(--color-contrast-opacity-16);
 }
 ```
 
+### Dark Theme
+
+Listed has a dark theme when your operating system has dark mode enabled. To customize the colors of the dark theme, copy the following CSS, paste it into the same note that you created above, change any of the variables with your desired color values, then [update the published post](/listed/publish/#updating-a-published-post).
+
+```css
+@media (prefers-color-scheme: dark) {
+  :root {
+    --border: 1px solid hsla(0, 0%, 100%, 0.16);
+    --color-default: #20202a;
+    --color-primary: #93c0ff;
+    --color-primary-opacity-8: rgba(147, 192, 255, 0.08);
+    --color-neutral: #181818;
+    --color-neutral-darker: #20202a;
+    --color-contrast: #fff;
+    --color-contrast-opacity-8: hsla(0, 0%, 100%, 0.08);
+    --color-contrast-opacity-16: hsla(0, 0%, 100%, 0.16);
+    --color-contrast-opacity-36: hsla(0, 0%, 100%, 0.36);
+    --color-contrast-opacity-86: hsla(0, 0%, 100%, 0.86);
+    --post-code-background-color: #20202a;
+    --post-code-border-color: #20202a;
+  }
+}
+```
+
+### Colors
+
 A list of pre-defined CSS colors can be found on the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value).  
-You can create the perfect colors using [Adobe's Color Wheel](https://color.adobe.com/create/color-wheel).
+You can find the perfect colors using [Adobe's Color Wheel](https://color.adobe.com/create/color-wheel).
 
-You can also specify custom CSS here as well. Here are some examples.
+## Custom CSS Examples
 
-## Examples
+You can use additional CSS to further customize the appearance of your Listed blog. Below are some examples.
 
 ### Custom Fonts
 
