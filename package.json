@@ -13,8 +13,11 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "serve": "docusaurus serve",
     "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "dev": "docusaurus start",
     "pretty": "prettier --write 'src/**/*.{html,css,js,jsx,json}' 'docs/**/*.{md,mdx,js,jsx}' sidebars.js docusaurus.config.js"
   },
   "dependencies": {
