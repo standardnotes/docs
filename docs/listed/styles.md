@@ -28,11 +28,10 @@ You can use custom CSS to stylize your Listed blog.
 
 ## How to stylize your Listed blog with custom CSS
 
-1. Go to the [settings](./settings.md) for your Listed blog, scroll down to **Appearance**, click **Enable custom CSS**, and click **Save changes**.
-2. Create a new note in Standard Notes and call it `listed-theme.css` (the name can be anything).
-3. Copy the following metadata structure and CSS, then paste it into your note.
-4. Change any of the variables with your desired color values.
-5. [Publish the note to your blog.](./publish.md) The note will be published as a private note, so it won't appear on your blog, but the custom styles will apply immediately.
+1. Create a new note in Standard Notes and call it `listed-theme.css` (the name can be anything).
+2. Copy the following metadata structure and CSS, then paste it into your note.
+3. Change any of the variables with your desired color values.
+4. [Publish the note to your blog.](./publish.md) The note will be published as a private note, so it won't appear on your blog, but the custom styles will apply immediately.
 
 ```css
 ---
