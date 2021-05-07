@@ -146,7 +146,7 @@ git remote set-url origin git@github.com:standardnotes/docs.git
 3. In VSCode, you can easily change `Template` to be desired word or phrase by right-clicking the word `Template` then clicking "Change all occurrences".
 4. Finish writing the new documentation.
 5. Add the `id` to `sidebars.js`.
-6. Run `yarn build` before committing.
+6. Run `yarn build` before committing and make sure that the build process is successful.
 
 When possible, use path names when linking between docs (see #1 above). This improves the editing experience because we can easily switch between docs in VSCode by pressing <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> and clicking the links. Docusaurus will automatically remove the `.md` in the path of the doc. If you are developing and the `.md` does not update immediately, shut down your development server and restart it.
 
@@ -183,7 +183,7 @@ To update KaTeX:
 6. Update the `href` and `integrity` of the KaTeX stylesheet in `docusaurus.config.js`.
 7. Check the page for Markdown Math to see if KaTeX is loading properly.
 
-### Updating Canonical URLs
+## Updating Canonical URLs
 
 You can update the canonical URL of individual docs by importing the `CanonicalUrl` component defined in [./src/components/CanonicalUrl.js](./src/components/CanonicalUrl.js).
 
