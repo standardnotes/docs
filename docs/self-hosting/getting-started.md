@@ -3,7 +3,7 @@ slug: getting-started/
 id: getting-started
 title: Getting Started with Self-hosting
 sidebar_label: Getting Started
-description: How to get started with self-hosting a Standard Notes syncing server.
+description: How to get started with self-hosting Standard Notes Infrastructure.
 keywords:
   - standard notes
   - docs
@@ -18,34 +18,27 @@ hide_table_of_contents: false
 
 ## Syncing Server
 
-We offer free and fast sync for unlimited devices to both free and paid users. If you are interested in hosting your own syncing server, you are welcome to do so. We offer the following options:
+We offer free and fast sync for unlimited devices to both free and paid users. If you are interested in hosting your own syncing server, you are welcome to do so.
 
-:::caution
-The docs below are not up-to-date. Please read the [README.md of the syncing-server repository](https://github.com/standardnotes/syncing-server#readme) for the most up-to-date instructions. Please [open an issue](https://github.com/standardnotes/syncing-server/issues) if you have any issues.
+## Infrastructure Synopsis
 
-The syncing-server is being rewritten in TypeScript. The new syncing-server is not ready for self-hosting, but you can follow its progress [on GitHub](https://github.com/standardnotes/syncing-server-js). When the new server is available for self-hosting, the docs below will be updated.
-:::
+Syncing Server infrastructure consists of a few different microservices that are responsible for different sets of functionality.
 
-<!-- - [Docker](./docker.md)-->
+In order to make your life easier and not having to set up each of them separately we prepared a [docker-compose setup with accompanying script](./docker.md) that will handle it for you.
 
-- [Heroku](./heroku.md)
-- [AWS EC2 and Nginx](./ec2-nginx.md)
-- [Raspberry Pi](./raspberry-pi.md)
-
-<!--
+> **Note** In mentioned setup we also provide a running MySQL database and Redis cache node. So you don't have to provision any of those services on your own.
 
 ### Recommendations
 
-We highly recommend that you use our [official Docker image](https://hub.docker.com/repository/docker/standardnotes/syncing-server) to host your syncing server. Docker containers are isolated software environments that you can control and manage. Our official Docker image is a quick and easy way to get started because all the requirements are prepared and packaged inside the image.
+We highly recommend that you use our Docker setup to host your syncing server. Docker containers are isolated software environments that you can control and manage.
 
 If you are new to Docker, please see the [official Docker documentation](https://docs.docker.com/get-started/) on how to get started.
 
-We recommend that you avoid setting up the syncing server from scratch with Nginx unless you are proficient with Nginx. Setting up the full architecture can be challenging without full knowledge of how the syncing server works.
--->
+We recommend that you avoid setting up the syncing server from scratch with Nginx unless you are proficient with Nginx. Setting up the full architecture can be challenging without full knowledge of how the syncing server and it's microservices work.
 
 ### Issues
 
-If you have any issues with setting up your syncing server, please [open an issue on GitHub](https://github.com/standardnotes/syncing-server/issues).
+If you have any issues with setting up your syncing server, please [open an issue on GitHub](https://github.com/standardnotes/standalone/issues).
 
 ## Web application
 
