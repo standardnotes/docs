@@ -90,13 +90,12 @@ module.exports = {
     Contribute: ['contribute'],
   },
   technicalSidebar: {
-    'Self-Hosting a Sync Server': [
+    'Self-Hosting Standard Notes': [
       'self-hosting/getting-started',
-      'self-hosting/heroku',
-      'self-hosting/ec2-nginx',
-      'self-hosting/raspberry-pi',
-      'self-hosting/managing-options',
+      'self-hosting/docker',
+      'self-hosting/configuration-options',
       'self-hosting/https-support',
+      'self-hosting/updating',
     ],
     'Building Extensions': [
       'extensions/intro',

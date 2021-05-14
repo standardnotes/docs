@@ -3,7 +3,7 @@ slug: docker/
 id: docker
 title: Self-hosting with Docker
 sidebar_label: Docker
-description: How to self-host a Standard Notes Sync server with Docker.
+description: How to self-host a Standard Notes infrastructure with Docker.
 keywords:
   - standard notes
   - docs
@@ -17,96 +17,107 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-:::caution
-The docs below are not up-to-date. Please read the [README.md of the syncing-server repository](https://github.com/standardnotes/syncing-server#readme) for the most up-to-date instructions. Please [open an issue](https://github.com/standardnotes/syncing-server/issues) if you have any issues.
-
-The syncing-server is being rewritten in TypeScript. The new syncing-server is not ready for self-hosting, but you can follow its progress [on GitHub](https://github.com/standardnotes/syncing-server-js). When the new server is available for self-hosting, the docs below will be updated.
-:::
-
-## Introduction
+## Requirements
 
 These instructions make the following assumptions:
 
+- The machine you will be running the infrastructure on has at least 2GB of memory.
 - You've just finished setting up a Linux server (say, Ubuntu 20.04 64-bit) and have installed [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/) on it.
+- Due to mounted volumes we recommend running the setup as a root user. If you wish to run it as non-root user please remember about the [post-installation steps for Linux](https://docs.docker.com/engine/install/linux-postinstall#manage-docker-as-a-non-root-user).
 - You've configured your security groups to allow for incoming SSH connections from your local IP.
+- You've configured your security groups to allow for incoming TCP connections on port 80 and 443 from at least your local IP.
 - You've configured a domain name (or subdomain) to point to your server's IP address.
-- You've configured the DNS to enable HTTPS for your domain (say, using Cloudflare).
 
 ## Getting started
 
 SSH into your server and follow the steps below:
 
-1. Update your system:
-
-   ```bash
-   $ sudo apt-get update
-   $ sudo apt-get upgrade
-   ```
-
-1. Install `git` and `libmysqlclient-dev`:
-
-   ```bash
-   $ sudo apt-get install -y git libmysqlclient-dev
-   ```
-
-1. Make sure you are in your home directory and clone the Standard Notes Server [syncing-server](https://github.com/standardnotes/syncing-server) project:
+1. Make sure you are in your home directory and clone the [Standard Notes Standalone Infrastructure](https://github.com/standardnotes/standalone) project:
 
    ```bash
    $ cd ~
-   $ git clone --single-branch --branch master https://github.com/standardnotes/syncing-server.git
-   $ cd syncing-server
+   $ git clone --single-branch --branch main https://github.com/standardnotes/standalone.git
+   $ cd standalone
    ```
 
-> **Note:** The `master` branch has the latest, stable code. Use this branch in production environments.
-
-1. Create `.env` file in the project's directory:
+1. Initialize default configuration files by typing:
 
    ```bash
-   $ cp .env.sample .env
+   $ ./server.sh setup
    ```
 
-   Generate the secret key base and paste the output in the `.env` file's `SECRET_KEY_BASE` and `PSEUDO_KEY_PARAMS_KEY` key:
+1. Customize your configuration
+
+   In the `.env` file you will find 3 variables that need to be filled in with generated secret keys. The variables are `JWT_SECRET`, `LEGACY_JWT_SECRET`, `AUTH_JWT_SECRET`. You can generate their values using:
 
    ```bash
-   $ openssl rand -hex 64
+   $ openssl rand -hex 32
    ```
 
-   Also make sure to check the following variables:
+   Use the same method to change the value of `ENCRYPTION_SERVER_KEY` in `docker/auth.env` file
 
-   - `DB_PASSWORD` create a password for your database and set it
-   - `RAILS_ENV` change this to "production" for production use, otherwise the access token time is very short and forces re-login
+  > **Note** Environment variables cannot be changed with effect to take place while the docker containers are running. To change them, server needs to be restarted.
 
-   These variables cannot be changed within the docker container once they are set. To change them, the container needs to be removed `docker-compose rm` and rebuilt (see next step). Data might be lost during this process.
+1. (Optional) Customize the port
+
+  By default the syncing server will run on port 3000. If it is the case that you have a different service running on that port you can customize the port on which you want to run the infrastructure on. To do that, edit the `EXPOSED_PORT` variable in the `.env` file.
 
 1. Simply run:
 
    ```bash
-   $ sudo docker-compose up -d
+   $ ./server.sh start
    ```
 
-   This should load the `syncing-server` on `http://localhost:3000` and MySQL database containers and run the necessary migrations.
+   This should load all the microservices that the infrastructure consists of.
+
+  > **Note** First run might take a while since there are Docker images to be pulled and built and migrations initializing the database to be run.
+
+1. Wait for the infrastructure to bootstrap
+
+   It takes a moment for the infrastructure to bootstrap and all the microservices to start. You can observe the process by typing:
+
+   ```bash
+   $ ./server.sh logs
+   ```
+
+  > **Note** You can safely escape from logs with CTRL+C
+
+  > **Note** Microservices depend on each other and because of that they are starting sequentially in our setup. In the logs you will most probably observe that one service is waiting for another to start with lines like: "XYZ is unavailable yet - waiting for it to start" where XYZ is the dependent service name. This is expected.
+
+   Everything should be up and running once you observe that the `API Gateway` service has started by seeing the following line as one of the last ones in logs:
+
+   ```
+   api-gateway_1 | {"message":"Server started on port 3000","level":"info"}
+   ```
+
+   You can also check the state in which all the services are by typing:
+
+   ```bash
+   $ ./server.sh status
+   ```
+
+   All of the services should be in `Up` state at this stage.
 
 1. Test your access to the server locally:
 
+   You should be able now to check that the syncing server is running by checking `http://localhost:3000/healthcheck`:
+
    ```bash
-   $ curl {domain name}
-   <!doctype html>
-   <html>
-     ...
-     <body>
-       <h1> Hi! You're not supposed to be here. </h1>
-
-       <p> You might be looking for the <a href="https://app.standardnotes.org"> Standard Notes Web App</a> or the main <a href="https://standardnotes.org"> Standard Notes Website</a>. </p>
-
-     </body>
-   </html>
+   $ curl http://localhost:3000/healthcheck
+   OK
    ```
+
+   > **Note** If you changed the `EXPOSED_PORT` variable you will have to check `http://localhost:{EXPOSED_PORT}/healthcheck`.
 
 1. You're done!
 
-## Using your new server
+## Securing Your Server
 
-You can immediately start using your new server by using the Standard Notes app at https://app.standardnotes.org.
+In order to start using your new server with the Standard Notes app at https://app.standardnotes.org you will have to configure an HTTPS reverse proxy.
+
+Unless you already have an HTTP/HTTPS server running that will server as a reversy proxy to the standalone infrastructure, head over to [Securing HTTP traffic of your Sync server](./https-support.md).
+
+## Using your new server
 
 In the account menu, choose `Advanced Options` and enter the address of your new server in `Sync Server Domain`.
 
