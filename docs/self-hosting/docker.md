@@ -60,7 +60,7 @@ SSH into your server and follow the steps below:
 
 1. (Optional) Customize the port
 
-  By default the syncing server will run on port 80 which is the default HTTP port. It might be the case that you have a different service running on that port like Nginx or Apache. If it is the case you can customize the port on which you want to run the syncing server on. To do that, edit the `EXPOSED_PORT` variable in the `.env` file.
+  By default the syncing server will run on port 3000. If it is the case that you have a different service running on that port you can customize the port on which you want to run the infrastructure on. To do that, edit the `EXPOSED_PORT` variable in the `.env` file.
 
 1. Simply run:
 
