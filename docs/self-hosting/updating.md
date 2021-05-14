@@ -48,4 +48,4 @@ If you encounter any problems while updating, you can nuke your setup and start 
 $ ./server.sh cleanup
 ```
 
-> ***WARNING*** this will delete all your data permanently so please backup your data before running the command.
+> ***WARNING*** this will permanently delete all your data, so be sure to back up your database before running this command.
