@@ -19,7 +19,7 @@ hide_table_of_contents: false
 
 ## Note
 
-After changing any of the environment variables mentioned below you will have to restart the infrastructure in order for the changes to take place. You can do it by typing the following command:
+After changing any of the environment variables mentioned below you will have to restart the infrastructure in order for the changes to take effect. You can do so with the following command:
 
   ```bash
   $ ./server.sh stop && ./server.sh start
