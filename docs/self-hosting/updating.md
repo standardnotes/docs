@@ -42,7 +42,7 @@ $ ./server.sh update
 
 ## Troubleshooting
 
-If you encounter any problems while updating as a last resort backup your data that you have under the `data/*` folder in the project and run:
+If you encounter any problems while updating, you can nuke your setup and start over. But **you must backup your data** inside the `data/*` folder. Then, to wipe your existing setup, run:
 
 ```bash
 $ ./server.sh cleanup
