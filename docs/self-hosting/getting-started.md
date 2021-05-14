@@ -24,7 +24,7 @@ We offer free and fast sync for unlimited devices to both free and paid users. I
 
 Syncing Server infrastructure consists of a few different microservices that are responsible for different sets of functionality.
 
-In order to make your life easier and not having to set up each of them separately we prepared a [docker-compose setup with accompanying script](./docker.md) that will handle it for you.
+In order to make your life easier and not having to set up each of them separately we prepared a [docker-compose setup with accompanying script](./docker.md) that will automate the process for you.
 
 > **Note** In mentioned setup we also provide a running MySQL database and Redis cache node. So you don't have to provision any of those services on your own.
 
