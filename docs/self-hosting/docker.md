@@ -82,7 +82,7 @@ SSH into your server and follow the steps below:
 
   > **Note** You can safely escape from logs with CTRL+C
 
-  > **Note** Microservices depend on each other and because of that they are starting sequentially in our setup. In the logs you will most probably observe that one service is waiting for another to start with lines like this: "XYZ is unavailable yet - waiting for it to start" where XYZ is the dependant service name. That is expected.
+  > **Note** Microservices depend on each other and because of that they are starting sequentially in our setup. In the logs you will most probably observe that one service is waiting for another to start with lines like: "XYZ is unavailable yet - waiting for it to start" where XYZ is the dependent service name. This is expected.
 
    Everything should be up and running once you observe that the `API Gateway` service has started by seeing the following line as one of the last ones in logs:
 
