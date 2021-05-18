@@ -48,6 +48,8 @@ These instructions will enable you to secure HTTP traffic of your standalone inf
     access_log /var/log/nginx/standardnotes-access.log;
     error_log /var/log/nginx/standardnotes-error.log;
 
+    client_max_body_size 50M;
+
     location / {
       proxy_pass http://127.0.0.1:3000;
     }
