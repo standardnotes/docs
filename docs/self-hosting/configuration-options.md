@@ -102,7 +102,7 @@ We are in the process of moving some user/authentication related functionalities
 
 This features will soon be deprecated in favor of Auth service. For now it is configurable in both Syncing Server JS and Auth.
 
-- `DISABLE_USER_REGISTRATION`: disable the option to register new users on the server.
+- `DISABLE_USER_REGISTRATION`: disable the option to allow new user registrations on the server.
 
 ### Emails
 
