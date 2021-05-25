@@ -116,7 +116,7 @@ This features will soon be deprecated in favor of Auth service. For now it is co
 
 We are utilizing New Relic to monitor our infrastructure. If you wish to set up your own monitoring in New Relic you can utilize the following environment variables:
 
-- `NEW_RELIC_ENABLED`: enable or disable new relic agent
+- `NEW_RELIC_ENABLED`: enable or disable New Relic agent
 - `NEW_RELIC_APP_NAME`: name of the syncing server application under which it will show in New Relic
 - `NEW_RELIC_LICENSE_KEY`: New Relic license key
 - `NEW_RELIC_NO_CONFIG_FILE`: should be true as we do not use configuration files for New Relic and fallback to environment variables.
