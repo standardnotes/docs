@@ -66,7 +66,7 @@ All configuration options mentioned below are controlled by environment variable
 - `REFRESH_TOKEN_AGE`: time to live (in seconds) of the refresh token used to obtain a new access token.
 - `EPHEMERAL_SESSION_AGE`: time to live (in seconds) of an ephemeral session. Used when you sign in without the "Stay signed in" option checked.
 - `MAX_LOGIN_ATTEMPTS`: number of login attempts before locking the account.
-- `FAILED_LOGIN_LOCKOUT`: amount of seconds for the locked period after failed login attempts.
+- `FAILED_LOGIN_LOCKOUT`: lockout period in seconds after maximum failed login attempts.
 
 ### Redis Async Communication (Default)
 
