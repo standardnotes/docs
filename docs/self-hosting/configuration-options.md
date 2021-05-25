@@ -32,8 +32,8 @@ All configuration options mentioned below are controlled by environment variable
 
 ### Basics
 
-- `LOG_LEVEL`: the level of logs outputted by the Syncing Server JS and Syncing Server JS Worker services
-- `NODE_ENV`: Node environment in which the service is running
+- `LOG_LEVEL`: the level of logs outputted by the Syncing Server JS and Syncing Server JS Worker services.
+- `NODE_ENV`: Node environment in which the service is running.
 
 ### Secrets
 
@@ -47,18 +47,18 @@ All configuration options mentioned below are controlled by environment variable
 
 ### Database
 
-- `DB_HOST`: database host
+- `DB_HOST`: database host.
 - `DB_REPLICA_HOST`: database replica host. If no replica is supported it should point to the same host as the primary DB.
-- `DB_PORT`: database port
-- `DB_USERNAME`: database username
-- `DB_PASSWORD`: database password
-- `DB_DATABASE`: database name
+- `DB_PORT`: database port.
+- `DB_USERNAME`: database username.
+- `DB_PASSWORD`: database password.
+- `DB_DATABASE`: database name.
 - `DB_DEBUG_LEVEL`: the level of logs which are outputted in the database context. Related to TypeORM.
 - `DB_MIGRATIONS_PATH`: path to migrations folder that should be run against the database. Related to TypeORM.
 
 ### Cache
 
-- `REDIS_URL`: url to Redis node
+- `REDIS_URL`: url to Redis node.
 
 ### Authentication and Authorization
 
@@ -116,13 +116,13 @@ This features will soon be deprecated in favor of Auth service. For now it is co
 
 We are utilizing New Relic to monitor our infrastructure. If you wish to set up your own monitoring in New Relic you can utilize the following environment variables:
 
-- `NEW_RELIC_ENABLED`: enable or disable New Relic agent
-- `NEW_RELIC_APP_NAME`: name of the application to show in New Relic
-- `NEW_RELIC_LICENSE_KEY`: New Relic license key
+- `NEW_RELIC_ENABLED`: enable or disable New Relic agent.
+- `NEW_RELIC_APP_NAME`: name of the application to show in New Relic.
+- `NEW_RELIC_LICENSE_KEY`: New Relic license key.
 - `NEW_RELIC_NO_CONFIG_FILE`: should be true as we do not use configuration files for New Relic and fallback to environment variables.
 - `NEW_RELIC_DISTRIBUTED_TRACING_ENABLED`: enable or disable distrubuted tracing.
-- `NEW_RELIC_LOG_ENABLED`: enable or disable logs in New Relic
-- `NEW_RELIC_LOG_LEVEL`: level of logs in New Relic
+- `NEW_RELIC_LOG_ENABLED`: enable or disable logs in New Relic.
+- `NEW_RELIC_LOG_LEVEL`: level of logs in New Relic.
 
 ## Auth & Auth Worker
 
@@ -130,14 +130,14 @@ All configuration options mentioned below are controlled by environment variable
 
 ### Basics
 
-- `LOG_LEVEL`: the level of logs outputted by the Auth and Auth Worker services
-- `NODE_ENV`: Node environment in which the service is running
+- `LOG_LEVEL`: the level of logs outputted by the Auth and Auth Worker services.
+- `NODE_ENV`: Node environment in which the service is running.
 
 ### Secrets
 
 - `AUTH_JWT_TTL`: Time to live in seconds for the JWT token used for communication between services.
 - `PSEUDO_KEY_PARAMS_KEY`: key used to generate password nonce in the process of creating user authentication parameters.
-- `ENCRYPTION_SERVER_KEY`: key used for ecrypting user server key. Must be a hex string exactly 32 bytes long e.g. `feffe9928665731c6d6a8f9467308308feffe9928665731c6d6a8f9467308308`
+- `ENCRYPTION_SERVER_KEY`: key used for ecrypting user server key. Must be a hex string exactly 32 bytes long e.g. `feffe9928665731c6d6a8f9467308308feffe9928665731c6d6a8f9467308308`.
 
 ### Redis Async Communication (Default)
 
@@ -151,13 +151,13 @@ All configuration options mentioned below are controlled by environment variable
 
 We are utilizing New Relic to monitor our infrastructure. If you wish to set up your own monitoring in New Relic you can utilize the following environment variables:
 
-- `NEW_RELIC_ENABLED`: enable or disable New Relic agent
-- `NEW_RELIC_APP_NAME`: name of the syncing server application under which it will show in New Relic
-- `NEW_RELIC_LICENSE_KEY`: New Relic license key
+- `NEW_RELIC_ENABLED`: enable or disable New Relic agent.
+- `NEW_RELIC_APP_NAME`: name of the syncing server application under which it will show in New Relic.
+- `NEW_RELIC_LICENSE_KEY`: New Relic license key.
 - `NEW_RELIC_NO_CONFIG_FILE`: should be true as we do not use configuration files for New Relic and fallback to environment variables.
 - `NEW_RELIC_DISTRIBUTED_TRACING_ENABLED`: enable or disable distrubuted tracing.
-- `NEW_RELIC_LOG_ENABLED`: enable or disable logs in New Relic
-- `NEW_RELIC_LOG_LEVEL`: level of logs in New Relic
+- `NEW_RELIC_LOG_ENABLED`: enable or disable logs in New Relic.
+- `NEW_RELIC_LOG_LEVEL`: level of logs in New Relic.
 
 ## API Gateway
 
@@ -165,13 +165,13 @@ All configuration options mentioned below are controlled by environment variable
 
 ### Basics
 
-- `LOG_LEVEL`: the level of logs outputted by the API Gateway service
-- `NODE_ENV`: Node environment in which the service is running
+- `LOG_LEVEL`: the level of logs outputted by the API Gateway service.
+- `NODE_ENV`: Node environment in which the service is running.
 
 ### Routing
 
-- `SYNCING_SERVER_JS_URL`: url to the Syncing Server JS service
-- `AUTH_SERVER_URL`: url to the Auth service
+- `SYNCING_SERVER_JS_URL`: url to the Syncing Server JS service.
+- `AUTH_SERVER_URL`: url to the Auth service.
 
 ### Timeouts
 
@@ -181,10 +181,10 @@ All configuration options mentioned below are controlled by environment variable
 
 We are utilizing New Relic to monitor our infrastructure. If you wish to set up your own monitoring in New Relic you can utilize the following environment variables:
 
-- `NEW_RELIC_ENABLED`: enable or disable new relic agent
-- `NEW_RELIC_APP_NAME`: name of the syncing server application under which it will show in New Relic
-- `NEW_RELIC_LICENSE_KEY`: New Relic license key
+- `NEW_RELIC_ENABLED`: enable or disable new relic agent.
+- `NEW_RELIC_APP_NAME`: name of the syncing server application under which it will show in New Relic.
+- `NEW_RELIC_LICENSE_KEY`: New Relic license key.
 - `NEW_RELIC_NO_CONFIG_FILE`: should be true as we do not use configuration files for New Relic and fallback to environment variables.
 - `NEW_RELIC_DISTRIBUTED_TRACING_ENABLED`: enable or disable distrubuted tracing.
-- `NEW_RELIC_LOG_ENABLED`: enable or disable logs in New Relic
-- `NEW_RELIC_LOG_LEVEL`: level of logs in New Relic
+- `NEW_RELIC_LOG_ENABLED`: enable or disable logs in New Relic.
+- `NEW_RELIC_LOG_LEVEL`: level of logs in New Relic.
