@@ -175,7 +175,7 @@ All configuration options mentioned below are controlled by environment variable
 
 ### Timeouts
 
-- `HTTP_CALL_TIMEOUT`: amount of miliseconds on which the API Gateway will wait for the underlying service to respond.
+- `HTTP_CALL_TIMEOUT`: amount of milliseconds the API Gateway will wait for the underlying service to respond.
 
 ### New Relic (Optional)
 
