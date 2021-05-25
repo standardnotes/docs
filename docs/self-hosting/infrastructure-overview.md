@@ -44,7 +44,7 @@ This service will be paired with your reverse proxy for [HTTPS support](./https-
 
 ### DB
 
-MySQL database server. This is where all the data is stored.
+MySQL database server. This is where all data is stored.
 
 ### Cache
 
