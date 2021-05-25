@@ -89,8 +89,8 @@ If you do not want to use Redis as the communication channel between services, y
 
 We use internal service discovery endpoints in our Virtual Private Cloud. In order for the requests to not go out via the internet we reroute the traffic to go through internal network only.
 
-- `INTERNAL_DNS_REROUTE_ENABLED`: if you'd like to redirect posting notes to extensions server to a different url you can enable this option.
-- `EXTENSIONS_SERVER_URL`: the url of the extensions server to which the notes will be redirected.
+- `INTERNAL_DNS_REROUTE_ENABLED`: If you wish to not send your notes to the default extensions server url (`https://extensions.standardnotes.org`) you can enable this option and supply your own extensions server url with the `EXTENSIONS_SERVER_URL` environment variable.
+- `EXTENSIONS_SERVER_URL`: the url of the extensions server to which the notes will sent to. This is used only if you have `INTERNAL_DNS_REROUTE_ENABLED` set to `true`.
 
 ### Auth Service
 
