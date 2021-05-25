@@ -92,6 +92,7 @@ module.exports = {
   technicalSidebar: {
     'Self-Hosting Standard Notes': [
       'self-hosting/getting-started',
+      'self-hosting/infrastructure-overview',
       'self-hosting/docker',
       'self-hosting/configuration-options',
       'self-hosting/https-support',
