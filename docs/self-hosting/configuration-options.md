@@ -110,7 +110,7 @@ This features will soon be deprecated in favor of Auth service. For now it is co
 
 ### Revisions
 
-- `REVISIONS_FREQUENCY`: Amount of seconds between each revision save of a note.
+- `REVISIONS_FREQUENCY`: Amount of seconds that should pass between each save of a note for a new history revision to be created.
 
 ### New Relic (Optional)
 
