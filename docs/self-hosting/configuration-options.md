@@ -70,7 +70,7 @@ All configuration options mentioned below are controlled by environment variable
 
 ### Redis Async Communication (Default)
 
-- `REDIS_EVENTS_CHANNEL`: name of the redis Pub/Sub channel used for communication between the service and it's worker.
+- `REDIS_EVENTS_CHANNEL`: name of the Redis Pub/Sub channel used for communication between the service and its worker.
 
 ### AWS Async Communication (Optional)
 
