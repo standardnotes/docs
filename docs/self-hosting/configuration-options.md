@@ -87,7 +87,7 @@ If you do not want to use Redis as the communication channel between services, y
 
 ### Extensions Server Redirection (Optional)
 
-We use internal service discovery endpoints in our Virtual Private Cloud. In order for the requests to not go out via the internet we reroute the traffic go through internal network only.
+We use internal service discovery endpoints in our Virtual Private Cloud. In order for the requests to not go out via the internet we reroute the traffic to go through internal network only.
 
 - `INTERNAL_DNS_REROUTE_ENABLED`: if you'd like to redirect posting notes to extensions server to a different url you can enable this option.
 - `EXTENSIONS_SERVER_URL`: the url of the extensions server to which the notes will be redirected.
