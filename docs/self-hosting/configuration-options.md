@@ -43,7 +43,7 @@ All configuration options mentioned below are controlled by environment variable
 
 ### Ports
 
-- `EXPOSED_PORT`: this is the port on which the API Gateway will run. It is your main entry point for the whole infrastructure.
+- `EXPOSED_PORT`: the port on which the API Gateway will run. It is your main entry point for the entire infrastructure.
 
 ### Database
 
