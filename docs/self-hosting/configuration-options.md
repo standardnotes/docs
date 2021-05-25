@@ -38,7 +38,7 @@ All configuration options mentioned below are controlled by environment variable
 ### Secrets
 
 - `JWT_SECRET`: secret used to sign the JWT tokens that are used for authorization & authentication purposes between client and server.
-- `LEGACY_JWT_SECRET`: This parameter is as a fallback for supporting old client applications that had a different authorization mechanism. You don't need to change this if you are just starting to self-host your setup and do not own a legacy client application.
+- `LEGACY_JWT_SECRET`: This parameter is a fallback for supporting old client applications that had a different authorization mechanism. You don't need to change this if you are just starting to self-host your setup and do not own a legacy client application.
 - `AUTH_JWT_SECRET`: secret used to sign the JWT tokens that are used for authorization & authentication purposes between services.
 
 ### Ports
