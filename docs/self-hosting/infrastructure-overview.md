@@ -38,7 +38,7 @@ Similar to Syncing Server JS Worker, Auth Worker is responsible for all asynchro
 
 ### API Gateway
 
-This is the main "entry point" of the whole architecture. API Gateway serves as a router and proxy to all services which are inacessible directly. All requests from client applications will have to go through API Gateway in order to reach a certain underlying service.
+This is the main "entry point" of the entire architecture. API Gateway serves as a router and proxy to all services which are inaccessible directly. All requests from client applications will have to go through API Gateway in order to reach a certain underlying service.
 
 This is the service that will be paired with your reverse proxy for [HTTPS support](./https-support.md)
 
