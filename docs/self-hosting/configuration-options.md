@@ -106,7 +106,7 @@ This features will soon be deprecated in favor of Auth service. For now it is co
 
 ### Emails
 
-- `EMAIL_ATTACHMENT_MAX_BYTE_SIZE`: Amount of bytes allowed for the attachment with a data backup.
+- `EMAIL_ATTACHMENT_MAX_BYTE_SIZE`: Amount of bytes allowed for daily email backup attachments.
 
 ### Revisions
 
