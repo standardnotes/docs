@@ -50,4 +50,4 @@ MySQL database server. This is where all data is stored.
 
 Redis cache node where all temporary data is persisted for performance optimization and auto-expiring features.
 
-By default in self-host mode Redis is also used as a communication queue between services and their workers.
+In self-host mode, Redis is used by default as a communication queue between services and their workers.
