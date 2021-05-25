@@ -34,7 +34,7 @@ This is the server responsible for all authorization and authentication features
 
 ### Auth Worker
 
-Similar to Syncing Server JS Worker, Auth Worker is responsible for all asynchronous tasks related to the authentication and authorization domain. For example you will find in here processing of account deletion requests and user's post-registration tasks.
+Similar to Syncing Server JS Worker, Auth Worker is responsible for all asynchronous tasks related to the domain of authentication and authorization. For example, processing account deletion requests and users' post-registration tasks.
 
 ### API Gateway
 
