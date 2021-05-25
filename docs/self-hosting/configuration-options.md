@@ -76,7 +76,7 @@ All configuration options mentioned below are controlled by environment variable
 
 If you do not want to use Redis as the communication channel between services, you can configured your async communication to be done via Amazon Web Services.
 
-> **Note** We do not support configuring AWS secret and access keys in the environment variables as this is generally a bad practice. If you would like to utilize SNS, SQS and S3 please configure an appropriate IAM user and role for the server on which you self-host your application as [best practice](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#sharing-credentials).
+> **Note** We do not support configuring AWS secret and access keys in the environment variables as this is generally bad practice. If you would like to utilize SNS, SQS and S3, please configure an appropriate IAM user and role for the server on which you self-host your application as [best practice](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#sharing-credentials).
 
 - `SNS_TOPIC_ARN`: ARN of the SNS topic that the service will publish events to.
 - `SNS_AWS_REGION`: AWS region of the SNS topic.
