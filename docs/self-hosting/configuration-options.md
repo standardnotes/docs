@@ -94,7 +94,7 @@ We use internal service discovery endpoints in our Virtual Private Cloud. In ord
 
 ### Auth Service
 
-We are in the process of moving some user/authentication related functionalities out of Syncing Server JS and into Auth serivce. In order to achieve that gradualy we are redirecting some requests internally to the Auth service from Syncing Server js to slowly strangle that functionality in Syncing Server JS.
+We are in the process of moving some user/authentication related functionalities out of Syncing Server JS and into Auth service. In order to achieve this, we are gradually redirecting some requests internally to the Auth service from Syncing Server JS.
 
 -`AUTH_SERVER_URL`: url to the Auth service. Default value should be kept.
 
