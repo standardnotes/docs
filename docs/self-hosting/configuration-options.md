@@ -48,7 +48,7 @@ All configuration options mentioned below are controlled by environment variable
 ### Database
 
 - `DB_HOST`: database host
-- `DB_REPLICA_HOST`: database replica host. If no replica supported it should point to the same host as the primary DB.
+- `DB_REPLICA_HOST`: database replica host. If no replica is supported it should point to the same host as the primary DB.
 - `DB_PORT`: database port
 - `DB_USERNAME`: database username
 - `DB_PASSWORD`: database password
