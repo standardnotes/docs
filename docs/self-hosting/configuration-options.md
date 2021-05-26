@@ -85,13 +85,6 @@ If you do not want to use Redis as the communication channel between services, y
 - `S3_BACKUP_BUCKET_NAME`: name of the S3 bucket on which a file backup will be performed to transfer large data between services.
 - `S3_AWS_REGION`: AWS region of the S3 bucket.
 
-### Extensions Server Redirection (Optional)
-
-We use internal service discovery endpoints in our Virtual Private Cloud. In order for the requests to not go out via the internet we reroute the traffic to go through internal network only.
-
-- `INTERNAL_DNS_REROUTE_ENABLED`: If you wish to not send your notes to the default extensions server url (`https://extensions.standardnotes.org`) you can enable this option and supply your own extensions server url with the `EXTENSIONS_SERVER_URL` environment variable.
-- `EXTENSIONS_SERVER_URL`: the url of the extensions server to which the notes will sent to. This is used only if you have `INTERNAL_DNS_REROUTE_ENABLED` set to `true`.
-
 ### Auth Service
 
 We are in the process of moving some user/authentication related functionalities out of Syncing Server JS and into Auth service. In order to achieve this, we are gradually redirecting some requests internally to the Auth service from Syncing Server JS.
