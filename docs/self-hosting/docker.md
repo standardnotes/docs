@@ -115,7 +115,7 @@ SSH into your server and follow the steps below:
 
 In order to start using your new server with the Standard Notes app at https://app.standardnotes.org you will have to configure an HTTPS reverse proxy.
 
-Unless you already have an HTTP/HTTPS server running that will server as a reversy proxy to the standalone infrastructure, head over to [Securing HTTP traffic of your Sync server](./https-support.md).
+Unless you already have an HTTP/HTTPS server running that will serve as a reverse proxy to the standalone infrastructure, head over to [Securing HTTP traffic of your Sync server](./https-support.md).
 
 ## Using your new server
 
