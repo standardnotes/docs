@@ -18,19 +18,19 @@ hide_table_of_contents: false
 
 ## Services
 
-Syncing Server infrastructure consists of a few different microservices that are responsible for different sets of functionality. The mentioned services are:
+The Syncing Server infrastructure consists of a few different microservices that are responsible for different sets of functionality.
 
 ### Syncing Server JS
 
-Syncing Server JS is a TypeScript implementation of our Syncing Server. This is the core of our business logic that is responsible for all operations on your notes.
+Syncing Server JS is a TypeScript implementation of our Syncing Server. This is the core of our business logic that is responsible for all operations on user data.
 
 ### Syncing Server JS Worker
 
-Syncing Server JS Worker is responsible for all the asynchronous tasks related to what Syncing Server JS scope is. If something can be delegate to be done in an async manner, this is the place to put it. It includes for example processing of: email backups, resolving issues with note duplicates, sending notes to extensions server and many more to come.
+Syncing Server JS Worker is responsible for all asynchronous tasks that the Syncing Server JS may offload for background processing. This includes for example processing of email backups, resolving issues with note duplicates, sending notes to extensions server, and more.
 
 ### Auth
 
-This is the server responsible for all authorization and authentication features. Auth is where all you user data is handled and processed.
+This server is responsible for all authorization and authentication mechanisms. Auth is where all account-related metadata is handled and processed.
 
 ### Auth Worker
 

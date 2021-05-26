@@ -24,7 +24,7 @@ We offer free and fast sync for unlimited devices to both free and paid users. I
 
 Syncing Server infrastructure consists of a few different microservices that are responsible for different sets of functionality.
 
-If you'd like to know more about the particular services head over to [Infrastructure Overview](./infrastructure-overview.md)
+If you'd like to learn more about each of the particular services, head over to [Infrastructure Overview](./infrastructure-overview.md).
 
 In order to make your life easier and not having to set up each of them separately we prepared a [docker-compose setup with accompanying script](./docker.md) that will automate the process for you.
 
