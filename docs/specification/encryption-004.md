@@ -1,8 +1,8 @@
 ---
 slug: encryption/
 id: encryption
-title: Encryption Protocol Specification v004
-sidebar_label: Encryption v004
+title: Client Encryption API
+sidebar_label: Client Encryption
 description: Specification for the Standard Notes end-to-end encryption.
 keywords:
   - standard notes
@@ -14,8 +14,6 @@ image: /img/logo.png
 hide_title: false
 hide_table_of_contents: false
 ---
-
-## Version 0.0.4
 
 The 004 protocol upgrade centers around a system that makes it easy and painless to upgrade to a future protocol version, as well as more modern cryptographic primitives.
 

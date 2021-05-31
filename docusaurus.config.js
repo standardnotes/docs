@@ -7,8 +7,8 @@ module.exports = {
   url: 'https://docs.standardnotes.org',
   baseUrl: '/',
   favicon: 'img/favicon.png',
-  organizationName: 'standardnotes', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  organizationName: 'standardnotes',
+  projectName: 'docs',
   themeConfig: {
     algolia: {
       apiKey: 'f2899fea0369aeea336963e48a0e46dc',
@@ -30,60 +30,22 @@ module.exports = {
       },
       items: [
         {
-          label: 'Users',
-          position: 'left',
-          items: [
-            { to: '/privacy/', label: 'Privacy', position: 'left' },
-            {
-              to: '/extended/manage/',
-              label: 'Manage Extended',
-              position: 'left',
-            },
-            { to: '/usage/', label: 'General Usage', position: 'left' },
-            {
-              to: 'usage/what-are-editors/',
-              label: 'Editors',
-              position: 'right',
-            },
-            {
-              to: '/usage/folders/',
-              label: 'Folders and Tags',
-              position: 'left',
-            },
-            {
-              to: '/usage/backups/',
-              label: 'Backups',
-              position: 'left',
-            },
-            {
-              to: '/usage/filesafe/',
-              label: 'FileSafe',
-              position: 'left',
-            },
-            {
-              to: '/usage/2fa/',
-              label: 'Two-factor Authentication',
-              position: 'left',
-            },
-            {
-              to: '/account/change-email/',
-              label: 'Manage Account',
-              position: 'left',
-            },
-            {
-              to: '/listed/about/',
-              label: 'Listed Blogging Platform',
-              position: 'left',
-            },
-          ],
-        },
-        {
           label: 'Developers',
           position: 'left',
           items: [
             {
               to: '/self-hosting/getting-started/',
               label: 'Self-Host a Sync Server',
+              position: 'left',
+            },
+            {
+              to: '/specification/encryption/',
+              label: 'Client Encryption API',
+              position: 'left',
+            },
+            {
+              to: '/specification/sync/',
+              label: 'Server API',
               position: 'left',
             },
             {
@@ -94,11 +56,6 @@ module.exports = {
             {
               to: '/extensions/editors/',
               label: 'Build an Editor',
-              position: 'left',
-            },
-            {
-              to: '/specification/encryption/',
-              label: 'Encryption Specification',
               position: 'left',
             },
           ],
@@ -185,7 +142,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} <a href="https://standardnotes.org">Standard Notes</a>`, // My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} <a href="https://standardnotes.org">Standard Notes</a>`,
     },
   },
   stylesheets: [
@@ -228,9 +185,8 @@ module.exports = {
       {
         redirects: [
           {
-            to: '/extensions/intro/', // string
+            to: '/extensions/intro/',
             from: [
-              // string | string[]
               '/extensions/introduction',
               '/extensions/components/',
               '/extensions/',

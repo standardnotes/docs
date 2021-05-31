@@ -20,12 +20,11 @@ This documentation explains how to get started with using Standard Notes, publis
 
 ## Topics
 
-- [Our Privacy Manifesto](/privacy/)
-- [Using Standard Notes](/usage/)
-- [Publishing a blog with Listed](/listed/about/)
 - [Self-hosting a Syncing Server](/self-hosting/getting-started/)
 - [Developing Extensions](/extensions/intro/)
-- [Encryption Specification](/specification/encryption/)
+- [Client Encryption API](/specification/encryption/)
+- [Sync API](/specification/sync/)
+- [Auth API](/specification/auth/)
 
 ## Staying informed
 

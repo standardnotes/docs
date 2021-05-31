@@ -16,27 +16,21 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-## Syncing Server
+Our self-hosted server infrastructure consists of several different microservices that are responsible for different sets of functionality.
 
-We offer free and fast sync for unlimited devices to both free and paid users. If you are interested in hosting your own syncing server, you are welcome to do so.
-
-## Infrastructure Synopsis
-
-Syncing Server infrastructure consists of a few different microservices that are responsible for different sets of functionality.
+**To begin your self-hosted setup**, we recommend using our [docker-compose setup with accompanying script](./docker.md) that will automate the process for you.
 
 If you'd like to learn more about each of the particular services, head over to [Infrastructure Overview](./infrastructure-overview.md).
 
-In order to make your life easier and not having to set up each of them separately we prepared a [docker-compose setup with accompanying script](./docker.md) that will automate the process for you.
-
-> **Note** In mentioned setup we also provide a running MySQL database and Redis cache node. So you don't have to provision any of those services on your own.
+> **Note** Our setup also provides a running MySQL database and a Redis cache node. You do not have to provision these services on your own.
 
 ### Recommendations
 
-We highly recommend that you use our Docker setup to host your syncing server. Docker containers are isolated software environments that you can control and manage.
+We highly recommend you use our Docker setup to host your syncing server. Docker containers are isolated software environments that you can control and manage.
 
 If you are new to Docker, please see the [official Docker documentation](https://docs.docker.com/get-started/) on how to get started.
 
-We recommend that you avoid setting up the syncing server from scratch with Nginx unless you are proficient with Nginx. Setting up the full architecture can be challenging without full knowledge of how the syncing server and it's microservices work.
+We recommend avoiding setting up your syncing server from scratch with Nginx unless you are proficient with Nginx. Setting up the full architecture can be challenging without full knowledge of how the syncing server and its microservices function.
 
 ### Issues
 

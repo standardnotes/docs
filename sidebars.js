@@ -1,81 +1,50 @@
 module.exports = {
   mainSidebar: {
-    'Standard Notes Docs': ['welcome'],
-    Privacy: [
-      'privacy/manifesto',
-      'privacy/private-notes',
-      'privacy/secure-notes',
-      'privacy/on-device-encryption',
-      'privacy/store-passwords',
-      'privacy/security-audit',
-      'privacy/information-collected',
-      'privacy/services-used',
-      'privacy/future-proofing',
-      'privacy/country',
-    ],
-    Extended: ['extended/manage', 'extended/faq'],
-    Usage: [
-      'usage/general',
-      'usage/install-extensions',
+    Developers: [
       {
-        type: 'category',
-        label: 'Mobile',
-        items: ['usage/mobile'],
-      },
-      {
-        type: 'category',
-        label: 'Editors',
-        items: [
-          'usage/what-are-editors',
-          'usage/bold-editor',
-          'usage/markdown-basic',
-          'usage/markdown-math',
-          'usage/markdown-pro',
-          'usage/secure-spreadsheets',
-          'usage/task-editor',
+        'Self Hosting': [
+          'self-hosting/getting-started',
+          'self-hosting/infrastructure-overview',
+          'self-hosting/docker',
+          'self-hosting/configuration-options',
+          'self-hosting/https-support',
+          'self-hosting/updating',
         ],
       },
       {
-        type: 'category',
-        label: 'Folders and Tags',
-        items: ['usage/folders', 'usage/tags', 'usage/autocomplete-tags'],
-      },
-      {
-        type: 'category',
-        label: 'Actions',
-        items: ['usage/action-bar', 'usage/github-push'],
-      },
-      {
-        type: 'category',
-        label: 'Data Care',
-        items: [
-          'usage/backups',
-          'usage/email-backups',
-          'usage/cloud-backups',
-          'usage/note-history',
+        API: [
+          'specification/encryption',
+          'specification/sync',
+          'specification/auth',
         ],
       },
       {
-        type: 'category',
-        label: 'FileSafe',
-        items: ['usage/filesafe', 'usage/filesafe-aws'],
-      },
-      {
-        type: 'category',
-        label: 'Two-factor Authentication',
-        items: [
-          'usage/2fa',
-          'usage/2fa-store-secret-key',
-          'usage/2fa-lost-secret-key',
+        Extensions: [
+          'extensions/intro',
+          {
+            type: 'category',
+            label: 'Editors',
+            items: [
+              'extensions/editors',
+              'extensions/editors-getting-started',
+              'extensions/editorkit',
+              'extensions/stylekit',
+            ],
+          },
+          'extensions/local-setup',
+          'extensions/themes',
+          'extensions/actions',
+          'extensions/publishing',
         ],
       },
     ],
-    Account: [
-      'account/change-email',
-      'account/change-password',
-      'account/delete-account',
-      'account/forgot-password',
-      'account/cannot-sign-in',
+    Editors: [
+      'usage/bold-editor',
+      'usage/markdown-basic',
+      'usage/markdown-math',
+      'usage/markdown-pro',
+      'usage/secure-spreadsheets',
+      'usage/task-editor',
     ],
     Listed: [
       'listed/about',
@@ -86,40 +55,6 @@ module.exports = {
       'listed/guestbook',
       'listed/options',
       'listed/styles',
-    ],
-    Contribute: ['contribute'],
-  },
-  technicalSidebar: {
-    'Self-Hosting Standard Notes': [
-      'self-hosting/getting-started',
-      'self-hosting/infrastructure-overview',
-      'self-hosting/docker',
-      'self-hosting/configuration-options',
-      'self-hosting/https-support',
-      'self-hosting/updating',
-    ],
-    'Building Extensions': [
-      'extensions/intro',
-      'extensions/building-an-extension',
-      {
-        type: 'category',
-        label: 'Editors',
-        items: [
-          'extensions/editors',
-          'extensions/editors-getting-started',
-          'extensions/editorkit',
-          'extensions/stylekit',
-        ],
-      },
-      'extensions/local-setup',
-      'extensions/themes',
-      'extensions/actions',
-      'extensions/publishing',
-    ],
-    Specification: [
-      'specification/encryption',
-      'specification/encryption-003',
-      'specification/sync',
     ],
   },
   secondSidebar: {
