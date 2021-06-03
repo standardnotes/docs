@@ -37,8 +37,6 @@ All configuration options mentioned below are controlled by environment variable
 
 ### Secrets
 
-- `JWT_SECRET`: secret used to sign the JWT tokens that are used for authorization & authentication purposes between client and server.
-- `LEGACY_JWT_SECRET`: This parameter is a fallback for supporting old client applications that had a different authorization mechanism. You don't need to change this if you are just starting to self-host your setup and do not own a legacy client application.
 - `AUTH_JWT_SECRET`: secret used to sign the JWT tokens that are used for authorization & authentication purposes between services.
 
 ### Ports
@@ -59,10 +57,6 @@ All configuration options mentioned below are controlled by environment variable
 ### Cache
 
 - `REDIS_URL`: url to Redis node.
-
-### Authentication and Authorization
-
-- `EPHEMERAL_SESSION_AGE`: time to live (in seconds) of an ephemeral session. Used when you sign in without the "Stay signed in" option checked.
 
 ### Redis Async Communication (Default)
 
@@ -118,6 +112,8 @@ All configuration options mentioned below are controlled by environment variable
 
 ### Secrets
 
+- `JWT_SECRET`: secret used to sign the JWT tokens that are used for authorization & authentication purposes between client and server.
+- `LEGACY_JWT_SECRET`: This parameter is a fallback for supporting old client applications that had a different authorization mechanism. You don't need to change this if you are just starting to self-host your setup and do not own a legacy client application.
 - `AUTH_JWT_TTL`: Time to live in seconds for the JWT token used for communication between services.
 - `PSEUDO_KEY_PARAMS_KEY`: key used to generate password nonce in the process of creating user authentication parameters.
 - `ENCRYPTION_SERVER_KEY`: key used for ecrypting user server key. Must be a hex string exactly 32 bytes long e.g. `feffe9928665731c6d6a8f9467308308feffe9928665731c6d6a8f9467308308`.
@@ -126,6 +122,7 @@ All configuration options mentioned below are controlled by environment variable
 
 - `ACCESS_TOKEN_AGE`: time to live (in seconds) of the access token used to communicate with the server.
 - `REFRESH_TOKEN_AGE`: time to live (in seconds) of the refresh token used to obtain a new access token.
+- `EPHEMERAL_SESSION_AGE`: time to live (in seconds) of an ephemeral session. Used when you sign in without the "Stay signed in" option checked.
 - `MAX_LOGIN_ATTEMPTS`: number of login attempts before locking the account.
 - `FAILED_LOGIN_LOCKOUT`: lockout period in seconds after maximum failed login attempts.
 
@@ -162,10 +159,6 @@ All configuration options mentioned below are controlled by environment variable
 
 - `SYNCING_SERVER_JS_URL`: url to the Syncing Server JS service.
 - `AUTH_SERVER_URL`: url to the Auth service.
-
-### Timeouts
-
-- `HTTP_CALL_TIMEOUT`: amount of milliseconds the API Gateway will wait for the underlying service to respond.
 
 ### New Relic (Optional)
 
