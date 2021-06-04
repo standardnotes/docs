@@ -22,7 +22,7 @@ Our self-hosted server infrastructure consists of several different microservice
 
 If you'd like to learn more about each of the particular services, head over to [Infrastructure Overview](./infrastructure-overview.md).
 
-> **Note** Our setup also provides a running MySQL database and a Redis cache node. You do not have to provision these services on your own. For users that have been with us for years we've prepared a [migrating from legacy guide](./legacy-migration.md).
+> **Note** Our setup also provides a running MySQL database and a Redis cache node. You do not have to provision these services on your own. For users that have been self-hosting a legacy version of our server, we've prepared a [Migrating from Legacy guide](./legacy-migration.md).
 
 ### Recommendations
 
