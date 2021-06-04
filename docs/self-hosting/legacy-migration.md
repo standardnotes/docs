@@ -25,7 +25,7 @@ If you have previously self-hosted your setup with our legacy Syncing Server, yo
 In order to create a database dump, use the following command:
 
    ```bash
-   $ docker exec your_db_container_id sh -c 'exec mysqldump your_database_name -uroot -p"your_password"' > ./dbdump.sql
+   $ docker exec your_db_container_id sh -c 'exec mysqldump your_database_name -uroot -p "your_password"' > ./dbdump.sql
    ```
 
   > **Note:** In order to get the value of `your_db_container_id`, run `docker ps` to inspect your running containers. `your_database_name` and `your_password` have to be changed to whatever you had set up in your .env file.
@@ -35,7 +35,7 @@ In order to create a database dump, use the following command:
 Run:
 
   ```bash
-  mysqldump your_database_name -h your_host -u your_user -p"your_password"' > ./dbdump.sql
+  mysqldump your_database_name -h your_host -u your_user -p "your_password" > ./dbdump.sql
   ```
 
   > **Note** Change `your_host`, `your_database_name`, `your_user` and `your_password` to values that you use to connect to your database.
