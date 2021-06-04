@@ -28,7 +28,7 @@ In order to create a database dump type in the command line:
    $ docker exec your_db_container_id sh -c 'exec mysqldump your_database_name -uroot -p"your_password"' > ./dbdump.sql
    ```
 
-  > **Note** In order to get the value of `your_db_container_id` run `docker ps` to inspect your running containers. `your_database_name` and `your_password` have to be changed to whatever you had set up in your .env file.
+  > **Note:** In order to get the value of `your_db_container_id`, run `docker ps` to inspect your running containers. `your_database_name` and `your_password` have to be changed to whatever you had set up in your .env file.
 
 ### External database
 
