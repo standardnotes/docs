@@ -18,7 +18,7 @@ hide_table_of_contents: false
 
 ## Preparing a database dump
 
-If you have previously self-hosted your setup with our legacy Syncing Server, you will need to first dump the data from your existing database. There are two ways to do this depending on wether you had a separate database or the one we provided with our Docker setup.
+If you have previously self-hosted your setup with our legacy Syncing Server, you will need to first dump the data from your existing database. There are two ways to do this depending on whether you had a separate database or the one we provided with our Docker setup.
 
 ### Database from Docker setup
 
