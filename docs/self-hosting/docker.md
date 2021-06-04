@@ -30,7 +30,7 @@ These instructions make the following assumptions:
 
 ## Getting started
 
-> **Note** If you are a user with already existing legacy database of the Syncing Server we've prepared a [migrating from legacy guide](./legacy-migration.md).
+> **Note** If you are a user with an already existing legacy database of the Syncing Server, we've prepared a [Migrating from Legacy guide](./legacy-migration.md).
 
 SSH into your server and follow the steps below:
 
