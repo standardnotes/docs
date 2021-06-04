@@ -7,6 +7,7 @@ module.exports = {
           'self-hosting/infrastructure-overview',
           'self-hosting/docker',
           'self-hosting/configuration-options',
+          'self-hosting/legacy-migration',
           'self-hosting/https-support',
           'self-hosting/updating',
         ],
