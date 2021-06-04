@@ -30,6 +30,8 @@ These instructions make the following assumptions:
 
 ## Getting started
 
+> **Note** If you are a user with already existing legacy database of the Syncing Server we've prepared a [migrating from legacy guide](./legacy-migration.md).
+
 SSH into your server and follow the steps below:
 
 1. Make sure you are in your home directory and clone the [Standard Notes Standalone Infrastructure](https://github.com/standardnotes/standalone) project:
