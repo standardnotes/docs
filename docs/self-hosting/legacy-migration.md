@@ -22,7 +22,7 @@ If you have previously self-hosted your setup with our Legacy Syncing Server you
 
 ### Database from Docker setup
 
-In order to create a database dump type in the command line:
+In order to create a database dump, use the following command:
 
    ```bash
    $ docker exec your_db_container_id sh -c 'exec mysqldump your_database_name -uroot -p"your_password"' > ./dbdump.sql
