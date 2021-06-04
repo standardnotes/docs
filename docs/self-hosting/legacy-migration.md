@@ -42,6 +42,6 @@ Run:
 
 ## Importing your database dump
 
-In order to import your data to the database that our Standalone setup will create just place your `dbdump.sql` file inside the `path-to-your-standalone/data/import` folder. Once the setups starts the data will get imported.
+In order to import your data to the database that our Standalone setup will create, just place your `dbdump.sql` file inside the `path-to-your-standalone/data/import` folder. The data will be imported once the setups starts.
 
 To proceed, head over to our [Self-hosting with Docker](./docker.md) page.
