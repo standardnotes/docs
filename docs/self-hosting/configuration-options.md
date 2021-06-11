@@ -77,8 +77,6 @@ If you do not want to use Redis as the communication channel between services, y
 
 ### Auth Service
 
-We are in the process of moving some user/authentication related functionalities out of Syncing Server JS and into Auth service. In order to achieve this, we are gradually redirecting some requests internally to the Auth service from Syncing Server JS.
-
 -`AUTH_SERVER_URL`: url to the Auth service. Default value should be kept.
 
 ### Emails
@@ -129,6 +127,10 @@ All configuration options mentioned below are controlled by environment variable
 ### Redis Async Communication (Default)
 
 - `REDIS_EVENTS_CHANNEL`: name of the Redis Pub/Sub channel used for communication between the service and its worker.
+
+### Syncing Server Service
+
+-`SYNCING_SERVER_URL`: url to the Syncing Server service. Default value should be kept.
 
 ### Disabling new user registrations
 
