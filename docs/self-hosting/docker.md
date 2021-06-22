@@ -50,13 +50,16 @@ SSH into your server and follow the steps below:
 
 1. Customize your configuration
 
-   In the `.env` file you will find 3 variables that need to be filled in with generated secret keys. The variables are `JWT_SECRET`, `LEGACY_JWT_SECRET`, `AUTH_JWT_SECRET`. You can generate their values using:
+  There are 4 environment variables that need to be filled in with generated secret keys:
 
-   ```bash
+   - `AUTH_JWT_SECRET` in the `.env` file
+   - `JWT_SECRET`, `LEGACY_JWT_SECRET` and `ENCRYPTION_SERVER_KEY` in the `docker/auth.env` file
+
+  You can generate values for them by using:
+
+  ```bash
    $ openssl rand -hex 32
    ```
-
-   Use the same method to change the value of `ENCRYPTION_SERVER_KEY` in `docker/auth.env` file
 
   > **Note** Environment variables cannot be changed with effect to take place while the docker containers are running. To change them, server needs to be restarted.
 
