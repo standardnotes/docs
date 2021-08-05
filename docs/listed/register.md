@@ -16,16 +16,16 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- Copied from https://standardnotes.org/help/61/how-do-i-register-for-a-listed-blog -->
+<!-- Copied from https://standardnotes.com/help/61/how-do-i-register-for-a-listed-blog -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/help/61/how-do-i-register-for-a-listed-blog"
+ canonicalUrl="https://standardnotes.com/help/61/how-do-i-register-for-a-listed-blog"
 />
 
 :::note
-Registering for a new Listed blog is currently available only in the Standard Notes [web](https://app.standardnotes.org) or [desktop](https://standardnotes.org/download) applications.
+Registering for a new Listed blog is currently available only in the Standard Notes [web](https://app.standardnotes.org) or [desktop](https://standardnotes.com/download) applications.
 :::
 
 Setting up your Listed blog in Standard Notes is easy:

@@ -16,12 +16,12 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- https://standardnotes.org/help/22/what-happens-if-i-lose-my-2fa-device-and-my-secret-key -->
+<!-- https://standardnotes.com/help/22/what-happens-if-i-lose-my-2fa-device-and-my-secret-key -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/help/22/what-happens-if-i-lose-my-2fa-device-and-my-secret-key"
+ canonicalUrl="https://standardnotes.com/help/22/what-happens-if-i-lose-my-2fa-device-and-my-secret-key"
 />
 
 ## What happens if I lose my 2FA device and my secret key?

@@ -110,4 +110,4 @@ The mobile app will download a theme once and cache it indefinitely. If you're i
 
 ## Licensing
 
-Our themes are provided open-source mainly for educational and quality purposes. You're free to install them on your own servers, but please consider subscribing to [Standard Notes Extended](https://standardnotes.org/extensions) to help sustain future development of the Standard Notes ecosystem.
+Our themes are provided open-source mainly for educational and quality purposes. You're free to install them on your own servers, but please consider subscribing to [Standard Notes Extended](https://standardnotes.com/extensions) to help sustain future development of the Standard Notes ecosystem.

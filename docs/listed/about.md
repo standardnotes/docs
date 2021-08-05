@@ -14,12 +14,12 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- Copied from https://standardnotes.org/help/60/creating-a-blog-from-your-notes-with-listed-and-standard-notes -->
+<!-- Copied from https://standardnotes.com/help/60/creating-a-blog-from-your-notes-with-listed-and-standard-notes -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/help/60/creating-a-blog-from-your-notes-with-listed-and-standard-notes"
+ canonicalUrl="https://standardnotes.com/help/60/creating-a-blog-from-your-notes-with-listed-and-standard-notes"
 />
 
 You can publish a public blog directly from Standard Notes using [Listed](https://listed.to). Read on to learn more about creating
@@ -29,7 +29,7 @@ your own Listed blog.
 
 Listed is the blogging and publishing component of Standard Notes, with every [registered author](https://listed.to/) getting their very own Listed Blog to use as a blogging platform.
 
-It's free for everyone to post and publish their Notes from Standard Notes, with even more features available for [_Extended_](https://standardnotes.org/extensions) subscribers. It's the easiest and fastest way to publish your work to the public using Standard Notes as your content editor.
+It's free for everyone to post and publish their Notes from Standard Notes, with even more features available for [_Extended_](https://standardnotes.com/extensions) subscribers. It's the easiest and fastest way to publish your work to the public using Standard Notes as your content editor.
 
 It's part of what makes Standard Notes so easy to use, yet powerful. Now, creating and contributing to your own personal blog is both easy and fast.
 
@@ -57,7 +57,7 @@ Only posts you select for publishing will appear on your Listed blog. If you dec
 
 Free users will receive their own Listed blog address that's secure like https://listed.to/@yournamehere.
 
-If you are an [_Extended_](https://standardnotes.org/extensions) subscriber, then you can have your own domain name that points to your Listed blog, such as myname.tld or blog.myname.tld, but it's not required. In addition to receiving custom domain support, _Extended_ subscribers also receive a free managed SSL certificate.
+If you are an [_Extended_](https://standardnotes.com/extensions) subscriber, then you can have your own domain name that points to your Listed blog, such as myname.tld or blog.myname.tld, but it's not required. In addition to receiving custom domain support, _Extended_ subscribers also receive a free managed SSL certificate.
 
 The benefits to using Listed as your blogging and showcase website is that you are given a page link based on what you want to call your site, and all the hosting and server management is taken care of for you.
 
@@ -69,7 +69,7 @@ Your Listed blog supports [CSS formatting](./styles.md), so you are welcome to c
 
 ### If I pour all my energy blogging on my Listed blog, how do I know you will be here tomorrow? Will I just one day lose all my data?
 
-We're people just like you and we hate seeing our favorite tools that we've come to depend on shutdown or disappear. That's why we've published our [Longevity Statement](https://standardnotes.org/longevity) to address this very question.
+We're people just like you and we hate seeing our favorite tools that we've come to depend on shutdown or disappear. That's why we've published our [Longevity Statement](https://standardnotes.com/longevity) to address this very question.
 
 The short answer when it comes to Listed Blogs and Standard Notes is, _your data is **your** data, and you will always have control and access to your data_.
 

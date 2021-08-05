@@ -15,15 +15,15 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- Copied from https://standardnotes.org/help/13/how-do-i-manage-modify-my-extended-subscription -->
+<!-- Copied from https://standardnotes.com/help/13/how-do-i-manage-modify-my-extended-subscription -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/help/13/how-do-i-manage-modify-my-extended-subscription"
+ canonicalUrl="https://standardnotes.com/help/13/how-do-i-manage-modify-my-extended-subscription"
 />
 
-Sign in to your [Extended dashboard](https://dashboard.standardnotes.org/) to manage your subscription.
+Sign in to your [Extended dashboard](https://dashboard.standardnotes.com/) to manage your subscription.
 
 At the Extended dashboard, you can:
 

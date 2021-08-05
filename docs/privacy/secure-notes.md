@@ -15,12 +15,12 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- Copied from https://standardnotes.org/help/3/how-does-standard-notes-secure-my-notes -->
+<!-- Copied from https://standardnotes.com/help/3/how-does-standard-notes-secure-my-notes -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/help/3/how-does-standard-notes-secure-my-notes"
+ canonicalUrl="https://standardnotes.com/help/3/how-does-standard-notes-secure-my-notes"
 />
 
 All your notes, tags, and other data generated using the Standard Notes applications are encrypted using XChaCha20-Poly1305, one of the strongest forms of encryption available (recommended by leading technology companies like Cloudflare and Google as a replacement to AES-256).

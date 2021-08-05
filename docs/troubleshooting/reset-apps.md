@@ -39,7 +39,7 @@ If you do not have an account, do not proceed with these steps until a fix has b
 
 ### [iOS](https://apps.apple.com/us/app/standard-notes/id1285392450)
 
-1. Please open the **Settings** app, and navigate to your iCloud backups with the following path:  
+1. Please open the **Settings** app, and navigate to your iCloud backups with the following path:
    **[Your name and iCloud account username (at the top)] → iCloud → Manage Storage → Backups → [Tap on the correct device]**
 2. Wait for the list of apps to load.
    - Tap on “Load all/more apps” if necessary and wait for the list to expand once more
@@ -47,9 +47,9 @@ If you do not have an account, do not proceed with these steps until a fix has b
 4. From there, please reinstall the app and sign in again.
    - You can enable the setting to backup the app to iCloud again, if you would like.
 
-## [Desktop](https://standardnotes.org/download) and [Web](https://app.standardnotes.org)
+## [Desktop](https://standardnotes.com/download) and [Web](https://app.standardnotes.org)
 
-The methods for clearing the storage of the [desktop](https://standardnotes.org/download) and [web](https://app.standardnotes.org) apps are largely similar but require toggling the developer tools, which requires different sets of steps.
+The methods for clearing the storage of the [desktop](https://standardnotes.com/download) and [web](https://app.standardnotes.org) apps are largely similar but require toggling the developer tools, which requires different sets of steps.
 
 ### Desktop
 

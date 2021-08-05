@@ -15,14 +15,14 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- Copied from https://standardnotes.org/help/6/i-ve-forgotten-my-password-what-should-i-do -->
+<!-- Copied from https://standardnotes.com/help/6/i-ve-forgotten-my-password-what-should-i-do -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/help/6/i-ve-forgotten-my-password-what-should-i-do"
+ canonicalUrl="https://standardnotes.com/help/6/i-ve-forgotten-my-password-what-should-i-do"
 />
 
 Standard Notes makes use of end-to-end encryption to encrypt your data on your device before it's sent to our servers. This means that we, or anyone else, cannot read the contents of your notes, nor do we know what your encryption key is. For this reason, password resets are simply not possible.
 
-Your only option is to delete your account and start over. If you would like to delete your account and all associated data, please follow the [reset instructions](https://standardnotes.org/reset).
+Your only option is to delete your account and start over. If you would like to delete your account and all associated data, please follow the [reset instructions](https://standardnotes.com/reset).

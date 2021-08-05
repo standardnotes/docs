@@ -15,12 +15,12 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- Copied from https://standardnotes.org/privacy -->
+<!-- Copied from https://standardnotes.com/privacy -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/privacy"
+ canonicalUrl="https://standardnotes.com/privacy"
 />
 
 We believe the Internet should do a simple thing: Keep your private information private. No one should be able to touch what you think or write and do, but you. And we are out to prove that far too many companies mismanage your information for no other reason than laziness and greed.

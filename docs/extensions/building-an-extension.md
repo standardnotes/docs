@@ -136,8 +136,8 @@ Areas tell Standard Notes where to display a particular component. The current l
 
 There are an unlimited number of things you can build with components that do anything from nested folders in the tags pane and autocomplete in the editor pane, to pushing notes to GitHub or WordPress.
 
-To see how we built [our own components](https://standardnotes.org/extensions), study the source code [available here](https://github.com/sn-extensions).
+To see how we built [our own components](https://standardnotes.com/extensions), study the source code [available here](https://github.com/sn-extensions).
 
-For questions on development, [post in the forum](https://forum.standardnotes.org) or [join our Slack](https://standardnotes.org/slack).
+For questions on development, [post in the forum](https://forum.standardnotes.org) or [join our Slack](https://standardnotes.com/slack).
 
-If you'd like to support Standard Notes and use our secure hosting to install all the components we have to offer, consider purchasing the [Extended subscription](https://standardnotes.org/extended).
+If you'd like to support Standard Notes and use our secure hosting to install all the components we have to offer, consider purchasing the [Extended subscription](https://standardnotes.com/extended).

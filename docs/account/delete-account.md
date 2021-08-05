@@ -15,13 +15,13 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- Copied from https://standardnotes.org/help/19/how-do-i-delete-my-account -->
+<!-- Copied from https://standardnotes.com/help/19/how-do-i-delete-my-account -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/help/19/how-do-i-delete-my-account
+ canonicalUrl="https://standardnotes.com/help/19/how-do-i-delete-my-account
 "
 />
 
-You can use the [reset tool](https://standardnotes.org/reset) to delete your account and all associated data.
+You can use the [reset tool](https://standardnotes.com/reset) to delete your account and all associated data.

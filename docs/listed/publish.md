@@ -16,16 +16,16 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- Copied from https://standardnotes.org/help/62/how-do-i-publish-articles-to-listed -->
+<!-- Copied from https://standardnotes.com/help/62/how-do-i-publish-articles-to-listed -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/help/62/how-do-i-publish-articles-to-listed"
+ canonicalUrl="https://standardnotes.com/help/62/how-do-i-publish-articles-to-listed"
 />
 
 :::note
-Publishing is currently available only in the Standard Notes [web](https://app.standardnotes.org) or [desktop](https://standardnotes.org/download) applications.
+Publishing is currently available only in the Standard Notes [web](https://app.standardnotes.org) or [desktop](https://standardnotes.com/download) applications.
 :::
 
 ## Publish

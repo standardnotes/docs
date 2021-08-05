@@ -23,12 +23,12 @@ export const Highlight = ({children, color}) => ( <span style={{
 //#28a745 green
 //#1877F2 blue
 //#ffc107 yellow
-//#dc3545 red  
+//#dc3545 red
  );
 
 ## Introduction
 
-The Bold Editor is a [derived editor](https://standardnotes.org/help/77/what-are-editors) for Standard Notes. It is derived from the [Redactor](https://imperavi.com/redactor). The instructions for adding in-line images, videos, and audio recordings are available [here](https://standardnotes.org/help/71/how-do-i-add-images-to-my-notes).
+The Bold Editor is a [derived editor](https://standardnotes.com/help/77/what-are-editors) for Standard Notes. It is derived from the [Redactor](https://imperavi.com/redactor). The instructions for adding in-line images, videos, and audio recordings are available [here](https://standardnotes.com/help/71/how-do-i-add-images-to-my-notes).
 
 ### <Highlight color="#1877F2">Warning</Highlight>
 
@@ -36,7 +36,7 @@ Changing the editor for a note to the Bold Editor will add `html` tags around ea
 
 If you want to convert a note from HTML to plaintext, you will need to remove these tags manually or by using a separate text editor such as [VS Code](https://code.visualstudio.com/) or [Atom](https://atom.io) because we do not yet have a "find and replace" feature. If you would like to test the Bold Editor with your note, you can restore a previous copy of the note in the Session History. If you restore an old copy, then any changes made with the Bold Editor will be lost.
 
-The search feature in the [Minimist editor](https://standardnotes.org/extensions/markdown-minimist) may help you remove the tags manually.
+The search feature in the [Minimist editor](https://standardnotes.com/extensions/markdown-minimist) may help you remove the tags manually.
 
 ## Keyboard Shortcuts
 

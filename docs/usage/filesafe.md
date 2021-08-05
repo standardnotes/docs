@@ -15,12 +15,12 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- Copied from https://standardnotes.org/help/44/filesafe-101 -->
+<!-- Copied from https://standardnotes.com/help/44/filesafe-101 -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/help/44/filesafe-101"
+ canonicalUrl="https://standardnotes.com/help/44/filesafe-101"
 />
 
 ## What is Standard Notes FileSafe?
@@ -33,7 +33,7 @@ Because we integrate directly with your cloud provider, we do not instate any st
 
 ## How to use FileSafe
 
-To use FileSafe, sign up for [Extended](https://standardnotes.org/extensions) and [activate](https://standardnotes.org/help/29/how-do-i-install-extensions-once-i-ve-signed-up-for-extended) your Extended benefits, then:
+To use FileSafe, sign up for [Extended](https://standardnotes.com/extensions) and [activate](https://standardnotes.com/help/29/how-do-i-install-extensions-once-i-ve-signed-up-for-extended) your Extended benefits, then:
 
 1. In the **Extensions** menu, scroll down to the bottom of **Repository**, then install and activate **FileSafe**.
 2. At the bottom of your working note, next to **[Action Bar](./action-bar.md)**, click **FileSafe** to open the FileSafe tab.

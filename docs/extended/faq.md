@@ -15,12 +15,12 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- Copied from https://standardnotes.org/help/45/how-do-i-add-more-time-to-my-extended-subscription -->
+<!-- Copied from https://standardnotes.com/help/45/how-do-i-add-more-time-to-my-extended-subscription -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/help/45/how-do-i-add-more-time-to-my-extended-subscription"
+ canonicalUrl="https://standardnotes.com/help/45/how-do-i-add-more-time-to-my-extended-subscription"
 />
 
 ## FAQ
@@ -31,13 +31,13 @@ import TOCInline from '@theme/TOCInline';
 
 ### How do I manage/modify my Extended subscription?
 
-Sign in to your [Extended dashboard](https://dashboard.standardnotes.org/) to manage your subscription.
+Sign in to your [Extended dashboard](https://dashboard.standardnotes.com/) to manage your subscription.
 
 ### How can I add more time to my subscription?
 
 To extend your subscription with more time:
 
-1. Sign in to the [Extended dashboard](https://dashboard.standardnotes.org/member).
+1. Sign in to the [Extended dashboard](https://dashboard.standardnotes.com/member).
 2. Under your subscription status, choose **Extend Subscription**.
 3. Select your desired term and complete checkout.
 
@@ -49,11 +49,11 @@ Rather than turn away users who are just as passionate about improving their not
 
 The 5-Year Plan is our take on a sustainable long-term plan, which offers a one-time payment at long apart intervals, such that you can enjoy our service for many years to come without thinking in terms of annual renewal.
 
-[Join the 5-year plan.](https://dashboard.standardnotes.org/?p=60)
+[Join the 5-year plan.](https://dashboard.standardnotes.com/?p=60)
 
 ### My extensions appear as expired, even though my subscription is still valid.
 
-If your [dashboard](https://dashboard.standardnotes.org) indicates that your subscription is valid, but the app indicates otherwise, please perform the following steps to reset your Extended repository:
+If your [dashboard](https://dashboard.standardnotes.com) indicates that your subscription is valid, but the app indicates otherwise, please perform the following steps to reset your Extended repository:
 
 #### Option 1: Reload your subscription status
 
@@ -69,7 +69,7 @@ If the above doesn't work, you might be using extensions from an older or invali
 2. Scroll to **Repository**, then press **Options**.
 3. Click **Delete** and confirm.
 4. Uninstall any installed extensions. You will re-install them after you add your new code.
-5. Scroll to the top, and re-enter your Extended code. You can retrieve this code via the confirmation email we sent you during your purchase, or via [dashboard.standardnotes.org](https://dashboard.standardnotes.org).
+5. Scroll to the top, and re-enter your Extended code. You can retrieve this code via the confirmation email we sent you during your purchase, or via [dashboard.standardnotes.com](https://dashboard.standardnotes.com).
 
 ### I just renewed my subscription, but my renewal date above looks incorrect?
 
@@ -101,13 +101,13 @@ Standard Notes Extended can help users achieve higher efficiency and better qual
 
 We don't want price to be an overall factor in your decision to use Standard Notes or not. If you are facing economic difficulty for any number of reasons, and find the price of Standard Notes Extended to be too high or out of range, please email us, and we'd be happy to work out a plan that works best for you. Include information about your economic circumstances, and why you'd need assistance in paying for Standard Notes.
 
-If you're a student, be sure to check out our [student discount program](https://standardnotes.org/students/discount) first.
+If you're a student, be sure to check out our [student discount program](https://standardnotes.com/students/discount) first.
 
 ### Does Standard Notes offer a student discount?
 
 We offer students a **30% discount** on the one-year and five-year plan. If you're a student looking to improve your in-school and studying productivity and take advantage of the full Standard Notes experience, please fill out the form below.
 
-[Student discount form →](https://standardnotes.org/students/discount)
+[Student discount form →](https://standardnotes.com/students/discount)
 
 ### Will cancelling my subscription immediately terminate my Extended access?
 
@@ -115,7 +115,7 @@ No, after cancelling your subscription, you'll still be able to access Extended 
 
 ### What happens to my data when my subscription expires?
 
-An active subscription is required to access [Extended features](https://standardnotes.org/extensions), such as editors, themes, and other extensions. When your subscription expires, these extensions will enter a read-only mode, so you can continue to see your data with the visual markup provided by the extensions, but not use the extensions themselves to modify data.
+An active subscription is required to access [Extended features](https://standardnotes.com/extensions), such as editors, themes, and other extensions. When your subscription expires, these extensions will enter a read-only mode, so you can continue to see your data with the visual markup provided by the extensions, but not use the extensions themselves to modify data.
 
 Because extensions are typically visual layers on top of your existing data, you can simply disable these extensions to go back to editing your data using plain means. For example, if you were using _Markdown Pro_ to edit a note, this editor will enter a read-only state when your subscription expires. You can then simply choose the _Plain Editor_ to edit your note as usual.
 
@@ -125,16 +125,16 @@ As a courtesy, we keep two-factor authentication enabled for accounts even after
 
 ### How can I get an invoice for my purchase?
 
-You can receive an invoice of your most recent payment directly through the [Extended dashboard](https://dashboard.standardnotes.org/). Simply choose the option _Email My Last Payment Invoice_.
+You can receive an invoice of your most recent payment directly through the [Extended dashboard](https://dashboard.standardnotes.com/). Simply choose the option _Email My Last Payment Invoice_.
 
 For invoices prior to your most recent payment, please email [help@standardnotes.org](mailto:help@standardnotes.org) from your account email, and include any additional information you'd like added to the invoice under 'Additional Information', such as an address or a VAT ID.
 
 ### Why was I not requested to set up a password for Extended?
 
-Your Extended account is completely separate from your notes account. Extended uses an email based authentication system. When you want to sign in, simply visit [dashboard.standardnotes.org](http://dashboard.standardnotes.org) and enter your email in the right-hand column. You will receive a login link directly to your email.
+Your Extended account is completely separate from your notes account. Extended uses an email based authentication system. When you want to sign in, simply visit [dashboard.standardnotes.com](http://dashboard.standardnotes.com) and enter your email in the right-hand column. You will receive a login link directly to your email.
 
 We designed it this way to keep a separation of concerns between the "business" and the "product", and also to make sure you don't accidentally use your notes password for your Extended account.
 
 ---
 
-Get help any time by visiting our [help page](https://standardnotes.org/help), or by emailing us directly at [help@standardnotes.org](mailto:help@standardnotes.org).
+Get help any time by visiting our [help page](https://standardnotes.com/help), or by emailing us directly at [help@standardnotes.org](mailto:help@standardnotes.org).

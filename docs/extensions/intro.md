@@ -23,19 +23,19 @@ Rather than tightly couple every feature we dream of building for Standard Notes
 
 ## Sustainability
 
-The Extensions model is also our main fundraising method, and allows us to to offer our core privacy experience at no cost, while sustaining future development by offering advanced features through our [Extended](https://standardnotes.org/extended) program.
+The Extensions model is also our main fundraising method, and allows us to to offer our core privacy experience at no cost, while sustaining future development by offering advanced features through our [Extended](https://standardnotes.com/extended) program.
 
-Most of our extensions are [open-source](https://github.com/sn-extensions) and available for self-hosting. You can also learn to develop your own extensions by following the guides on this site. However, we encourage you to support the sustainability and future development of this project by [purchasing a subscription](https://standardnotes.org/extensions).
+Most of our extensions are [open-source](https://github.com/sn-extensions) and available for self-hosting. You can also learn to develop your own extensions by following the guides on this site. However, we encourage you to support the sustainability and future development of this project by [purchasing a subscription](https://standardnotes.com/extensions).
 
 ## Types
 
 There are 3 main types of extensions:
 
-1. **Components**: Components are user interface elements that completely swap out areas of Standard Notes with custom behavior. Components include editors (such as the [Markdown Pro Editor](https://standardnotes.org/extensions/markdown-pro) and [Plus Editor](https://standardnotes.org/extensions/plus-editor)), editor stack components (like the [Action Bar](https://standardnotes.org/extensions/action-bar) and [FileSafe](https://standardnotes.org/extensions/filesafe)), and other components (like [Folders](https://standardnotes.org/extensions/folders) and [Quick Tags](https://standardnotes.org/extensions/quick-tags)).
+1. **Components**: Components are user interface elements that completely swap out areas of Standard Notes with custom behavior. Components include editors (such as the [Markdown Pro Editor](https://standardnotes.com/extensions/markdown-pro) and [Plus Editor](https://standardnotes.com/extensions/plus-editor)), editor stack components (like the [Action Bar](https://standardnotes.com/extensions/action-bar) and [FileSafe](https://standardnotes.com/extensions/filesafe)), and other components (like [Folders](https://standardnotes.com/extensions/folders) and [Quick Tags](https://standardnotes.com/extensions/quick-tags)).
 
    **[Develop a component →](/extensions/building-an-extension)**
 
-2. **Themes**: Themes change the visual appearance of Standard Notes, and are compatible on all platforms, including desktop, web, and mobile. Some of our own themes include [Midnight](https://standardnotes.org/extensions/midnight) and [Solarized Dark](https://standardnotes.org/extensions/solarized-dark).
+2. **Themes**: Themes change the visual appearance of Standard Notes, and are compatible on all platforms, including desktop, web, and mobile. Some of our own themes include [Midnight](https://standardnotes.com/extensions/midnight) and [Solarized Dark](https://standardnotes.com/extensions/solarized-dark).
 
    **[Develop a theme →](/extensions/themes)**
 

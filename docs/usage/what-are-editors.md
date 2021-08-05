@@ -15,12 +15,12 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- Copied from https://standardnotes.org/help/77/what-are-editors -->
+<!-- Copied from https://standardnotes.com/help/77/what-are-editors -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/help/77/what-are-editors"
+ canonicalUrl="https://standardnotes.com/help/77/what-are-editors"
 />
 
 ## Introduction
@@ -49,4 +49,4 @@ Derived editors are derived from either open-source or commercial software proje
 
 There are eight editors in this category: Bold Editor, Markdown Pro, Markdown Minimist, Secure Spreadsheets, Plus Editor, Markdown Math, Code Editor, and Vim Editor. These are editors that we do not build, maintain, and improve on directly. When you have a feature or issue for one of these editors, there’s a low likelihood that we are able to act on those features. Rather, we would likely work together to forward the issue to the software maker. We do however keep this software up to date with vendor releases.
 
-To see the entire list of editors we offer, visit our [Extended page](https://standardnotes.org/extensions).
+To see the entire list of editors we offer, visit our [Extended page](https://standardnotes.com/extensions).

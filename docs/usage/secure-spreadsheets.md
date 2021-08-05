@@ -16,9 +16,9 @@ hide_table_of_contents: false
 
 ## Introduction
 
-Secure Spreadsheets is a [derived editor](https://standardnotes.org/help/77/what-are-editors). It is derived from [Kendo UI Professional](https://github.com/telerik/kendo-ui-core#features-of-kendo-ui-core).
+Secure Spreadsheets is a [derived editor](https://standardnotes.com/help/77/what-are-editors). It is derived from [Kendo UI Professional](https://github.com/telerik/kendo-ui-core#features-of-kendo-ui-core).
 
-A demo of the Secure Spreadsheets editor is available at [standardnotes.org/demo](https://standardnotes.org/demo). To use Secure Spreadsheets with Standard Notes, please sign up for [Standard Notes Extended](https://standardnotes.org/extensions) and install it by following the instructions described [here](./install-extensions.md).
+A demo of the Secure Spreadsheets editor is available at [standardnotes.org/demo](https://standardnotes.com/demo). To use Secure Spreadsheets with Standard Notes, please sign up for [Standard Notes Extended](https://standardnotes.com/extensions) and install it by following the instructions described [here](./install-extensions.md).
 
 ## Export
 

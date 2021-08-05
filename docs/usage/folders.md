@@ -15,7 +15,7 @@ hide_table_of_contents: false
 
 ## Introduction
 
-You can use the [Folders](https://standardnotes.org/extensions/folders) extension to create nested folders from your tags with easy drag and drop. Folders also supports [Smart Tags](/usage/tags), which allow you to build custom filters for viewing your notes.
+You can use the [Folders](https://standardnotes.com/extensions/folders) extension to create nested folders from your tags with easy drag and drop. Folders also supports [Smart Tags](/usage/tags), which allow you to build custom filters for viewing your notes.
 
 ## Terminology
 

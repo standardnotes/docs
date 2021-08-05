@@ -15,9 +15,9 @@ hide_table_of_contents: false
 ---
 
 <!-- Copied from:
-- https://standardnotes.org/help/67/how-do-i-specify-a-custom-date-for-a-post-or-set-the-canonical-url
-- https://standardnotes.org/help/68/how-do-i-hide-a-story-from-my-main-feed
-- https://standardnotes.org/help/76/how-do-i-add-separate-pages-to-my-blog -->
+- https://standardnotes.com/help/67/how-do-i-specify-a-custom-date-for-a-post-or-set-the-canonical-url
+- https://standardnotes.com/help/68/how-do-i-hide-a-story-from-my-main-feed
+- https://standardnotes.com/help/76/how-do-i-add-separate-pages-to-my-blog -->
 
 You can add the following metadata structure to the beginning of your note to select options for each note:
 

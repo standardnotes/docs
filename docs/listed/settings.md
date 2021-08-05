@@ -16,16 +16,16 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- Copied from https://standardnotes.org/help/63/how-do-i-manage-my-blog-settings-like-username-and-custom-domain -->
+<!-- Copied from https://standardnotes.com/help/63/how-do-i-manage-my-blog-settings-like-username-and-custom-domain -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/help/63/how-do-i-manage-my-blog-settings-like-username-and-custom-domain"
+ canonicalUrl="https://standardnotes.com/help/63/how-do-i-manage-my-blog-settings-like-username-and-custom-domain"
 />
 
 :::note
-The link to the Settings for your Listed blog is accessible only in the Standard Notes [web](https://app.standardnotes.org) or [desktop](https://standardnotes.org/download) applications.
+The link to the Settings for your Listed blog is accessible only in the Standard Notes [web](https://app.standardnotes.org) or [desktop](https://standardnotes.com/download) applications.
 :::
 
 ## How do I manage my blog settings, like username and custom domain?
@@ -54,7 +54,7 @@ After you configure your username settings, your blog will be available at:
 
 - [https://listed.to/@`USERNAME`](https://listed.to/@Listed)
 - [https://listed.standardnotes.org/@`USERNAME`](https://listed.standardnotes.org/@Listed)
-- [Extended](https://standardnotes.org/extensions) members can also set up a custom domain.
+- [Extended](https://standardnotes.com/extensions) members can also set up a custom domain.
 
 ## Appearance
 
@@ -71,7 +71,7 @@ In the **My posts** section of the Settings, you will see a list of all your pub
 
 ## Custom domain
 
-Custom domains are available for Standard Notes [Extended](https://standardnotes.org/extended) members with an active one year or five year plan. Domains include an HTTPS certificate, and require only a simple DNS record on your end.
+Custom domains are available for Standard Notes [Extended](https://standardnotes.com/extended) members with an active one year or five year plan. Domains include an HTTPS certificate, and require only a simple DNS record on your end.
 
 Before submitting a custom domain, please create an "A" record with your DNS provider with value `18.205.249.107`.
 

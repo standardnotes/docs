@@ -38,7 +38,7 @@ metatype: json
   "url": "https://domain.org/link-to-hosted-extension",
   "download_url": "https://github.com/sn-extensions/advanced-markdown-editor/archive/1.0.184.zip",
   "latest_url": "https://listed.to/my-extension-json-link",
-  "marketing_url": "https://standardnotes.org/extensions/advanced-markdown",
+  "marketing_url": "https://standardnotes.com/extensions/advanced-markdown",
   "thumbnail_url": "https://domain.org/editors/adv-markdown.jpg"
 }
 ```
@@ -98,4 +98,4 @@ Standard Notes will ping the `latest_url`endpoint automatically to update extens
 
 ## Questions?
 
-Join the [Slack group](https://standardnotes.org/slack) and ask away in the \#dev channel.
+Join the [Slack group](https://standardnotes.com/slack) and ask away in the \#dev channel.

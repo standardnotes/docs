@@ -4,7 +4,7 @@ const katex = require('rehype-katex');
 module.exports = {
   title: 'Standard Notes Documentation',
   tagline: 'Extend Your Notes App',
-  url: 'https://docs.standardnotes.org',
+  url: 'https://docs.standardnotes.com',
   baseUrl: '/',
   favicon: 'img/favicon.png',
   organizationName: 'standardnotes',
@@ -66,12 +66,12 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://standardnotes.org/',
+          href: 'https://standardnotes.com/',
           label: 'Website',
           position: 'right',
         },
         {
-          href: 'https://standardnotes.org/help',
+          href: 'https://standardnotes.com/help',
           label: 'Help',
           position: 'right',
         },
@@ -112,7 +112,7 @@ module.exports = {
           items: [
             {
               label: 'Join our Slack',
-              href: 'https://standardnotes.org/slack',
+              href: 'https://standardnotes.com/slack',
             },
             {
               label: 'Community Forum',
@@ -129,7 +129,7 @@ module.exports = {
           items: [
             {
               label: 'Help & Contact',
-              href: 'https://standardnotes.org/help',
+              href: 'https://standardnotes.com/help',
             },
             {
               label: 'Twitter',
@@ -142,7 +142,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} <a href="https://standardnotes.org">Standard Notes</a>`,
+      copyright: `Copyright © ${new Date().getFullYear()} <a href="https://standardnotes.com">Standard Notes</a>`,
     },
   },
   stylesheets: [

@@ -15,7 +15,7 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-Code Pro is a [derived editor](https://standardnotes.org/help/77/what-are-editors) for [Standard Notes](https://standardnotes.org), a free, [open-source](https://standardnotes.org/knowledge/5/what-is-free-and-open-source-software), and [end-to-end encrypted](https://standardnotes.org/knowledge/2/what-is-end-to-end-encryption) notes app.
+Code Pro is a [derived editor](https://standardnotes.com/help/77/what-are-editors) for [Standard Notes](https://standardnotes.com), a free, [open-source](https://standardnotes.com/knowledge/5/what-is-free-and-open-source-software), and [end-to-end encrypted](https://standardnotes.com/knowledge/2/what-is-end-to-end-encryption) notes app.
 
 Code Pro is a code editor powered by the [Monaco Editor](https://microsoft.github.io/monaco-editor/) (Visual Studio Code). It is meant for writing Markdown and 60 other programming languages.
 

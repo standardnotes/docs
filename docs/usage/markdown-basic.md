@@ -16,7 +16,7 @@ hide_table_of_contents: false
 
 ## Introduction
 
-Markdown Basic is a [custom editor](https://standardnotes.org/help/77/what-are-editors) for Standard Notes. It uses Markdown-It to parse Markdown.
+Markdown Basic is a [custom editor](https://standardnotes.com/help/77/what-are-editors) for Standard Notes. It uses Markdown-It to parse Markdown.
 
 ## Features
 
@@ -30,8 +30,8 @@ Markdown Basic is a [custom editor](https://standardnotes.org/help/77/what-are-e
 
 ## Installation
 
-1. Register for an account at Standard Notes using the [Desktop App](https://standardnotes.org/download) or [Web app](https://app.standardnotes.org). Remember to use a strong and memorable password.
-2. Sign up for [Standard Notes Extended](https://dashboard.standardnotes.org/member). Then, follow the instructions [here](./install-extensions.md) or continue.
+1. Register for an account at Standard Notes using the [Desktop App](https://standardnotes.com/download) or [Web app](https://app.standardnotes.org). Remember to use a strong and memorable password.
+2. Sign up for [Standard Notes Extended](https://dashboard.standardnotes.com/member). Then, follow the instructions [here](./install-extensions.md) or continue.
 3. Click **Extensions** in the lower left corner.
 4. Under **Repository**, find **Markdown Basic**.
 5. Click **Install**.
@@ -39,7 +39,7 @@ Markdown Basic is a [custom editor](https://standardnotes.org/help/77/what-are-e
 7. At the top of your note, click **Editor**, then click **Markdown Basic**.
 8. Click **Continue**.
 
-After you have installed the editor on the web or desktop app, it will automatically sync to your [mobile app](https://standardnotes.org/download) after you sign in.
+After you have installed the editor on the web or desktop app, it will automatically sync to your [mobile app](https://standardnotes.com/download) after you sign in.
 
 ## Style Guide
 
@@ -64,7 +64,7 @@ After you have installed the editor on the web or desktop app, it will automatic
 
 ## Tables
 
-Colons can be used to align columns.  
+Colons can be used to align columns.
 Copy this into your editor to see what it renders:
 
 ```

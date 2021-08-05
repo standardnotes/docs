@@ -16,7 +16,7 @@ hide_table_of_contents: false
 
 ## Introduction
 
-The Markdown Pro editor (aka Advanced Markdown Editor) is a [derived editor](https://standardnotes.org/help/77/what-are-editors) for Standard Notes. It is derived from the [Easy Markdown Editor](https://github.com/Ionaru/easy-markdown-editor) which uses [Codemirror](https://github.com/codemirror/codemirror).
+The Markdown Pro editor (aka Advanced Markdown Editor) is a [derived editor](https://standardnotes.com/help/77/what-are-editors) for Standard Notes. It is derived from the [Easy Markdown Editor](https://github.com/Ionaru/easy-markdown-editor) which uses [Codemirror](https://github.com/codemirror/codemirror).
 
 ## Features
 
@@ -53,7 +53,7 @@ The Markdown Pro editor (aka Advanced Markdown Editor) is a [derived editor](htt
 
 ### Lists
 
-Enter a space in front of the asterisk or number to indent the list.  
+Enter a space in front of the asterisk or number to indent the list.
 Copy this into your editor to see what it creates:
 
 ```
@@ -74,7 +74,7 @@ Copy this into your editor to see what it creates:
 
 ## Tables
 
-Colons can be used to align columns.  
+Colons can be used to align columns.
 Copy this into your editor to see what it creates:
 
 ```

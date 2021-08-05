@@ -15,12 +15,12 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- Copied from https://standardnotes.org/help/52/what-services-does-standard-notes-use-for-daily-operation -->
+<!-- Copied from https://standardnotes.com/help/52/what-services-does-standard-notes-use-for-daily-operation -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/help/52/what-services-does-standard-notes-use-for-daily-operation"
+ canonicalUrl="https://standardnotes.com/help/52/what-services-does-standard-notes-use-for-daily-operation"
 />
 
 For our cloud servers and databases, we use [Amazon Web Services](https://aws.amazon.com/).

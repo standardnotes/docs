@@ -15,17 +15,17 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- Copied from https://standardnotes.org/help/26/how-do-i-enable-note-version-history -->
+<!-- Copied from https://standardnotes.com/help/26/how-do-i-enable-note-version-history -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/help/26/how-do-i-enable-note-version-history"
+ canonicalUrl="https://standardnotes.com/help/26/how-do-i-enable-note-version-history"
 />
 
 ## How to enable note version history
 
-To enable _Note History_, sign up for [Extended](https://standardnotes.org/extensions), then:
+To enable _Note History_, sign up for [Extended](https://standardnotes.com/extensions), then:
 
 1. In the **Extensions** menu, install and open **CloudLink**.
 2. In the **Note History** box, click **Install**.

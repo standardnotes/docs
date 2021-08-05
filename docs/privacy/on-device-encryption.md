@@ -15,12 +15,12 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- Copied from https://standardnotes.org/help/79/how-does-standard-notes-encrypt-data-on-my-device -->
+<!-- Copied from https://standardnotes.com/help/79/how-does-standard-notes-encrypt-data-on-my-device -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/help/79/how-does-standard-notes-encrypt-data-on-my-device"
+ canonicalUrl="https://standardnotes.com/help/79/how-does-standard-notes-encrypt-data-on-my-device"
 />
 
 Our approach to security is _on by default_, so there are no settings you must proactively configure to attain the most secure experience possible. This page shares an overview of how Standard Notes' encryption scheme works in the context of your device storage, and different scenarios that may yield different configurations.

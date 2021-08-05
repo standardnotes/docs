@@ -192,5 +192,5 @@ Update the relative path as appropriate. To check that the canonical is updated,
 ```jsx
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
-<CanonicalUrl canonicalUrl="https://standardnotes.org/help/" />;
+<CanonicalUrl canonicalUrl="https://standardnotes.com/help/" />;
 ```

@@ -15,17 +15,17 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- Copied from https://standardnotes.org/help/29/how-do-i-install-extensions-once-i-ve-signed-up-for-extended -->
+<!-- Copied from https://standardnotes.com/help/29/how-do-i-install-extensions-once-i-ve-signed-up-for-extended -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/help/29/how-do-i-install-extensions-once-i-ve-signed-up-for-extended"
+ canonicalUrl="https://standardnotes.com/help/29/how-do-i-install-extensions-once-i-ve-signed-up-for-extended"
 />
 
 ## How do I install extensions once I've signed up for Extended?
 
-Once you've signed up for Extended, you will receive an email with your Extended Activation Code. This code can also be accessed any time from [dashboard.standardnotes.org](https://dashboard.standardnotes.org/).
+Once you've signed up for Extended, you will receive an email with your Extended Activation Code. This code can also be accessed any time from [dashboard.standardnotes.com](https://dashboard.standardnotes.com/).
 
 **To begin using your Extended benefits:**
 

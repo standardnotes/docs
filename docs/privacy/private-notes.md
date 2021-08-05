@@ -15,12 +15,12 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- Copied from https://standardnotes.org/help/1/who-can-read-my-private-notes -->
+<!-- Copied from https://standardnotes.com/help/1/who-can-read-my-private-notes -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/help/1/who-can-read-my-private-notes"
+ canonicalUrl="https://standardnotes.com/help/1/who-can-read-my-private-notes"
 />
 
 Quite simply: no one but you. Not us, not your ISP, not a hacker, and not a government agency. As long as you keep your password safe, and your password is reasonably strong, then you are the only person in the world with the ability to decrypt your notes.

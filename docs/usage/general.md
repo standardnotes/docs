@@ -65,7 +65,7 @@ These keyboard shortcuts have not been implemented but are reserved for future u
 
 What does it mean to lock or protect a note?
 
-<!-- Copied from https://standardnotes.org/help/54/what-does-it-mean-to-lock-or-protect-a-note -->
+<!-- Copied from https://standardnotes.com/help/54/what-does-it-mean-to-lock-or-protect-a-note -->
 
 Here is a list of available options on a note and what they represent:
 

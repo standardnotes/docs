@@ -16,7 +16,7 @@ hide_table_of_contents: false
 
 ## Introduction
 
-The Markdown Math editor (aka Math Editor) is a [derived editor](https://standardnotes.org/help/77/what-are-editors) for Standard Notes. It is derived from the [Upmath](https://github.com/parpalak/upmath.me) editor by [Roman Parpalak](https://github.com/parpalak), but uses [KaTeX](https://katex.org) for client-side rendering. Because the original Upmath editor and the Markdown Math editor render math using slightly different methods, some TeX libraries and their environments may be available in the Upmath editor but not in the Markdown Math editor. For a full list of functions supported by KaTeX, please see the [official KaTeX documentation](https://katex.org/docs/supported.html).
+The Markdown Math editor (aka Math Editor) is a [derived editor](https://standardnotes.com/help/77/what-are-editors) for Standard Notes. It is derived from the [Upmath](https://github.com/parpalak/upmath.me) editor by [Roman Parpalak](https://github.com/parpalak), but uses [KaTeX](https://katex.org) for client-side rendering. Because the original Upmath editor and the Markdown Math editor render math using slightly different methods, some TeX libraries and their environments may be available in the Upmath editor but not in the Markdown Math editor. For a full list of functions supported by KaTeX, please see the [official KaTeX documentation](https://katex.org/docs/supported.html).
 
 ## Features
 
@@ -49,7 +49,7 @@ The Markdown Math editor (aka Math Editor) is a [derived editor](https://standar
 
 ## Tables
 
-Colons can be used to align columns.  
+Colons can be used to align columns.
 Copy this into your editor to see what it creates:
 
 ```

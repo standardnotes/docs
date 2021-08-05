@@ -19,7 +19,7 @@ The Batch Manager can be used to organize batches of actions, notes, server exte
 
 For example, you can use the Batch Manager to find and delete duplicate notes or multiple themes and editors.
 
-The main way to reset your account is with the [reset tool](https://standardnotes.org/reset). The Batch Manager is an alternative method.
+The main way to reset your account is with the [reset tool](https://standardnotes.com/reset). The Batch Manager is an alternative method.
 
 ## Development
 

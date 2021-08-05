@@ -30,7 +30,7 @@ This documentation explains how to get started with using Standard Notes, publis
 
 - [GitHub](https://github.com/standardnotes)
 - [Twitter](https://twitter.com/standardnotes)
-- [Slack](https://standardnotes.org/slack)
+- [Slack](https://standardnotes.com/slack)
 - [Blog](https://blog.standardnotes.org)
 
 ## Something missing?

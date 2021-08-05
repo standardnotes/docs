@@ -15,20 +15,20 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- https://standardnotes.org/help/25/how-do-i-enable-two-factor-authentication-for-my-account -->
+<!-- https://standardnotes.com/help/25/how-do-i-enable-two-factor-authentication-for-my-account -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/help/25/how-do-i-enable-two-factor-authentication-for-my-account"
+ canonicalUrl="https://standardnotes.com/help/25/how-do-i-enable-two-factor-authentication-for-my-account"
 />
 
 ## How do I enable two-factor authentication for my account?
 
-Two-factor authentication is available for [Extended](https://standardnotes.org/extensions) subscribers. To enable 2FA:
+Two-factor authentication is available for [Extended](https://standardnotes.com/extensions) subscribers. To enable 2FA:
 
-1. Sign up for [Extended](https://standardnotes.org/extensions) if you haven't already.
-2. Using the web or desktop app, click **Extensions** in the lower left corner, and paste in your Extended code which will have been emailed to you. You can also manually retrieve your Extended code by signing into your dashboard at [dashboard.standardnotes.org](https://dashboard.standardnotes.org/).
+1. Sign up for [Extended](https://standardnotes.com/extensions) if you haven't already.
+2. Using the web or desktop app, click **Extensions** in the lower left corner, and paste in your Extended code which will have been emailed to you. You can also manually retrieve your Extended code by signing into your dashboard at [dashboard.standardnotes.com](https://dashboard.standardnotes.com/).
 3. In the **Extensions** menu, scroll until you find _2FA Manager_, then press **Install**.
 4. Click **Open** after installation, and follow the prompts from there.
 
@@ -36,4 +36,4 @@ Two-factor authentication is available for [Extended](https://standardnotes.org/
 
 - [Where should I store my two-factor authentication secret key?](./2fa-store-secret-key.md)
 - [What happens if I lose my 2FA device and my secret key?](./2fa-lost-secret-key.md)
-- [Why is two-factor authentication a paid feature?](https://standardnotes.org/help/24/why-is-two-factor-authentication-a-paid-feature)
+- [Why is two-factor authentication a paid feature?](https://standardnotes.com/help/24/why-is-two-factor-authentication-a-paid-feature)

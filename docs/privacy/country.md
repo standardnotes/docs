@@ -15,12 +15,12 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- Copied from https://standardnotes.org/help/39/what-country-is-standard-notes-located-in -->
+<!-- Copied from https://standardnotes.com/help/39/what-country-is-standard-notes-located-in -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/help/39/what-country-is-standard-notes-located-in"
+ canonicalUrl="https://standardnotes.com/help/39/what-country-is-standard-notes-located-in"
 />
 
 Standard Notes is located in the United States, as are our public servers. It’s important to understand what this means, both for you, and for us. We believe that—almost virtually—no country can be a permanently safe place for one to trust their digital data in. Rather than tethering your security to the latest "safe space" legislation, we chose to build above the problem. If longevity means having a safe place for your notes for the next hundred years, then there are another group of laws which have proven to hold up with far greater strength than the whim of politicians: the laws of mathematics.
@@ -43,4 +43,4 @@ _For more on how Standard Notes safeguards your personal data, you can read:_
 - [Who can read my private notes?](./private-notes.md)
 - [How does Standard Notes secure my notes?](./secure-notes.md)
 
-As always, if you have any questions, please don't hesitate to [get in touch](https://standardnotes.org/help).
+As always, if you have any questions, please don't hesitate to [get in touch](https://standardnotes.com/help).

@@ -16,12 +16,12 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- Copied from https://standardnotes.org/help/66/how-do-i-change-the-colors-fonts-and-general-layout-of-my-listed-blog -->
+<!-- Copied from https://standardnotes.com/help/66/how-do-i-change-the-colors-fonts-and-general-layout-of-my-listed-blog -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/help/66/how-do-i-change-the-colors-fonts-and-general-layout-of-my-listed-blog"
+ canonicalUrl="https://standardnotes.com/help/66/how-do-i-change-the-colors-fonts-and-general-layout-of-my-listed-blog"
 />
 
 You can use custom CSS to stylize your Listed blog.
@@ -118,7 +118,7 @@ Listed has a dark theme when your operating system has dark mode enabled. To cus
 
 ### Colors
 
-A list of pre-defined CSS colors can be found on the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value).  
+A list of pre-defined CSS colors can be found on the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value).
 You can find the perfect colors using [Adobe's Color Wheel](https://color.adobe.com/create/color-wheel).
 
 ## Custom CSS Examples

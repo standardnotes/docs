@@ -15,17 +15,17 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- Copied from https://standardnotes.org/help/43/how-do-i-install-themes-on-mobile -->
+<!-- Copied from https://standardnotes.com/help/43/how-do-i-install-themes-on-mobile -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/help/43/how-do-i-install-themes-on-mobile"
+ canonicalUrl="https://standardnotes.com/help/43/how-do-i-install-themes-on-mobile"
 />
 
 ## Mobile Themes
 
-Once you've signed up for [Extended](https://standardnotes.org/extensions), please follow the instructions ["How do I install extensions once I've signed up for Extended?"](https://standardnotes.org/help/29/how-do-i-install-extensions-once-i-ve-signed-up-for-extended). Extensions, including themes and editors, are installed via the web or desktop application. Once installed, they will automatically appear on mobile.
+Once you've signed up for [Extended](https://standardnotes.com/extensions), please follow the instructions ["How do I install extensions once I've signed up for Extended?"](https://standardnotes.com/help/29/how-do-i-install-extensions-once-i-ve-signed-up-for-extended). Extensions, including themes and editors, are installed via the web or desktop application. Once installed, they will automatically appear on mobile.
 
 Themes on mobile are found in the menu at the top left of your screen after opening the app. You can choose which themes to activate when you switch between Light and Dark modes in your mobile device's system preferences. To do this, press and hold the name of a theme and tap "Set as Light Theme" or "Set as Dark Theme". If you press and hold the name of the theme again, it will say "Current Light Theme" or "Current Dark Theme".
 

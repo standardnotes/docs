@@ -16,12 +16,12 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- https://standardnotes.org/help/21/where-should-i-store-my-two-factor-authentication-secret-key -->
+<!-- https://standardnotes.com/help/21/where-should-i-store-my-two-factor-authentication-secret-key -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/help/21/where-should-i-store-my-two-factor-authentication-secret-key"
+ canonicalUrl="https://standardnotes.com/help/21/where-should-i-store-my-two-factor-authentication-secret-key"
 />
 
 ## Where should I store my two-factor authentication secret key?

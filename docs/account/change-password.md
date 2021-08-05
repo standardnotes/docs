@@ -15,12 +15,12 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- Copied from https://standardnotes.org/help/53/how-do-i-change-my-account-password -->
+<!-- Copied from https://standardnotes.com/help/53/how-do-i-change-my-account-password -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/help/53/how-do-i-change-my-account-password"
+ canonicalUrl="https://standardnotes.com/help/53/how-do-i-change-my-account-password"
 />
 
 Your account password can be changed on the web or desktop application by following these steps:
@@ -33,4 +33,4 @@ Note that after changing your password, you will need to sign out of all signed 
 
 Changing your password cannot be performed via the iOS or Android application.
 
-Your account at the [Extended Dashboard](https://dashboard.standardnotes.org/) uses only your email for authentication and does not have a password associated with it.
+Your account at the [Extended Dashboard](https://dashboard.standardnotes.com/) uses only your email for authentication and does not have a password associated with it.

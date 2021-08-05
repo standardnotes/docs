@@ -338,7 +338,7 @@ result = ['004', nonce, ciphertext, encoded_authenticated_data].join(':')
 
 ## Next Steps
 
-Join the [Slack group](https://standardnotes.org/slack) to discuss implementation details and ask any questions you may have.
+Join the [Slack group](https://standardnotes.com/slack) to discuss implementation details and ask any questions you may have.
 
 You can also email [help@standardnotes.org](mailto:help@standardnotes.org).
 

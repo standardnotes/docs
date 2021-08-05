@@ -15,12 +15,12 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- Copied from https://standardnotes.org/help/73/why-can-i-not-sign-in-even-though-my-email-and-password-are-correct -->
+<!-- Copied from https://standardnotes.com/help/73/why-can-i-not-sign-in-even-though-my-email-and-password-are-correct -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/help/73/why-can-i-not-sign-in-even-though-my-email-and-password-are-correct"
+ canonicalUrl="https://standardnotes.com/help/73/why-can-i-not-sign-in-even-though-my-email-and-password-are-correct"
 />
 
 There are no known technical issues with sign in. If there were, we will be sure to update this page. If you cannot sign in, please try some of these tips:

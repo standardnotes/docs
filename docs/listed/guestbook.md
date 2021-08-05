@@ -15,12 +15,12 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- Copied from https://standardnotes.org/help/65/what-is-my-listed-guestbook -->
+<!-- Copied from https://standardnotes.com/help/65/what-is-my-listed-guestbook -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/help/65/what-is-my-listed-guestbook"
+ canonicalUrl="https://standardnotes.com/help/65/what-is-my-listed-guestbook"
 />
 
 Each Listed blog comes with a guestbook, which readers can sign. A guestbook is a way for readers to leave comments on your blog, usually showing appreciation and offering encouragement.

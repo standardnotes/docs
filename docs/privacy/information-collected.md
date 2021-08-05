@@ -15,17 +15,17 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-<!-- Copied from https://standardnotes.org/help/5/what-information-does-standard-notes-collect-about-me -->
+<!-- Copied from https://standardnotes.com/help/5/what-information-does-standard-notes-collect-about-me -->
 
 import CanonicalUrl from '../../src/components/CanonicalUrl';
 
 <CanonicalUrl
- canonicalUrl="https://standardnotes.org/help/5/what-information-does-standard-notes-collect-about-me"
+ canonicalUrl="https://standardnotes.com/help/5/what-information-does-standard-notes-collect-about-me"
 />
 
 When you use our web, desktop, or mobile applications, no usage information is collected whatsoever. Apart from error reporting, our applications do not contain analytics software. Please read [_What services does Standard Notes use for daily operation?_](./services-used.md) to learn more about the services we use.
 
-On our guest-facing website only (the site you're reading this on, standardnotes.org), we use a self-hosted, privacy-focused analytics suite known as [Matomo](https://matomo.org/), which anonymizes IP addresses.
+On our guest-facing website only (the site you're reading this on, standardnotes.com), we use a self-hosted, privacy-focused analytics suite known as [Matomo](https://matomo.org/), which anonymizes IP addresses.
 
 When you sign up for a free notes account, an email is required. Upon registration, you will receive 1 welcome email from us. At the bottom of that email, you will have the option to permanently unsubscribe from future emails, or decrease your email level.
 

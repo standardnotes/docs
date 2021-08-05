@@ -19,13 +19,13 @@ Questions:
 
 ## Introduction
 
-With the [Folders](https://standardnotes.org/extensions/folders) extension, you can create "smart tags" that organize your notes according to pre-defined filters.
+With the [Folders](https://standardnotes.com/extensions/folders) extension, you can create "smart tags" that organize your notes according to pre-defined filters.
 
 For example, suppose you wanted to see a list of all notes that do not have a tag associated with them. You can do this by creating a smart tag.
 
 ## Creating A Smart Tag
 
-1. Activate the [Folders](https://standardnotes.org/extensions/folders) extension.
+1. Activate the [Folders](https://standardnotes.com/extensions/folders) extension.
 1. Within the Folders extension, click on Views, then press the + button.
 1. Copy and paste the following smart tag syntax:
 
