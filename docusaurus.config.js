@@ -34,40 +34,40 @@ module.exports = {
           position: 'left',
           items: [
             {
-              to: '/self-hosting/getting-started/',
+              to: '/self-hosting/getting-started',
               label: 'Self-Host a Sync Server',
               position: 'left',
             },
             {
-              to: '/specification/encryption/',
+              to: '/specification/encryption',
               label: 'Client Encryption API',
               position: 'left',
             },
             {
-              to: '/specification/sync/',
+              to: '/specification/sync',
               label: 'Server API',
               position: 'left',
             },
             {
-              to: '/extensions/intro/',
+              to: '/extensions/intro',
               label: 'Build an Extension',
               position: 'left',
             },
             {
-              to: '/extensions/editors/',
+              to: '/extensions/editors',
               label: 'Build an Editor',
               position: 'left',
             },
           ],
         },
         {
-          href: 'https://app.standardnotes.org/',
-          label: 'App',
+          href: 'https://app.standardnotes.org',
+          label: 'Encrypted Notes App',
           position: 'right',
         },
         {
-          href: 'https://standardnotes.com/',
-          label: 'Website',
+          href: 'https://standardnotes.com',
+          label: 'Standard Notes Website',
           position: 'right',
         },
         {
@@ -76,12 +76,12 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://blog.standardnotes.org',
+          href: 'https://blog.standardnotes.com',
           label: 'Blog',
           position: 'right',
         },
         {
-          href: 'https://github.com/standardnotes/',
+          href: 'https://github.com/standardnotes',
           label: 'GitHub',
           position: 'right',
         },
@@ -95,15 +95,15 @@ module.exports = {
           items: [
             {
               label: 'Self-Host a Sync Server',
-              to: '/self-hosting/getting-started/',
+              to: '/self-hosting/getting-started',
             },
             {
               label: 'Build an Extension',
-              to: '/extensions/intro/',
+              to: '/extensions/intro',
             },
             {
               label: 'Encryption Specification',
-              to: '/specification/encryption/',
+              to: '/specification/encryption',
             },
           ],
         },
@@ -116,7 +116,7 @@ module.exports = {
             },
             {
               label: 'Community Forum',
-              href: 'https://forum.standardnotes.org/',
+              href: 'https://forum.standardnotes.org',
             },
             {
               label: 'Listed Blogging Platform',
@@ -185,35 +185,35 @@ module.exports = {
       {
         redirects: [
           {
-            to: '/extensions/intro/',
+            to: '/extensions/intro',
             from: [
               '/extensions/introduction',
-              '/extensions/components/',
-              '/extensions/',
-              '/extensions/intro-to-extensions/',
+              '/extensions/components',
+              '/extensions',
+              '/extensions/intro-to-extensions',
             ],
           },
           {
-            to: '/usage/filesafe/aws/',
-            from: ['/filesafe/aws/'],
+            to: '/usage/filesafe/aws',
+            from: ['/filesafe/aws'],
           },
           {
-            to: '/account/change-email/',
-            from: ['/account/'],
+            to: '/account/change-email',
+            from: ['/account'],
           },
           {
-            to: '/listed/publish/',
-            from: ['/listed/publishing/'],
+            to: '/listed/publish',
+            from: ['/listed/publishing'],
           },
           {
-            to: '/self-hosting/getting-started/',
+            to: '/self-hosting/getting-started',
             from: [
-              '/self-hosting/',
+              '/self-hosting',
               '/self-hosting/getting-started-with-self-hosting',
             ],
           },
           {
-            to: '/specification/encryption/',
+            to: '/specification/encryption',
             from: ['/specification/'],
           },
         ],

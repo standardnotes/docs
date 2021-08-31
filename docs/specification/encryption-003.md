@@ -1,5 +1,5 @@
 ---
-slug: encryption/003/
+slug: encryption/003
 id: encryption-003
 title: Encryption Protocol Specification v003
 sidebar_label: Encryption v003

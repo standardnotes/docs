@@ -1,5 +1,5 @@
 ---
-slug: https-support/
+slug: https-support
 id: https-support
 title: Securing HTTP traffic of your Sync server
 sidebar_label: Securing HTTP traffic of your Sync server

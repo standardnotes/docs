@@ -1,5 +1,5 @@
 ---
-slug: getting-started/
+slug: getting-started
 id: getting-started
 title: Getting Started with Self-hosting
 sidebar_label: Getting Started
@@ -28,7 +28,7 @@ If you'd like to learn more about each of the particular services, head over to 
 
 We highly recommend you use our Docker setup to host your syncing server. Docker containers are isolated software environments that you can control and manage.
 
-If you are new to Docker, please see the [official Docker documentation](https://docs.docker.com/get-started/) on how to get started.
+If you are new to Docker, please see the [official Docker documentation](https://docs.docker.com/get-started) on how to get started.
 
 We recommend avoiding setting up your syncing server from scratch with Nginx unless you are proficient with Nginx. Setting up the full architecture can be challenging without full knowledge of how the syncing server and its microservices function.
 

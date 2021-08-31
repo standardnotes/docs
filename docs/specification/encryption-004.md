@@ -1,5 +1,5 @@
 ---
-slug: encryption/
+slug: encryption
 id: encryption
 title: Client Encryption API
 sidebar_label: Client Encryption

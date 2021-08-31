@@ -1,5 +1,5 @@
 ---
-slug: docker/
+slug: docker
 id: docker
 title: Self-hosting with Docker
 sidebar_label: Docker

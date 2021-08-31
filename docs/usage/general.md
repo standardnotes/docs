@@ -1,5 +1,5 @@
 ---
-slug: /usage/
+slug: /usage
 id: general
 title: General Usage
 sidebar_label: General Usage

@@ -1,5 +1,5 @@
 ---
-slug: infrastructure-overview/
+slug: infrastructure-overview
 id: infrastructure-overview
 title: Infrastructure Overview
 sidebar_label: Infrastructure Overview

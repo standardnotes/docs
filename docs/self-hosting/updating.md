@@ -1,5 +1,5 @@
 ---
-slug: updating/
+slug: updating
 id: updating
 title: Updating Standard Notes Standalone Infrastructure
 sidebar_label: Updating

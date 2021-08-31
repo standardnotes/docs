@@ -1,5 +1,5 @@
 ---
-slug: legacy-migration/
+slug: legacy-migration
 id: legacy-migration
 title: Migrating From Legacy
 sidebar_label: Migrating From Legacy

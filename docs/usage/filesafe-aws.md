@@ -1,5 +1,5 @@
 ---
-slug: filesafe/aws/
+slug: filesafe/aws
 id: filesafe-aws
 title: FileSafe with Amazon S3
 sidebar_label: Amazon S3

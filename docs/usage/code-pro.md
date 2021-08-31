@@ -1,5 +1,5 @@
 ---
-slug: code-pro/
+slug: code-pro
 id: code-pro
 title: Code Pro Editor (Beta)
 sidebar_label: Code Pro Editor

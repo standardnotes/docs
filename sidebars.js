@@ -47,16 +47,6 @@ module.exports = {
       'usage/secure-spreadsheets',
       'usage/task-editor',
     ],
-    Listed: [
-      'listed/about',
-      'listed/register',
-      'listed/settings',
-      'listed/publish',
-      'listed/subscribers',
-      'listed/guestbook',
-      'listed/options',
-      'listed/styles',
-    ],
   },
   secondSidebar: {
     Troubleshooting: [

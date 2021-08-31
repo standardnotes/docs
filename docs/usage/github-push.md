@@ -1,5 +1,5 @@
 ---
-slug: github-push/
+slug: github-push
 id: github-push
 title: GitHub Push
 sidebar_label: GitHub Push

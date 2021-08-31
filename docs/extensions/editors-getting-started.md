@@ -1,5 +1,5 @@
 ---
-slug: editors/getting-started/
+slug: editors/getting-started
 id: editors-getting-started
 title: Getting Started with Building Editors
 sidebar_label: Getting Started

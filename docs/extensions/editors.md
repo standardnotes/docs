@@ -1,5 +1,5 @@
 ---
-slug: editors/
+slug: editors
 id: editors
 title: Building Editors for Standard Notes
 sidebar_label: Building Editors

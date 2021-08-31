@@ -1,5 +1,5 @@
 ---
-slug: intro/
+slug: intro
 id: intro
 title: Intro to Extensions
 sidebar_label: Intro to Extensions

@@ -1,5 +1,5 @@
 ---
-slug: configuration-options/
+slug: configuration-options
 id: configuration-options
 title: Configuration options
 sidebar_label: Configuration options
