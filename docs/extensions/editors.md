@@ -17,7 +17,7 @@ hide_table_of_contents: false
 
 ## Introduction
 
-Editors are front-end extensions for Standard Notes. They provider users with a custom way to interact with the contents of their notes. For more information on editors in the Standard Notes ecosystem from the user's perspective, please see ["What are Editors?"](../usage/what-are-editors.md). In this article, we provide motivation and information about building editors.
+Editors are front-end extensions for Standard Notes. They provider users with a custom way to interact with the contents of their notes. For more information on editors in the Standard Notes ecosystem from the user's perspective, please see ["What are Editors?"](https://standardnotes.com/help/77/what-are-editors). In this article, we provide motivation and information about building editors.
 
 ## Why build editors
 

@@ -198,14 +198,6 @@ module.exports = {
             from: ['/filesafe/aws'],
           },
           {
-            to: '/account/change-email',
-            from: ['/account'],
-          },
-          {
-            to: '/listed/publish',
-            from: ['/listed/publishing'],
-          },
-          {
             to: '/self-hosting/getting-started',
             from: [
               '/self-hosting',

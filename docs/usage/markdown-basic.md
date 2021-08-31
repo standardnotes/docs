@@ -31,7 +31,7 @@ Markdown Basic is a [custom editor](https://standardnotes.com/help/77/what-are-e
 ## Installation
 
 1. Register for an account at Standard Notes using the [Desktop App](https://standardnotes.com/download) or [Web app](https://app.standardnotes.org). Remember to use a strong and memorable password.
-2. Sign up for [Standard Notes Extended](https://dashboard.standardnotes.com/member). Then, follow the instructions [here](./install-extensions.md) or continue.
+2. Sign up for [Standard Notes Extended](https://dashboard.standardnotes.com/member). Then, follow the instructions [here](https://standardnotes.com/help/29/how-do-i-install-extensions-once-i-ve-signed-up-for-extended) or continue.
 3. Click **Extensions** in the lower left corner.
 4. Under **Repository**, find **Markdown Basic**.
 5. Click **Install**.
