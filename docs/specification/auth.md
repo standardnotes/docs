@@ -160,7 +160,7 @@ hide_table_of_contents: false
 | access_token   | `string`    | The access token used to authenticate requests    |
 | refresh_token  | `string`    | The refresh token used to extend tokens           |
 | access_expiration      | `datetime`  | The expiration time of the access token                |
-| renew_expiration      | `datetime`  | The expiration time of the refresh token                |
+| refresh_expiration      | `datetime`  | The expiration time of the refresh token                |
 | created_at     | `datetime`  | Date and time of creation of the session          |
 | updated_at     | `datetime`  | Last updated date and time of the session         |
 
