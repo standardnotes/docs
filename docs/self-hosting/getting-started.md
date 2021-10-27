@@ -28,7 +28,7 @@ If you'd like to learn more about each of the particular services, head over to 
 
 We highly recommend you use our Docker setup to host your syncing server. Docker containers are isolated software environments that you can control and manage.
 
-If you are new to Docker, please see the [official Docker documentation](https://docs.docker.com/get-started) on how to get started. Ensure you [install Docker-Compose](https://docs.docker.com/compose/install/) following the documentation. Your Linux distrobution may not have the most up to date docker-compose and will fail to load.
+If you are new to Docker, please see the [official Docker documentation](https://docs.docker.com/get-started) on how to get started. Ensure you [install Docker-Compose](https://docs.docker.com/compose/install/) following the documentation. Your Linux distribution may not have the most up to date docker-compose and will fail to load.
 
 We recommend avoiding setting up your syncing server from scratch with Nginx unless you are proficient with Nginx. Setting up the full architecture can be challenging without full knowledge of how the syncing server and its microservices function.
 
