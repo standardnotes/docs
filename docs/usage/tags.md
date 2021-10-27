@@ -117,7 +117,7 @@ Show all notes that have tags `Blog.Scheduled` or `Blog.Published`.
 You can also use the not predicate to negate an expression. For example, to show all notes that do not have the `Unread` tag:
 
 ```
-!["Read", "ignored", "not", ["tags", "includes", ["title", "=", "Unread"]]]
+!["Read", "tags", "not", ["tags", "includes", ["title", "=", "Unread"]]]
 ```
 
 The not predicate can be combined with the compound operators. For example, to show all notes that have the `Blog` tag but not the `Blog.Published` one:
