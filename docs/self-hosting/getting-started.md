@@ -16,7 +16,7 @@ hide_title: false
 hide_table_of_contents: false
 ---
 
-Our self-hosted server infrastructure consists of several different microservices that are responsible for different sets of functionality. Our self-hosted server is only intended to store your information; it is not intended to replace the Standard Notes web applicaiton.
+Our self-hosted server infrastructure consists of several different microservices that are responsible for different sets of functionality. Our self-hosted server is only intended to store your information; it is not intended to replace the Standard Notes web application.
 
 **To begin your self-hosted setup**, we recommend using our [docker-compose setup with accompanying script](./docker.md) that will automate the process for you.
 
