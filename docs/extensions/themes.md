@@ -90,6 +90,21 @@ _Note that font and font sizes do not apply to mobile; only desktop/web._
   --sn-stylekit-sans-serif-font: -apple-system, BlinkMacSystemFont, 'Segoe UI',
     'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
     'Helvetica Neue', sans-serif;
+    
+  --sn-stylekit-grey-1:  #72767e;
+  --sn-stylekit-grey-2:  #bbbec4;
+  --sn-stylekit-grey-3:  #dfe1e4;
+  --sn-stylekit-grey-4:  #eeeff1;
+  --sn-stylekit-grey-4-opacity-variant:  #bbbec43d;
+  --sn-stylekit-grey-5:  #f4f5f7;
+  --sn-stylekit-grey-6:  #e5e5e5;
+  
+  --sn-stylekit-accessory-tint-color-1:  #086dd6;
+  --sn-stylekit-accessory-tint-color-2:  #ea6595;
+  --sn-stylekit-accessory-tint-color-3:  #ebad00;
+  --sn-stylekit-accessory-tint-color-4:  #7049cf;
+  --sn-stylekit-accessory-tint-color-5:  #1aa772;
+  --sn-stylekit-accessory-tint-color-6:  #f28c52;
 }
 ```
 
@@ -107,6 +122,10 @@ In order to get SN to display a dock icon for your theme (a circle in the lower 
 ### Reloading Mobile Themes
 
 The mobile app will download a theme once and cache it indefinitely. If you're installing your own mobile theme and make changes, you can press and hold on the theme name in the list to bring up the option to re-download the theme from the server.
+
+### 3.9.15 Changes
+
+Since v3.9.15, the items in the notes list use a new variable for the background color, which will partially break the look of your theme when a note is selected or is hovered upon. In order to fix this, override the `--sn-stylekit-grey-5` color to one which fits your theme. You might also need to override the `--sn-stylekit-grey-4-opacity-variant` variable if the tags inside the note item don't look correct.
 
 ## Licensing
 
