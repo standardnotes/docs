@@ -1,13 +1,15 @@
 ---
-title: Smart Tags
-sidebar_label: Smart Tags
-description: How to use the Standard Notes tags extension.
+title: Smart Views
+sidebar_label: Smart Views
+description: How to use the Standard Notes Smart Views.
 keywords:
   - standard notes
   - docs
   - notes app
   - end-to-end encryption
   - tags
+  - views
+  - filters
 image: /img/logo.png
 hide_title: false
 hide_table_of_contents: false
@@ -19,29 +21,28 @@ Questions:
 
 ## Introduction
 
-With the [Folders](https://standardnotes.com/extensions/folders) extension, you can create "smart tags" that organize your notes according to pre-defined filters.
+“Smart Views" are user-made dynamic folders that organize your notes according to predefined filters.
 
-For example, suppose you wanted to see a list of all notes that do not have a tag associated with them. You can do this by creating a smart tag.
+For example, suppose you wanted to see a list of all notes whose title starts with “Foo”. You can do this by creating a smart tag.
 
-## Creating A Smart Tag
+## Creating A Smart View
 
-1. Activate the [Folders](https://standardnotes.com/extensions/folders) extension.
-1. Within the Folders extension, click on Views, then press the + button.
-1. Copy and paste the following smart tag syntax:
+1. Create a new folder by clicking the + icon.
+1. Copy and paste the following Smart View syntax, as the folder name:
 
    ```
-   !["Untagged", "tags.length", "=", 0]
+   !["Foo Notes", "title", "startsWith", "Foo"]]
    ```
 
 1. Press enter on your keyboard.
 
-At this point, you should see an item called "Untagged" under **Views**. You can select this item to view a list of your untagged notes.
+At this point, you should see an item called "Foo notes" under **Views**. You can select this item to view a list of your notes that start with “Foo”.
 
-## Understanding The Smart Tag Syntax
+## Understanding The Smart View Syntax
 
-Smart tags can be used to construct any kind of simple query. The components of the smart tag syntax are as follows:
+Smart Views can be used to construct any kind of simple query. The components of the smart tag syntax are as follows:
 
-`!`: Indicates the start of a smart tag
+`!`: Indicates the start of a Smart View
 
 `[...]`: A JSON array
 
@@ -58,16 +59,10 @@ Show all notes that have tags that start with the letter b:
 !["B-tags", "tags", "includes", ["title", "startsWith", "b"]]
 ```
 
-Show all notes that have tags `Blog.Scheduled` or `Blog.Published`:
+Show all notes that have tags `Blog` or `Ideas`:
 
 ```
-!["Blog Scheduled or Published", "tags", "includes", ["title", "in", ["Blog.Scheduled", "Blog.Published"]]]
-```
-
-Show all notes whose title starts with Foo:
-
-```
-!["Foo Notes", "title", "startsWith", "Foo"]
+!["Blog or Ideas", "tags", "includes", ["title", "in", ["Blog", "Ideas"]]]
 ```
 
 Show notes that are pinned:
@@ -108,10 +103,10 @@ Show all notes that are protected or pinned:
 !["Protected or Pinned", "ignored", "or", [["content.protected", "=", true], ["pinned", "=", true]]]
 ```
 
-Show all notes that have tags `Blog.Scheduled` or `Blog.Published`.
+Show all notes that have tags `Blog` or `Ideas`.
 
 ```
-!["Blog Scheduled or Published", "ignored", "or", [["tags", "includes", ["title", "=", "Blog.Scheduled"]], ["tags", "includes", ["title", "=", "Blog.Published"]]]]
+!["Blog Scheduled or Published", "ignored", "or", [["tags", "includes", ["title", "=", "Blog"]], ["tags", "includes", ["title", "=", "Ideas"]]]]
 ```
 
 You can also use the not predicate to negate an expression. For example, to show all notes that do not have the `Unread` tag:
@@ -120,10 +115,10 @@ You can also use the not predicate to negate an expression. For example, to show
 !["Read", "tags", "not", ["tags", "includes", ["title", "=", "Unread"]]]
 ```
 
-The not predicate can be combined with the compound operators. For example, to show all notes that have the `Blog` tag but not the `Blog.Published` one:
+The not predicate can be combined with the compound operators. For example, to show all notes that have the Blog tag but not the Ideas one:
 
 ```
-!["Blog Unpublished", "ignored", "and", [["tags", "includes", ["title", "=", "Blog"]], ["", "not", ["tags", "includes", ["title", "=", "Blog.Published"]]]]]
+!["Blog Unpublished", "ignored", "and", [["tags", "includes", ["title", "=", "Blog"]], ["", "not", ["tags", "includes", ["title", "=", "Ideas"]]]]]
 ```
 
 ## Attributes
@@ -147,7 +142,7 @@ If constructing a filter that queries tags, you can use the following tag attrib
 - `updated_at`
 - `created_at`
 
-Note that smart tags always query notes, and so the query you're building refers to notes firstmost. You reference tags by referring to a note's tags:
+Note that Smart Views always query notes, and so the query you're building refers to notes firstmost. You reference tags by referring to a note's tags:
 
 ```
 !["B-tags", "tags", "includes", ["title", "startsWith", "b"]]
