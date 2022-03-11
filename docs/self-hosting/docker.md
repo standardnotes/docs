@@ -3,7 +3,7 @@ slug: docker
 id: docker
 title: Self-hosting with Docker
 sidebar_label: Docker
-description: How to self-host a Standard Notes infrastructure with Docker.
+description: How to self-host the Standard Notes infrastructure with Docker.
 keywords:
   - standard notes
   - docs
@@ -50,10 +50,10 @@ SSH into your server and follow the steps below:
 
 1. Customize your configuration
 
-  There are 4 environment variables that need to be filled in with generated secret keys:
+  There are 5 environment variables that need to be filled in with generated secret keys:
 
    - `AUTH_JWT_SECRET` in the `.env` file
-   - `JWT_SECRET`, `LEGACY_JWT_SECRET` and `ENCRYPTION_SERVER_KEY` in the `docker/auth.env` file
+   - `JWT_SECRET`, `LEGACY_JWT_SECRET`, `PSEUDO_KEY_PARAMS_KEY`, and `ENCRYPTION_SERVER_KEY` in the `docker/auth.env` file
 
   You can generate values for them by using:
 
@@ -61,13 +61,13 @@ SSH into your server and follow the steps below:
    $ openssl rand -hex 32
    ```
 
-  > **Note** Environment variables cannot be changed with effect to take place while the docker containers are running. To change them, server needs to be restarted.
+  > **Note** The server must be restarted any time environment variables are changed.
 
 1. (Optional) Customize the port
 
-  By default the syncing server will run on port 3000. If it is the case that you have a different service running on that port you can customize the port on which you want to run the infrastructure on. To do that, edit the `EXPOSED_PORT` variable in the `.env` file.
+  By default the syncing server will run on port 3000. If you have a different service running on that port, you can customize the port on which you want to run the infrastructure on. To do so, edit the `EXPOSED_PORT` variable in the `.env` file.
 
-1. Simply run:
+2. Simply run:
 
    ```bash
    $ ./server.sh start
@@ -75,9 +75,9 @@ SSH into your server and follow the steps below:
 
    This should load all the microservices that the infrastructure consists of.
 
-  > **Note** First run might take a while since there are Docker images to be pulled and built and migrations initializing the database to be run.
+  > **Note** The first run might take a few minutes as there are Docker images that need be pulled and built as well as migrations to be run for initializing the database.
 
-1. Wait for the infrastructure to bootstrap
+3. Wait for the infrastructure to bootstrap
 
    It takes a moment for the infrastructure to bootstrap and all the microservices to start. You can observe the process by typing:
 
@@ -87,7 +87,7 @@ SSH into your server and follow the steps below:
 
   > **Note** You can safely escape from logs with CTRL+C
 
-  > **Note** Microservices depend on each other and because of that they are starting sequentially in our setup. In the logs you will most probably observe that one service is waiting for another to start with lines like: "XYZ is unavailable yet - waiting for it to start" where XYZ is the dependent service name. This is expected.
+  > **Note** Microservices depend on each other and start sequentially in our setup. In the logs you will likely observe that one service is waiting for another to start with lines like: "XYZ is unavailable yet - waiting for it to start" where XYZ is the dependent service name. This is expected.
 
    Everything should be up and running once you observe that the `API Gateway` service has started by seeing the following line as one of the last ones in logs:
 
@@ -95,15 +95,15 @@ SSH into your server and follow the steps below:
    api-gateway_1 | {"message":"Server started on port 3000","level":"info"}
    ```
 
-   You can also check the state in which all the services are by typing:
+   You can also check the state of all services via:
 
    ```bash
    $ ./server.sh status
    ```
 
-   All of the services should be in `Up` state at this stage.
+   All services should be in `Up` state at this stage.
 
-1. Test your access to the server locally:
+4. Test your access to the server locally:
 
    You should be able now to check that the syncing server is running by checking `http://localhost:3000/healthcheck`:
 
@@ -114,16 +114,16 @@ SSH into your server and follow the steps below:
 
    > **Note** If you changed the `EXPOSED_PORT` variable you will have to check `http://localhost:{EXPOSED_PORT}/healthcheck`.
 
-1. You're done!
+5. You're done!
 
 ## Securing Your Server
 
-In order to start using your new server with the Standard Notes app at https://app.standardnotes.org you will have to configure an HTTPS reverse proxy.
+In order to start using your new server with the Standard Notes app at https://app.standardnotes.com you will have to configure an HTTPS reverse proxy.
 
 Unless you already have an HTTP/HTTPS server running that will serve as a reverse proxy to the standalone infrastructure, head over to [Securing HTTP traffic of your Sync server](./https-support.md).
 
 ## Using your new server
 
-In the account menu, choose `Advanced Options` and enter the address of your new server in `Sync Server Domain`.
+In the account menu, choose `Advanced options` and enter the address of your new server in `Custom sync server`.
 
 Then, register for a new account or log into an existing account and begin using your private new secure Standard Notes server!

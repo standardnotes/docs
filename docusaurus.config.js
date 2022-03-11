@@ -61,7 +61,7 @@ module.exports = {
           ],
         },
         {
-          href: 'https://app.standardnotes.org',
+          href: 'https://app.standardnotes.com',
           label: 'Encrypted Notes App',
           position: 'right',
         },

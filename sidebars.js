@@ -10,6 +10,7 @@ module.exports = {
           'self-hosting/legacy-migration',
           'self-hosting/https-support',
           'self-hosting/updating',
+          'self-hosting/subscriptions',
         ],
       },
       {

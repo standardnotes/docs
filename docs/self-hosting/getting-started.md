@@ -18,7 +18,9 @@ hide_table_of_contents: false
 
 Our self-hosted server infrastructure consists of several different microservices that are responsible for different sets of functionality. Our self-hosted server is only intended as the backend that processes and stores your data; it does not include self-hosting the web application, which is an optional process that must be done separately. You will be able to use our existing [web](https://app.standardnotes.com) and desktop app with your self-hosted server.
 
-**To begin your self-hosted setup**, we recommend using our [docker-compose setup with accompanying script](./docker.md) that will automate the process for you.
+## Get Started
+
+👉 **[Using our automated docker-compose setup with accompanying scripts](./docker.md)** 👈
 
 If you'd like to learn more about each of the particular services, head over to [Infrastructure Overview](./infrastructure-overview.md).
 
