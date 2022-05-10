@@ -31,7 +31,7 @@ INSERT INTO user_roles (role_uuid , user_uuid) VALUES ( ( select uuid from roles
 ```
 
 ```sql
-insert into user_subscriptions set uuid = UUID() , plan_name="PRO_PLAN" , ends_at = 8640000000000000, created_at = 0 , updated_at = 0,user_uuid= (select uuid from users where email="<EMAIL@ADDR>") , subscription_id=1;
+insert into user_subscriptions set uuid = UUID() , plan_name="PRO_PLAN" , ends_at = 8640000000000000, created_at = 0 , updated_at = 0,user_uuid= (select uuid from users where email="<EMAIL@ADDR>") , subscription_id=1 , subscription_type='regular';
 ```
 
 ## ✨ You Should Know
