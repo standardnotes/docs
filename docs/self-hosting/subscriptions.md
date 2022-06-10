@@ -20,18 +20,10 @@ hide_table_of_contents: false
 
 ## Requirements
 
-To add a subscription to your self-hosted user account, run the following commands:
+To add a subscription to your self-hosted user account, run the following commands (Replace EMAIL@ADDR with your user email):
 
 ```bash
-docker-compose exec db sh -c 'MYSQL_PWD=$MYSQL_ROOT_PASSWORD mysql $MYSQL_DATABASE'
-```
-
-```sql
-INSERT INTO user_roles (role_uuid , user_uuid) VALUES ( ( select uuid from roles where name="PRO_USER" order by version desc limit 1 ) ,( select uuid from users where email="<EMAIL@ADDR>" )  ) ON DUPLICATE KEY UPDATE role_uuid = VALUES(`role_uuid`);
-```
-
-```sql
-insert into user_subscriptions set uuid = UUID() , plan_name="PRO_PLAN" , ends_at = 8640000000000000, created_at = 0 , updated_at = 0,user_uuid= (select uuid from users where email="<EMAIL@ADDR>") , subscription_id=1 , subscription_type='regular';
+./server.sh create-subscription EMAIL@ADDR
 ```
 
 ## ✨ You Should Know
