@@ -11,6 +11,7 @@ module.exports = {
           'self-hosting/https-support',
           'self-hosting/updating',
           'self-hosting/subscriptions',
+          'self-hosting/file-uploads',
         ],
       },
       {
