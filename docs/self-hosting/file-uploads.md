@@ -44,10 +44,10 @@ sudo chown -R 1001.1001 data/uploads
 If you would like to limit the file upload quota for your user then make sure to run the following query on your database:
 
 ```sql
-INSERT INTO subscription_settings(uuid, name, value, created_at, updated_at, user_subscription_uuid) VALUES (UUID(), "FILE_UPLOAD_BYTES_LIMIT", 1073741824, FLOOR(UNIX_TIMESTAMP(NOW(6))*1000000), FLOOR(UNIX_TIMESTAMP(NOW(6))*1000000), (SELECT us.uuid FROM user_subscriptions us INNER JOIN users u ON us.user_uuid=u.uuid WHERE u.email="EMAIL@ADDR"));
+INSERT INTO subscription_settings(uuid, name, value, created_at, updated_at, user_subscription_uuid) VALUES (UUID(), "FILE_UPLOAD_BYTES_LIMIT", 10737418240, FLOOR(UNIX_TIMESTAMP(NOW(6))*1000000), FLOOR(UNIX_TIMESTAMP(NOW(6))*1000000), (SELECT us.uuid FROM user_subscriptions us INNER JOIN users u ON us.user_uuid=u.uuid WHERE u.email="EMAIL@ADDR"));
 ```
 
-Note that this is setting the limit to 10GB (1073741824 bytes) for user with email `EMAIL@ADDR`
+Note that this is setting the limit to 10GB (10737418240 bytes) for user with email `EMAIL@ADDR`
 
 ### CloudFlare Missing Headers
 
